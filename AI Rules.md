@@ -90,6 +90,7 @@ AllMyUnitEnemDist is EnemDistHigh ...
 
 
 MyUnit is FightingUnit
+
 MyUnit is Pioneer
 
 CityatSpotRsrcBuildingNum is RsrcBuildingNumHigh
@@ -453,5 +454,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzEwMDI1NDhdfQ==
+eyJoaXN0b3J5IjpbLTE3MzYzMzA5NzhdfQ==
 -->
