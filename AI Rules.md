@@ -64,7 +64,13 @@ QuestDue is DueLow
 QuestReward is Gold/Labor/Happy/Tech
 QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff
 
-DeltaHappyGoal
+DeltaHappyGoal is DeltaHappyGoalHigh
+DeltaHappyGoal is DeltaHappyGoalLow
+
+NeedLabor is High
+NeedLabor is Low
+
+
 
 
 
@@ -242,5 +248,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA2NzAxNDBdfQ==
+eyJoaXN0b3J5IjpbMjExMzYwNzgwN119
 -->
