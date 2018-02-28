@@ -44,7 +44,7 @@ Gold is GoldHigh
 Gold is GoldMedium
 Gold is GoldLow
 
-ak
+마찬가지
 
 
 
@@ -222,5 +222,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg4Nzc5NDddfQ==
+eyJoaXN0b3J5IjpbLTE0OTY3NjExNDFdfQ==
 -->
