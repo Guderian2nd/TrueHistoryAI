@@ -60,7 +60,7 @@ SpotRsrcBuildingNear is SpotRsrcBuildingNearLow
 SpotMyUnitDist is MyUnitDistHigh
 SpotMyUnitDist is MyUnitDistLow
 
-
+Quest is UltimateWeaponRsrc
 
 
 
@@ -238,5 +238,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzUyNjY1NDddfQ==
+eyJoaXN0b3J5IjpbMTE2MTUyMjczOF19
 -->
