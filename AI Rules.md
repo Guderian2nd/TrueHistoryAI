@@ -334,6 +334,8 @@ IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding i
 IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuilding is Medium
 .
 .
+.
+IF
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc4MzU0NDddfQ==
+eyJoaXN0b3J5IjpbLTExMjQ3MDM2ODBdfQ==
 -->
