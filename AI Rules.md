@@ -93,8 +93,11 @@ MyUnit is FightingUnit
 
 MyUnit is Pioneer
 
+
 CityatSpotRsrcBuildingNum is RsrcBuildingNumHigh
+
 CityatSpotRsrcBuildingNum is RsrcBuildingNumLow
+
 
 SpotRsrcBuildingNear is SpotRsrcBuildingNearHigh
 SpotRsrcBuildingNear is SpotRsrcBuildingNearLow
@@ -454,5 +457,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzYzMzA5NzhdfQ==
+eyJoaXN0b3J5IjpbODQwMzc4OF19
 -->
