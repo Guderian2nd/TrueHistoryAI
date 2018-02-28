@@ -14,7 +14,14 @@ Spot is DistEnemLow
 Spot is DistMyCityHigh
 Spot is DistMyCityLow
 
-SkillEffect is Damage
+SkillEffect is DamageEnemy
+SkillEffect is RestoreAP
+SkillEffect is RestoreHP
+SkillEffect is Buff
+
+SkillTarget is HPHigh
+SkillTarget is HPLow
+SkillTarget 
 
 
 # THEN
@@ -187,5 +194,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM2NjEwNzZdfQ==
+eyJoaXN0b3J5IjpbLTE1MTE2NTUyNDRdfQ==
 -->
