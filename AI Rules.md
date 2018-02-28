@@ -406,9 +406,9 @@ IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
 IF QuestReward is UltimateWeaponRsrc THEN DoQuestTask is VeryHigh
 If QuestReward is MilitarySpecRsrc THEN DoQuestTask is High
-If QuestDisplay is DisplayPeriodLow
-QuestDue is DueLow
-QuestReward is Gold/Labor/Happy/Tech
+If QuestLimit is LimitPeriodLow THEN DoQuestTask is VeryHigh
+QuestLimitDue is DueLow THEN DoQuestTask is VeryHigh
+QuestReward is Gold/Labor/Happy/Tech THEN DoQuest
 QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff
 DoQuestTask is VeryHigh
 
@@ -426,5 +426,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTExNDg0NzhdfQ==
+eyJoaXN0b3J5IjpbLTgzMzcxMzcxMV19
 -->
