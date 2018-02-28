@@ -27,6 +27,9 @@ SkillTargetSpot is DealHigh
 DeltaFightingUnitNum is DeltaUnitHigh
 DeltaFightingUnitNum is DeltaUnitLow
 
+NeedFightingUnit is High
+NeedFightingUnit is Low
+
 DeltaCityNum is DeltaCityHigh
 DeltaCityNum is DeltaCityLow
 
@@ -309,11 +312,12 @@ IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh THEN UseSkill is Medium
 IF SkillEffect is RestoreHP AND SkillTargetSpot is DamageHigh THEN UseSkill is High
 IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN UseSkill is High
 IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
-IF DeltaFightingUnitNum is DeltaUnitHigh HEN
-IF THEN
-IF THEN
+IF DeltaFightingUnitNum is DeltaUnitHigh THEN NeedFightingUnit is High
+IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is Low
+IF RemainingGolad 
+IF NeedFightingUnit is High THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzAxMjE1M119
+eyJoaXN0b3J5IjpbMTk2MDIyOTY2N119
 -->
