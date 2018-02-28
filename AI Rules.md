@@ -409,22 +409,10 @@ If QuestReward is MilitarySpecRsrc THEN DoQuestTask is High
 If QuestLimit is LimitPeriodLow THEN DoQuestTask is VeryHigh
 QuestLimitDue is DueLow THEN DoQuestTask is VeryHigh
 QuestReward is Gold/Labor/Happy/Tech THEN DoQuestTask is Medium
-QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff
-DoQuestTask is VeryHigh
-
-DoQuestTask is High
-
-DoQuestTask is Medium
-
-DoQuestTask is Low
-
-DoQuestTask is VeryLow
-
-
-
+QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MzQ4ODM1M119
+eyJoaXN0b3J5IjpbLTQzMzQ2MzAyMF19
 -->
