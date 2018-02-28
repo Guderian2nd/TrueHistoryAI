@@ -309,11 +309,11 @@ IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh THEN UseSkill is Medium
 IF SkillEffect is RestoreHP AND SkillTargetSpot is DamageHigh THEN UseSkill is High
 IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN UseSkill is High
 IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
-IF DeltaFightingUnitNum is DeltaUnit HigHEN
+IF DeltaFightingUnitNum is DeltaUnitHigh HEN
 IF THEN
 IF THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTAxNTQ1MzVdfQ==
+eyJoaXN0b3J5IjpbMTU1NzAxMjE1M119
 -->
