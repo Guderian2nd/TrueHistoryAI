@@ -68,7 +68,10 @@ DeltaHappyGoal is DeltaHappyGoalHigh
 DeltaHappyGoal is DeltaHappyGoalLow
 
 NeedLabor is High
+NeedLabor is Medium
 NeedLabor is Low
+
+
 
 
 
@@ -248,5 +251,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzYwNzgwN119
+eyJoaXN0b3J5IjpbMTk1NTMwMjI4NF19
 -->
