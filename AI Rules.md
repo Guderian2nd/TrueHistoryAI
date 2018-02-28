@@ -60,7 +60,11 @@ SpotRsrcBuildingNear is SpotRsrcBuildingNearLow
 SpotMyUnitDist is MyUnitDistHigh
 SpotMyUnitDist is MyUnitDistLow
 
-Quest is UltimateWeaponRsrc
+QuestReward is UltimateWeaponRsrc
+QuestReward is MilitarySpecRsrc
+QuestDisplay is DisplayPeriodLow
+QuestDue is DueLow
+QuestReward is Gold/Labor/Happy/Tech
 
 
 
@@ -238,5 +242,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTUyMjczOF19
+eyJoaXN0b3J5IjpbLTY5ODU3NDc2NV19
 -->
