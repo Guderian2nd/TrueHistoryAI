@@ -380,10 +380,12 @@ IF QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff AND [Resource] is [Resou
 IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoFull is VeryHigh
 IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoDouble is VeryLow
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoDouble is VeryHigh
-IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is Very
+IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MzY3MjYwXX0=
+eyJoaXN0b3J5IjpbNDM1NTMwMTAwXX0=
 -->
