@@ -350,9 +350,12 @@ IF RemainingGold is RemainGoldLow THEN DeployUnittoCity is Low
 IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN DeployUnittoCity is VeryHigh
 
 IF SpotEnemDist is DistEnemHigh THEN DeployInteriorBuildingtoSpot is VeryHigh
-IF CityatSpotRsrcBuildingNum is RsrcBuildingNumHigh THEN DepoyInteriorBuildingtoSpot is Low
-IF 
+IF CityatSpotRsrcBuildingNum is RsrcBuildingNumHigh THEN DeployInteriorBuildingtoSpot is Low
+IF SpotEnemDist is DistEnemLow THEN DeployInteriorBuildingtoSpot is VeryLow
+IF CityatSpotRsrcBuildingNum is RsrcBuildingNumLow THEN DeployInteriorBuildingtoSpot is High
+
+IF SpotEnemDist is DistEnemHigh THEN DeployTileResourcfe
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjcyNjg2Ml19
+eyJoaXN0b3J5IjpbLTE0NzA0ODEwNF19
 -->
