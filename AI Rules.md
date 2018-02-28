@@ -359,9 +359,11 @@ IF SpotEnemDist is DistEnemLow THEN DeployTileResourceBuildingtoSpot is VeryLow
 IF SpotRsrcBuildingNear is SpotRsrcBuildingNearHigh THEN DeployTileResourceBuildingtoSpot is Low
 IF SpotRsrcBuildingNear is SpotRsrcBuildingNearLow THEN DeployTileResourceBuildingtoSpot is High
 
-IF SpotMyUnitDist is MyUnitDistHigh THEN DeployMilitaryBuildingtoSpot is 
+IF SpotMyUnitDist is MyUnitDistLow THEN DeployMilitaryBuildingtoSpot is High
+IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is High
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyNzgzMzAwXX0=
+eyJoaXN0b3J5IjpbLTE2MDk1ODIyMDNdfQ==
 -->
