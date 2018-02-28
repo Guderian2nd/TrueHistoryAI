@@ -355,8 +355,9 @@ IF SpotEnemDist is DistEnemLow THEN DeployInteriorBuildingtoSpot is VeryLow
 IF CityatSpotRsrcBuildingNum is RsrcBuildingNumLow THEN DeployInteriorBuildingtoSpot is High
 
 IF SpotEnemDist is DistEnemHigh THEN DeployTileResourceBuildingtoSpot is VeryHigh
-IF SpotEnemDist is DistEnemLow THEN DeployTileResourceBuildingtoSpot is
+IF SpotEnemDist is DistEnemLow THEN DeployTileResourceBuildingtoSpot is VeryLow
+I
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjAwNTM0MzVdfQ==
+eyJoaXN0b3J5IjpbMTQ4MzM1NDEwXX0=
 -->
