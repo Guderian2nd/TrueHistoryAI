@@ -1,6 +1,6 @@
 # IF
 
-MyUnit is HPHigh
+MyUnitHP is HPHigh
 MyUnit is HPLow
 EnemyUnit is HPHigh
 EnemyUnit is HPLow
@@ -196,5 +196,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NzkxNDMwXX0=
+eyJoaXN0b3J5IjpbMzMwMDgzOTE4XX0=
 -->
