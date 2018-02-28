@@ -314,7 +314,7 @@ IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN UseSkill is High
 IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
 IF DeltaFightingUnitNum is DeltaUnitHigh THEN NeedFightingUnit is Low
 IF DeltaFightingUnitNum is DeltaUnitMedium THEN NeedFightingUnit is Medium
-IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is Low
+IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is High
 IF RemainingGold is RemainGoldLow THEN NeedFightingUnit is VeryLow
 IF RemainingLabor is RemainLaborLow THEN NeedFightingUnit is VeryLow
 IF NeedFightingUnit is High THEN BuildFightingUnit is High
@@ -322,8 +322,8 @@ IF NeedFightingUnit is Medium THEN BuildFightingUnit is Medium
 IF NeedFightingUnit is Low THEN BuildFightingUnit is Low
 IF NeedFightingUnit is VeryLow THEN BuildFightingUnit is VeryLow
 
-IF DeltaCityNum is High
+IF DeltaCityNum is High THEN NeedPioneer is VeryLow
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTEwMzk5MV19
+eyJoaXN0b3J5IjpbLTIwMTk0MDg5OThdfQ==
 -->
