@@ -586,7 +586,9 @@ IF NeedLogistics is Low THEN Logistics is LLow
 
 IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
+
 IF QuestReward is UltimateWeaponRsrc THEN DoQuestTask is VeryHigh
+
 If QuestReward is MilitarySpecRsrc THEN DoQuestTask is High
 If QuestLimit is LimitPeriodLow THEN DoQuestTask is VeryHigh
 QuestLimitDue is DueLow THEN DoQuestTask is VeryHigh
@@ -596,5 +598,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTI1NDMzMF19
+eyJoaXN0b3J5IjpbMTM0MDkzNTkzMF19
 -->
