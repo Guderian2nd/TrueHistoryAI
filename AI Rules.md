@@ -385,8 +385,14 @@ IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
 If NeedLabor is High THEN HappinessGoal is HVeryHigh
 If NeedGold is VeryHigh THEN HappinessGoal is HLow
 
+IF TechLost is True THEN NeedTech is VeryHigh
+IF Tech is TechHigh THEN NeedTech is Low
+IF Tech is TechNormal THEN NeedTech is Medium
+IF Tech is TechLow THEN NeedTech is High
+If Ne
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDA2MjkyOF19
+eyJoaXN0b3J5IjpbOTY2NzUyMjQ4XX0=
 -->
