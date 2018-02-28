@@ -52,6 +52,9 @@ Gold is GoldLow
 
 
 
+
+
+
 # THEN
 
 AttackUnit is VeryHigh
@@ -222,5 +225,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY3NjExNDFdfQ==
+eyJoaXN0b3J5IjpbMTA3NTY1OTM0OV19
 -->
