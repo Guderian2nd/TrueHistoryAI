@@ -87,7 +87,11 @@ DmgUnitNum is High
 DmgUnitNum is Medium
 DmgUnitNum is Low
 
-NeedLogistics
+NeedLogistics is High
+NeedLogistics is Medium
+NeedLogistics is Low
+
+
 
 
 
@@ -267,5 +271,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwMzg5MDU1XX0=
+eyJoaXN0b3J5IjpbLTI3OTc5NDE1MF19
 -->
