@@ -70,7 +70,7 @@ DeltaHappyGoal is DeltaHappyGoalLow
 NeedLabor is High
 NeedLabor is Medium
 NeedLabor is Low
-NeedGola
+NeedGold is VeryHig
 NeedGold is High
 NeedGold is Medium
 NeedGold is Low
@@ -262,5 +262,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MTU5Njc4Ml19
+eyJoaXN0b3J5IjpbNTg2NDAxMTk3XX0=
 -->
