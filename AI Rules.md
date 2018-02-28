@@ -25,7 +25,8 @@ SkillTargetSpot is DamageHigh
 SkillTargetSpot is DealHigh
 
 DeltaFightingUnitNum is High
-DeltaFightingUnitNum is L
+DeltaFightingUnitNum is Low
+
 
 
 
@@ -199,5 +200,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczNDMwNjRdfQ==
+eyJoaXN0b3J5IjpbLTk0NTM1MDI0Ml19
 -->
