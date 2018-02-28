@@ -495,52 +495,91 @@ IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN DeployUnittoCity is V
 
 
 IF SpotEnemDist is DistEnemHigh THEN DeployInteriorBuildingtoSpot is VeryHigh
+
 IF CityatSpotRsrcBuildingNum is RsrcBuildingNumHigh THEN DeployInteriorBuildingtoSpot is Low
+
 IF SpotEnemDist is DistEnemLow THEN DeployInteriorBuildingtoSpot is VeryLow
+
 IF CityatSpotRsrcBuildingNum is RsrcBuildingNumLow THEN DeployInteriorBuildingtoSpot is High
 
+
 IF SpotEnemDist is DistEnemHigh THEN DeployTileResourceBuildingtoSpot is VeryHigh
+
 IF SpotEnemDist is DistEnemLow THEN DeployTileResourceBuildingtoSpot is VeryLow
+
 IF SpotRsrcBuildingNear is SpotRsrcBuildingNearHigh THEN DeployTileResourceBuildingtoSpot is Low
+
 IF SpotRsrcBuildingNear is SpotRsrcBuildingNearLow THEN DeployTileResourceBuildingtoSpot is High
 
+
 IF SpotMyUnitDist is MyUnitDistLow THEN DeployMilitaryBuildingtoSpot is High
+
 IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is Low
 
+
 IF NeedCity is High THEN DeployCitytoPioneer is High
+
 IF NeedCity is Medium THEN DeployCitytoPioneer is High
+
 IF NeedCity is Low THEN DeployCitytoPioneer is Medium
 
+
 IF QuestReward is UltimateWeaponRsrc THEN AcceptQuest is VeryHigh
+
 IF QuestReward is MilitarySpecRsrc THEN AcceptQuest is High
+
 IF QuestDisplay is DisplayPeriodLow THEN AcceptQuest is Medium
+
 IF QuestDue is DueLow THEN AcceptQuest is High
+
 IF QuestReward is Gold/Labor/Happy/Tech AND [Resource] is [Resource]Low THEN AcceptQuest is High
+
 IF QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff AND [Resource] is [Resource]Low THEN AcceptQuest is High
 
+
 IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoFull is VeryHigh
+
 IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoDouble is VeryLow
+
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoDouble is VeryHigh
+
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
 
+
 If NeedLabor is High THEN HappinessGoal is HVeryHigh
+
 If NeedGold is VeryHigh THEN HappinessGoal is HLow
 
+
 IF TechLost is True THEN NeedTech is VeryHigh
+
 IF Tech is TechHigh THEN NeedTech is Low
+
 IF Tech is TechNormal THEN NeedTech is Medium
+
 IF Tech is TechLow THEN NeedTech is High
+
 IF NeedGold is VeryHigh THEN NeedTech is VeryLow
+
 IF NeedTech is High THEN TechInvest is THigh
+
 IF NeedTech is Medium THEN TechInvest is TMedium
+
 IF NeedTech is Low THEN TechInvest is TLow
 
+
 IF DmgUnitNum is High THEN NeedLogistics is High
+
 IF DmgUnitNum is Medium THEN NeedLogistics is Medium
+
 IF DmgUnitNum is Low THEN NeedLogistics is Low
+
 IF DmgUnitNum is VeryLow THEN NeedLogistics is VeryLow
+
 IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is Medium
+
 IF NeedLogistics is High THEN Logistics is LHigh
+
 IF NeedLogistics is Medium THEN Logistics is LMedium
 IF NeedLogistics is Low THEN Logistics is LLow
 IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
@@ -555,5 +594,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzkxMjg4MF19
+eyJoaXN0b3J5IjpbMTU2OTMzOTgyXX0=
 -->
