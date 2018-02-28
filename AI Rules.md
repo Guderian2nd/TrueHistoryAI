@@ -238,15 +238,15 @@ AcceptQuest is Low
 
 AcceptQuest is VeryLow
 
-SetHappinessGoal is VeryHigh
+HappinessGoal is HVeryHigh
 
-SetHappinessGoal is High
+HappinessGoal is HHigh
 
-SetHappinessGoal is Medium
+HappinessGoal is HMedium
 
-SetHappinessGoal is Low
+HappinessGoal is HLow
 
-SetHappinessGoal is VeryLow
+HappinessGoal is HVeryLow
 
 SetEconInvesttoDouble is VeryHigh
 
@@ -382,10 +382,10 @@ IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoDouble is VeryLow
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoDouble is VeryHigh
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
 
-
+If NeedLabor is High THEN HappinessGoal is Very
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1NTMwMTAwXX0=
+eyJoaXN0b3J5IjpbMTAyNzQ4MzY3OF19
 -->
