@@ -377,10 +377,10 @@ IF QuestDue is DueLow THEN AcceptQuest is High
 IF QuestReward is Gold/Labor/Happy/Tech AND [Resource] is [Resource]Low THEN AcceptQuest is High
 IF QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff AND [Resource] is [Resource]Low THEN AcceptQuest is High
 
-IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEcoInvestto 
+IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEcoInvesttoDouble is
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTk2ODExM119
+eyJoaXN0b3J5IjpbLTYzNjE5NzE5Ml19
 -->
