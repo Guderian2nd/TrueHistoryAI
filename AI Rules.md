@@ -14,7 +14,7 @@ Spot is DistEnemLow
 Spot is DistMyCityHigh
 Spot is DistMyCityLow
 
-SkillEffect is 
+SkillEffect is Damage
 
 
 # THEN
@@ -187,5 +187,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxNDEyNzVdfQ==
+eyJoaXN0b3J5IjpbLTEyNDM2NjEwNzZdfQ==
 -->
