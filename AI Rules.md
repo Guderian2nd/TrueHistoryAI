@@ -279,8 +279,14 @@ IF MyUnitHP is HPHigh THEN MoveUnittoSpot is High
 IF MyUnit HP is HPLow THEN MoveUnittoSpot is VeryLow
 IF EnemyUnitHP is HPHigh THEN MoveUnittoSpot is Medium
 IF EnemyUnitHP is HPLow THEN MoveUnittoSpot is Low
-IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is 
-IF THEN
+IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is High
+IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is VeryHigh
+IF MyUnitHP is HPHigh THEN AttackUnit is High
+IF MyUnit HP is HPLow THEN AttackUnit is VeryLow
+IF EnemyUnitHP is HPHigh THEN MoveUnittoSpot is Medium
+IF EnemyUnitHP is HPLow THEN MoveUnittoSpot is Low
+IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is High
+IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is VeryHigh
 IF THEN
 IF THEN
 IF THEN
@@ -297,5 +303,5 @@ IF THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODgxMjA3NzRdfQ==
+eyJoaXN0b3J5IjpbLTIxMTc3MDkxODRdfQ==
 -->
