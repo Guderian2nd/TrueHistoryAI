@@ -468,8 +468,10 @@ IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding i
 IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuilding is Medium
 
 .
+
 .
 .
+
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 
 IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
@@ -543,5 +545,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM2NzU1NDBdfQ==
+eyJoaXN0b3J5IjpbOTUzNDk3ODcyXX0=
 -->
