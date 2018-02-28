@@ -1,3 +1,7 @@
+# Variables
+
+# Sets
+
 # IF
 
 MyUnitHP is HPHigh
@@ -414,5 +418,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzQ2MzAyMF19
+eyJoaXN0b3J5IjpbNjEwMTI1MTM0XX0=
 -->
