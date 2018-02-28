@@ -389,10 +389,10 @@ IF TechLost is True THEN NeedTech is VeryHigh
 IF Tech is TechHigh THEN NeedTech is Low
 IF Tech is TechNormal THEN NeedTech is Medium
 IF Tech is TechLow THEN NeedTech is High
-If NeedGold is VeryHi
+If NeedGold is VeryHigh THEN 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NDk5Nzg4XX0=
+eyJoaXN0b3J5IjpbMTYzNDY4NTIwXX0=
 -->
