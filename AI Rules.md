@@ -493,6 +493,7 @@ IF RemainingGold is RemainGoldLow THEN DeployUnittoCity is Low
 
 IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN DeployUnittoCity is VeryHigh
 
+
 IF SpotEnemDist is DistEnemHigh THEN DeployInteriorBuildingtoSpot is VeryHigh
 IF CityatSpotRsrcBuildingNum is RsrcBuildingNumHigh THEN DeployInteriorBuildingtoSpot is Low
 IF SpotEnemDist is DistEnemLow THEN DeployInteriorBuildingtoSpot is VeryLow
@@ -554,5 +555,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDIzNjgyXX0=
+eyJoaXN0b3J5IjpbLTk5NzkxMjg4MF19
 -->
