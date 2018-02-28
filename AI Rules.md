@@ -596,10 +596,11 @@ If QuestLimit is LimitPeriodLow THEN DoQuestTask is VeryHigh
 QuestLimitDue is DueLow THEN DoQuestTask is VeryHigh
 
 QuestReward is Gold/Labor/Happy/Tech THEN DoQuestTask is Medium
+
 QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0NTczNTA4XX0=
+eyJoaXN0b3J5IjpbMzAxNDQyMjYyXX0=
 -->
