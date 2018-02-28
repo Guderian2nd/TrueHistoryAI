@@ -70,7 +70,18 @@ DeltaHappyGoal is DeltaHappyGoalLow
 NeedLabor is High
 NeedLabor is Medium
 NeedLabor is Low
+NeedGola
+NeedGold is High
+NeedGold is Medium
+NeedGold is Low
 
+Tech is TechHigh
+Tech is TechMedium
+Tech is TechLow
+
+NeedTech is High
+NeedTech is Medium
+NeedTech is Low
 
 
 
@@ -251,5 +262,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTMwMjI4NF19
+eyJoaXN0b3J5IjpbMTg1MTU5Njc4Ml19
 -->
