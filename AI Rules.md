@@ -52,6 +52,14 @@ MyUnit is FightingUnit
 MyUnit is Pioneer
 
 CityatSpotRsrcBuildingNum is RsrcBuildingNumHigh
+CityatSpotRsrcBuildingNum is RsrcBuildingNumLow
+
+SpotRsrcBuildingNear is SpotRsrcBuildingNearHigh
+SpotRsrcBuildingNear is SpotRsrcBuildingNearLow
+
+SpotMyUnitDist is MyUnitDistHigh
+SpotMyUnitDist is MyUnitDistLow
+
 
 
 
@@ -230,5 +238,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTM2NzkyN119
+eyJoaXN0b3J5IjpbLTE0NzUyNjY1NDddfQ==
 -->
