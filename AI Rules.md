@@ -9,7 +9,8 @@ EnemyCity is HPLow
 
 Spot is DamageHigh
 Spot is DealHigh
-Spot is 
+Spot is DistEnemHigh
+Spot is DistEnemLow
 
 
 # THEN
@@ -182,5 +183,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxNTM1MTQxXX0=
+eyJoaXN0b3J5IjpbNDIzNjk4NTA3XX0=
 -->
