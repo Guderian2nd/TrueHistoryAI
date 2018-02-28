@@ -184,6 +184,7 @@ AttackUnit is Low
 
 AttackUnit is VeryLow
 
+
 MoveFightingUnittoSpot is VeryHigh
 
 MoveFightingUnittoSpot is High
@@ -193,6 +194,7 @@ MoveFightingUnittoSpot is Medium
 MoveFightingUnittoSpot is Low
 
 MoveFightingUnittoSpot is VeryLow
+
 
 MovePioneertoSpot is VeryHigh
 
@@ -204,6 +206,7 @@ MovePioneertoSpot is Low
 
 MovePioneertoSpot is VeryLow
 
+
 UseSkill is VeryHigh
 
 UseSkill is High
@@ -213,6 +216,7 @@ UseSkill is Medium
 UseSkill is Low
 
 UseSkill is VeryLow
+
 
 BuildFightingUnit is VeryHigh
 
@@ -224,6 +228,7 @@ BuildFightingUnit is Low
 
 BuildFightingUnit is VeryLow
 
+
 BuildResourceBuilding is VeryHigh
 
 BuildResourceBuilding is High
@@ -233,6 +238,7 @@ BuildResourceBuilding is Medium
 BuildResourceBuilding is Low
 
 BuildResourceBuilding is VeryLow
+
 
 BuildMilitaryBuilding is VeryHigh
 
@@ -244,6 +250,7 @@ BuildMilitaryBuilding is Low
 
 BuildMilitaryBuilding is VeryLow
 
+
 DeployUnittoCity is VeryHigh
 
 DeployUnittoCity is High
@@ -253,6 +260,7 @@ DeployUnittoCity is Medium
 DeployUnittoCity is Low
 
 DeployUnittoCity is VeryLow
+
 
 DeployInteriorBuildingtoCity is VeryHigh
 
@@ -264,6 +272,7 @@ DeployInteriorBuildingtoCity is Low
 
 DeployInteriorBuildingtoCity is VeryLow
 
+
 DeployTileResourceBuildingtoSpot is VeryHigh
 
 DeployTileResourceBuildingtoSpot is High
@@ -274,6 +283,7 @@ DeployTileResourceBuildingtoSpot is Low
 
 DeployTileResourceBuildingtoSpot is VeryLow
 
+
 DeployMilitaryBuildingtoSpot is VeryHigh
 
 DeployMilitaryBuildingtoSpot is High
@@ -283,6 +293,7 @@ DeployMilitaryBuildingtoSpot is Medium
 DeployMilitaryBuildingtoSpot is Low
 
 DeployMilitaryBuildingtoSpot is VeryLow
+
 
 DeployCitytoPioneer is VeryHigh
 
@@ -480,5 +491,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTIxODk2Ml19
+eyJoaXN0b3J5IjpbLTMzNzAxMDA5Ml19
 -->
