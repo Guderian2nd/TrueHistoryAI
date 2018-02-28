@@ -84,7 +84,7 @@ NeedTech is Medium
 NeedTech is Low
 
 DmgUnitNum is High
-DmgUnitNum 
+DmgUnitNum is Medium
 
 
 
@@ -264,5 +264,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU0OTE5ODFdfQ==
+eyJoaXN0b3J5IjpbMTM1MjMxODg2NF19
 -->
