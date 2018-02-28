@@ -24,7 +24,7 @@ SkillTargetHP is HPLow
 SkillTargetSpot is DamageHigh
 SkillTargetSpot is DealHigh
 
-DeltaFightingunit
+DeltaFightingUni
 
 
 
@@ -198,5 +198,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2MjI3MTEwXX0=
+eyJoaXN0b3J5IjpbMzU3MDk1OTE2XX0=
 -->
