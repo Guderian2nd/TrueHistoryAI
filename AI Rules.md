@@ -382,10 +382,11 @@ IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoDouble is VeryLow
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoDouble is VeryHigh
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
 
-If NeedLabor is High THEN HappinessGoal is Very
+If NeedLabor is High THEN HappinessGoal is HVeryHigh
+If NeedGold is VeryHigh THEN HappinessGoal is HLow
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzQ4MzY3OF19
+eyJoaXN0b3J5IjpbLTI0MDA2MjkyOF19
 -->
