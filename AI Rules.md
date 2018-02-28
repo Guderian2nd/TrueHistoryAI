@@ -1,5 +1,6 @@
 # Variables
 
+
 # Sets
 
 # IF
@@ -105,49 +106,69 @@ SpotRsrcBuildingNear is SpotRsrcBuildingNearLow
 
 
 SpotMyUnitDist is MyUnitDistHigh
+
 SpotMyUnitDist is MyUnitDistLow
 
+
 QuestReward is UltimateWeaponRsrc
+
 QuestReward is MilitarySpecRsrc
+
 QuestDisplay is DisplayPeriodLow
+
 QuestDue is DueLow
+
 QuestReward is Gold/Labor/Happy/Tech
+
 QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff
 
+
 DeltaHappyGoal is DeltaHappyGoalHigh
+
 DeltaHappyGoal is DeltaHappyGoalLow
 
+
 NeedLabor is High
+
 NeedLabor is Medium
+
 NeedLabor is Low
+
 NeedGold is VeryHigh
+
 NeedGold is High
+
 NeedGold is Medium
+
 NeedGold is Low
 
+
 Tech is TechHigh
+
 Tech is TechMedium
+
 Tech is TechLow
 
+
 NeedTech is High
+
 NeedTech is Medium
+
 NeedTech is Low
 
+
 DmgUnitNum is High
+
 DmgUnitNum is Medium
+
 DmgUnitNum is Low
 
+
 NeedLogistics is High
+
 NeedLogistics is Medium
+
 NeedLogistics is Low
-
-
-
-
-
-
-
-
 
 
 
@@ -459,5 +480,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjcxNDg5Ml19
+eyJoaXN0b3J5IjpbLTk1OTIxODk2Ml19
 -->
