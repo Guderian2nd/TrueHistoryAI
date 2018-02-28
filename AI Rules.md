@@ -30,6 +30,7 @@ DeltaFightingUnitNum is Low
 
 
 
+
 # THEN
 
 AttackUnit is VeryHigh
@@ -200,5 +201,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTM1MDI0Ml19
+eyJoaXN0b3J5IjpbLTEwNDQwNjMzNDhdfQ==
 -->
