@@ -345,7 +345,11 @@ IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBuilding is High
 IF RemainingGold is RemainGoldLow THEN BuildMilitaryBuilding is VeryLow
 IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
 
-IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit THEN DeployUnittoCity is 
+IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit THEN DeployUnittoCity is VeryHigh
+IF RemainingGold is RemainGoldLow THEN DeployUnittoCity is Low
+IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN DeployUnittoCity is VeryHigh
+IF RemainingGol
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODc2NTkyNF19
+eyJoaXN0b3J5IjpbLTczMTkzNjA2OF19
 -->
