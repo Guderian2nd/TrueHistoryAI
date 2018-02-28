@@ -331,9 +331,9 @@ IF NeedCity is High THEN NeedPioneer is VeryHigh
 IF RemainingGold is RemainGoldLow THEN NeedPioneer is VeryLow
 IF RemainingLabor is RemainLaborLow THEN NeedPioneer is VeryLow
 If NeedCity is High THEN BuildCityCenter is High
-If NeedCity is Medium THEN BuildCityCenter is High
-If NeedCity is High THEN BuildCityCenter is High
+If NeedCity is Low THEN BuildCityCenter is Low
 If NeedPioneer is High THEN BuildPioneer is High
+If NeedPioneer is Low THEN BuildPioneer is Low
 
 IF BuildingProdResource is Gold AND Gold is GoldVeryLow THEN BuildResourceBuilding is VeryHigh
 IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding is High
@@ -367,11 +367,11 @@ IF SpotMyUnitDist is MyUnitDistLow THEN DeployMilitaryBuildingtoSpot is High
 IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is Low
 
 IF NeedCity is High THEN DeployCitytoPioneer is High
-IF NeedCity is Medium THEN DeployCitytoPioneer is Medium
-IF NeedCity is Low THEN DeployCitytoPioneer is Low
+IF NeedCity is Medium THEN DeployCitytoPioneer is High
+IF NeedCity is Low THEN DeployCitytoPioneer is Medium
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDQ2MjI5M119
+eyJoaXN0b3J5IjpbMTIxMDMyOTA0M119
 -->
