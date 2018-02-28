@@ -331,7 +331,7 @@ IF NeedCity is High THEN NeedPioneer is VeryHigh
 IF RemainingGold is RemainGoldLow THEN NeedPioneer is VeryLow
 IF RemainingLabor is RemainLaborLow THEN NeedPioneer is VeryLow
 If NeedCity is High THEN BuildCityCenter is High
-If NeedCity is Me THEN BuildCityCenter is High
+If NeedCity is Medium THEN BuildCityCenter is High
 If NeedCity is High THEN BuildCityCenter is High
 If NeedPioneer is High THEN BuildPioneer is High
 
@@ -373,5 +373,5 @@ IF NeedCity is Low THEN DeployCitytoPioneer is Low
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzY5MzI5NF19
+eyJoaXN0b3J5IjpbMTcxNDQ2MjI5M119
 -->
