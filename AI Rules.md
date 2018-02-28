@@ -324,8 +324,9 @@ IF NeedFightingUnit is VeryLow THEN BuildFightingUnit is VeryLow
 
 IF DeltaCityNum is High THEN NeedCity is Low
 IF DeltaCityNum is Low THEN NeedCity is High
+IF 
 IF RemainingGold is RemainGoldLow THEN NeedPioneer is VeryLow
 IF RemainingLabor is RemainLaborLow THEN NeedPioneer is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NzUzOTM2M119
+eyJoaXN0b3J5IjpbMTYxMDA1MDc4Ml19
 -->
