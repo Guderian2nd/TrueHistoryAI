@@ -475,8 +475,11 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 
+
 IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
+
 IF EnemyFightingUnitNum is FightingUnitNumLow THEN BuildMilitaryBuilding is Low
+
 IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBuilding is High
 IF RemainingGold is RemainGoldLow THEN BuildMilitaryBuilding is VeryLow
 IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
@@ -546,5 +549,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTY4NzY3OF19
+eyJoaXN0b3J5IjpbMTA0MTA1NzM2MF19
 -->
