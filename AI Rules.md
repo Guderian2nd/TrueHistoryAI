@@ -1,11 +1,11 @@
 # IF
 
 MyUnitHP is HPHigh
-MyUnit is HPLow
-EnemyUnit is HPHigh
-EnemyUnit is HPLow
-EnemyCity is HPHigh
-EnemyCity is HPLow
+MyUnitHP is HPLow
+EnemyUnitHP is HPHigh
+EnemyUnitHP is HPLow
+EnemyCityHP is HPHigh
+EnemyCityHP is HPLow
 
 SpotDamage is DamageHigh
 SpotDeal is DealHigh
@@ -196,5 +196,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMDgzOTE4XX0=
+eyJoaXN0b3J5IjpbLTEyNTA5ODM0NjZdfQ==
 -->
