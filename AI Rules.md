@@ -374,11 +374,11 @@ IF QuestReward is UltimateWeaponRsrc THEN AcceptQuest is VeryHigh
 IF QuestReward is MilitarySpecRsrc THEN AcceptQuest is High
 IF QuestDisplay is DisplayPeriodLow THEN AcceptQuest is Medium
 IF QuestDue is DueLow THEN AcceptQuest is High
-IF QuestReward is Gold/Labor/Happy/Tech THEN
-IF QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN
+IF QuestReward is Gold/Labor/Happy/Tech AND [Resource] is [Resource]Low THEN AcceptQuest is High
+IF QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff AND [Resource] is [Resource]Low THEN AcceptQuest is High
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzc1NjIxMl19
+eyJoaXN0b3J5IjpbLTYwMDU2NTEwXX0=
 -->
