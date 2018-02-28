@@ -394,12 +394,16 @@ IF NeedTech is High THEN TechInvest is THigh
 IF NeedTech is Medium THEN TechInvest is TMedium
 IF NeedTech is Low THEN TechInvest is TLow
 
-IF Dmg
+IF DmgUnitNum is High THEN Logistics is LHigh
+IF DmgUnitNum is Medium THEN Logistics is LMedium
+IF DmgUnitNum is Low THEN Logistics is LLow
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1MDY3OTFdfQ==
+eyJoaXN0b3J5IjpbMTk3MDYwMjgyNV19
 -->
