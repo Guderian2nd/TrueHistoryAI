@@ -21,7 +21,8 @@ SkillEffect is Buff
 
 SkillTarget is HPHigh
 SkillTarget is HPLow
-SkillTarget 
+SkillTargetSpot is DamageHigh
+SkillTargetSpot is DealHigh
 
 
 # THEN
@@ -194,5 +195,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTE2NTUyNDRdfQ==
+eyJoaXN0b3J5IjpbNTk0MjM4MDg3XX0=
 -->
