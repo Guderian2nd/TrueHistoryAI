@@ -7,12 +7,12 @@ EnemyUnit is HPLow
 EnemyCity is HPHigh
 EnemyCity is HPLow
 
-Spot is DamageHigh
-Spot is DealHigh
-Spot is DistEnemHigh
-Spot is DistEnemLow
-Spot is DistMyCityHigh
-Spot is DistMyCityLow
+SpotDamage is DamageHigh
+SpotDeal is DealHigh
+SpotEnemDist is DistEnemHigh
+SpotEnemDist is DistEnemLow
+SpotMyCityDist is DistMyCityHigh
+SpotMyCityDist is DistMyCityLow
 
 SkillEffect is DamageEnemy
 SkillEffect is RestoreAP
@@ -196,5 +196,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTU3MDk5N119
+eyJoaXN0b3J5IjpbNjY2NzkxNDMwXX0=
 -->
