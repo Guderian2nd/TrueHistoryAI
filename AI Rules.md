@@ -100,7 +100,9 @@ CityatSpotRsrcBuildingNum is RsrcBuildingNumLow
 
 
 SpotRsrcBuildingNear is SpotRsrcBuildingNearHigh
+
 SpotRsrcBuildingNear is SpotRsrcBuildingNearLow
+
 
 SpotMyUnitDist is MyUnitDistHigh
 SpotMyUnitDist is MyUnitDistLow
@@ -457,5 +459,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwMzc4OF19
+eyJoaXN0b3J5IjpbMTM4MjcxNDg5Ml19
 -->
