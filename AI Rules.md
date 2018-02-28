@@ -360,10 +360,10 @@ IF SpotRsrcBuildingNear is SpotRsrcBuildingNearHigh THEN DeployTileResourceBuild
 IF SpotRsrcBuildingNear is SpotRsrcBuildingNearLow THEN DeployTileResourceBuildingtoSpot is High
 
 IF SpotMyUnitDist is MyUnitDistLow THEN DeployMilitaryBuildingtoSpot is High
-IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is 
+IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is Low
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzE2NDU1MV19
+eyJoaXN0b3J5IjpbLTYzNzIwMjkzMV19
 -->
