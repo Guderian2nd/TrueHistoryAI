@@ -49,7 +49,8 @@ Gold is GoldLow
 EnemyFightingUnitNum is FightingUnitNumHigh
 
 MyUnit is FightingUnit
-MyUnit is 
+MyUnit is Pioneer
+
 
 
 
@@ -227,5 +228,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI1MzQ1NTddfQ==
+eyJoaXN0b3J5IjpbLTE1ODM3MzY0MDldfQ==
 -->
