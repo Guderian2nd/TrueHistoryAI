@@ -363,11 +363,11 @@ IF SpotMyUnitDist is MyUnitDistLow THEN DeployMilitaryBuildingtoSpot is High
 IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is Low
 
 IF NeedCity is High THEN DeployCitytoPioneer is High
-IF NeedCity is Medium THEN DeployCitytoPioneer isMedium
+IF NeedCity is Medium THEN DeployCitytoPioneer is Medium
 IF NeedCity is Medium THEN DeployCitytoPioneer is Low
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTQ2MzI2MF19
+eyJoaXN0b3J5IjpbMTExNDg4MjkyNF19
 -->
