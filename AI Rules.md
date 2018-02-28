@@ -28,7 +28,8 @@ DeltaFightingUnitNum is High
 DeltaFightingUnitNum is Low
 
 RemainingGold is RemainGoldHigh
-RemainingGold is RemainGold
+RemainingGold is RemainGoldLow
+Remain
 
 
 
@@ -204,5 +205,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzIxMDgxMl19
+eyJoaXN0b3J5IjpbMTA2NDYyMzc2MF19
 -->
