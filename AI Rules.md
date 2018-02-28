@@ -43,7 +43,6 @@ BuildingProdResource is Happy
 Gold is GoldHigh
 Gold is GoldMedium
 Gold is GoldLow
-Labor is
 L
 
 
@@ -222,5 +221,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODMxNDkzODddfQ==
+eyJoaXN0b3J5IjpbMTMzNjM0Nzg4MV19
 -->
