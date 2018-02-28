@@ -278,8 +278,8 @@ DoQuestTask is VeryLow
 IF MyUnitHP is HPHigh THEN MoveUnittoSpot is High
 IF MyUnit HP is HPLow THEN MoveUnittoSpot is VeryLow
 IF EnemyUnitHP is HPHigh THEN MoveUnittoSpot is Medium
-IF EnemyUnitHP is HPLow THEN
-IF THEN
+IF EnemyUnitHP is HPLow THEN MoveUnittoSpot is Low
+IF EnemyCityHP is HPHigh THEN MoveUnit
 IF THEN
 IF THEN
 IF THEN
@@ -297,5 +297,5 @@ IF THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MTgyMTIxXX0=
+eyJoaXN0b3J5IjpbMTA5NjM2OTkyN119
 -->
