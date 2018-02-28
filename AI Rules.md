@@ -398,6 +398,7 @@ IF DmgUnitNum is High THEN NeedLogistics is High
 IF DmgUnitNum is Medium THEN NeedLogistics is Medium
 IF DmgUnitNum is Low THEN NeedLogistics is Low
 IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is High
+IF NeedLogistics is High THEN Logistics is L
 
 
 
@@ -405,5 +406,5 @@ IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is High
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM2OTkyOTJdfQ==
+eyJoaXN0b3J5IjpbODM2NjQxNTRdfQ==
 -->
