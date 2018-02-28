@@ -336,6 +336,7 @@ SetEconInvesttoFull is VeryHigh
 
 SetEconInvesttoFull is VeryLow
 
+
 Logistics is LVeryHigh
 
 Logistics is LHigh
@@ -345,6 +346,7 @@ Logistics is LMedium
 Logistics is LLow
 
 Logistics is LVeryLow
+
 
 DoQuestTask is VeryHigh
 
@@ -361,61 +363,106 @@ DoQuestTask is VeryLow
 # IF THEN
 
 IF MyUnitHP is HPHigh THEN AttackUnit is High
+
 IF MyUnit HP is HPLow THEN AttackUnit is VeryLow
+
 IF EnemyUnitHP is HPHigh THEN AttackUnit is Medium
+
 IF EnemyUnitHP is HPLow THEN AttackUnit is Low
+
 IF EnemyCityHP is HPHigh THEN AttackUnit is High
+
 IF EnemyCityHP is HPHigh THEN AttackUnit is VeryHigh
 
 
 IF MyUnitHP is HPHigh THEN MoveUnittoSpot is High
+
 IF MyUnit HP is HPLow THEN MoveUnittoSpot is VeryLow
+
 IF EnemyUnitHP is HPHigh THEN MoveUnittoSpot is Medium
+
 IF EnemyUnitHP is HPLow THEN MoveUnittoSpot is Low
+
 IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is High
+
 IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is VeryHigh
+
 IF SpotDamage is DamageHigh THEN MoveUnittoSpot is VeryLow
+
 IF SpotDeal is DealHigh THEN MoveUnittoSpot is High
+
 IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit AND MyUnitHP is HPHigh THEN MoveUnittoSpot is High
+
 IF SpotEnemDist is DistEnemHigh AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
+
 IF SpotMyCityDist is DistMyCityLow AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
 
 
 IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is High
+
 IF SpotEnemDist is DistEnemLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
+
 IF SpotMyCityDist is DistMyCityHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is High
+
 IF SpotMyCityDist is DistMyCityLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
 
 
 IF SkillEffect is DamageEnemy AND SkillTargetHP is HPLow AND SkillTarget is Enemy THEN UseSkill is VeryHigh
+
 IF SkillEffect is RestoreAP THEN UseSkill is MostHigh
+
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow THEN UseSkill is VeryHigh
+
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh THEN UseSkill is Medium
+
 IF SkillEffect is RestoreHP AND SkillTargetSpot is DamageHigh THEN UseSkill is High
+
 IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN UseSkill is High
+
 IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
+
 IF DeltaFightingUnitNum is DeltaUnitHigh THEN NeedFightingUnit is Low
+
 IF DeltaFightingUnitNum is DeltaUnitMedium THEN NeedFightingUnit is Medium
+
 IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is High
+
 IF RemainingGold is RemainGoldLow THEN NeedFightingUnit is VeryLow
+
 IF RemainingLabor is RemainLaborLow THEN NeedFightingUnit is VeryLow
+
 IF NeedFightingUnit is High THEN BuildFightingUnit is High
+
 IF NeedFightingUnit is Medium THEN BuildFightingUnit is Medium
+
 IF NeedFightingUnit is Low THEN BuildFightingUnit is Low
+
 IF NeedFightingUnit is VeryLow THEN BuildFightingUnit is VeryLow
 
+
 IF DeltaCityNum is High THEN NeedCity is Low
+
 IF DeltaCityNum is Low THEN NeedCity is High
+
 IF NeedCity is Low THEN NeedPioneer is VeryLow
+
 IF NeedCity is High THEN NeedPioneer is VeryHigh
+
 IF RemainingGold is RemainGoldLow THEN NeedPioneer is VeryLow
+
 IF RemainingLabor is RemainLaborLow THEN NeedPioneer is VeryLow
+
 If NeedCity is High THEN BuildCityCenter is High
+
 If NeedCity is Low THEN BuildCityCenter is Low
+
 If NeedPioneer is High THEN BuildPioneer is High
+
 If NeedPioneer is Low THEN BuildPioneer is Low
 
+
 IF BuildingProdResource is Gold AND Gold is GoldVeryLow THEN BuildResourceBuilding is VeryHigh
+
 IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding is High
 IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuilding is Medium
 .
@@ -494,5 +541,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTAyOTgyMl19
+eyJoaXN0b3J5IjpbLTExNTkyMDI5MDBdfQ==
 -->
