@@ -35,10 +35,7 @@ RemainingGold is RemainGoldLow
 RemainingLabor is RemainLaborHigh
 RemainingLabor is RemainLaborLow
 
-BuildingProdResource is Gold
-BuildingProdResource is Labor
-BuildingProdResource is Tech
-BuildingProdResource is Happy
+BuildingProdResource is Gold/Labor/Tech/Happy
 
 Gold is GoldHigh
 Gold is GoldMedium
@@ -65,6 +62,9 @@ QuestReward is MilitarySpecRsrc
 QuestDisplay is DisplayPeriodLow
 QuestDue is DueLow
 QuestReward is Gold/Labor/Happy/Tech
+QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff
+
+Dealta
 
 
 
@@ -242,5 +242,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODU3NDc2NV19
+eyJoaXN0b3J5IjpbLTEwNTU0NDc0NTBdfQ==
 -->
