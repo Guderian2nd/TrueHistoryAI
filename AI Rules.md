@@ -28,7 +28,7 @@ DeltaFightingUnitNum is DeltaUnitHigh
 DeltaFightingUnitNum is DeltaUnitLow
 
 DeltaCityNum is DeltaCityHigh
-DeltaCityNum is DeltaCity
+DeltaCityNum is DeltaCity 
 
 RemainingGold is RemainGoldHigh
 RemainingGold is RemainGoldLow
@@ -211,5 +211,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI0MTM5NTBdfQ==
+eyJoaXN0b3J5IjpbNDYwODgyNTc2XX0=
 -->
