@@ -397,7 +397,7 @@ IF NeedTech is Low THEN TechInvest is TLow
 IF DmgUnitNum is High THEN NeedLogistics is High
 IF DmgUnitNum is Medium THEN NeedLogistics is Medium
 IF DmgUnitNum is Low THEN NeedLogistics is Low
-IF DmgUnitNum is VeryLow THEN NeedLogistics is Low
+IF DmgUnitNum is VeryLow THEN NeedLogistics is VeryLow
 IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is Medium
 IF NeedLogistics is High THEN Logistics is LHigh
 IF NeedLogistics is Medium THEN Logistics is LMedium
@@ -419,5 +419,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg2NzkwNV19
+eyJoaXN0b3J5IjpbLTU4OTgyNDQzXX0=
 -->
