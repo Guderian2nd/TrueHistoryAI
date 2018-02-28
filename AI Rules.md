@@ -7,7 +7,7 @@ EnemyUnit is HPLow
 EnemyCity is HPHigh
 EnemyCity is HPLow
 
-Spot is Damange
+Spot is DamageHigh
 
 
 # THEN
@@ -180,5 +180,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDU5NDU1MV19
+eyJoaXN0b3J5IjpbODUxNzA3NTkxXX0=
 -->
