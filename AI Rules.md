@@ -481,7 +481,9 @@ IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is Hig
 IF EnemyFightingUnitNum is FightingUnitNumLow THEN BuildMilitaryBuilding is Low
 
 IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBuilding is High
+
 IF RemainingGold is RemainGoldLow THEN BuildMilitaryBuilding is VeryLow
+
 IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
 
 IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit THEN DeployUnittoCity is VeryHigh
@@ -549,5 +551,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTA1NzM2MF19
+eyJoaXN0b3J5IjpbMTc4Nzc2ODkxMl19
 -->
