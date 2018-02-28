@@ -292,7 +292,8 @@ IF SpotDeal is DealHigh THEN MoveUnittoSpot is High
 IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit AND MyUnitHP is HPHigh THEN MoveUnittoSpot is High
 IF SpotEnemDist is DistEnemHigh AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
 IF SpotMyCityDist is DistMyCityLow AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
-IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN
+IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is High
+IF SpotEnemDist is DistEnemLow AND
 IF THEN
 IF THEN
 IF THEN
@@ -303,5 +304,5 @@ IF THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjM3Nzk4NV19
+eyJoaXN0b3J5IjpbNTE0NzE3MzFdfQ==
 -->
