@@ -581,7 +581,9 @@ IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is Medium
 IF NeedLogistics is High THEN Logistics is LHigh
 
 IF NeedLogistics is Medium THEN Logistics is LMedium
+
 IF NeedLogistics is Low THEN Logistics is LLow
+
 IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
 IF QuestReward is UltimateWeaponRsrc THEN DoQuestTask is VeryHigh
@@ -594,5 +596,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTMzOTgyXX0=
+eyJoaXN0b3J5IjpbMTgzMTI1NDMzMF19
 -->
