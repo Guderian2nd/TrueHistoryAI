@@ -24,12 +24,18 @@ SkillTargetHP is HPLow
 SkillTargetSpot is DamageHigh
 SkillTargetSpot is DealHigh
 
-DeltaFightingUnitNum is High
-DeltaFightingUnitNum is Low
+DeltaFightingUnitNum is DeltaUnitHigh
+DeltaFightingUnitNum is DeltaUnitLow
+
+DeltaCityNum is DeltaCityHigh
+DeltaCityNu
 
 RemainingGold is RemainGoldHigh
 RemainingGold is RemainGoldLow
-RemainingLabor
+RemainingLabor is RemainLaborHigh
+RemainingLabor is RemainLaborLow
+
+
 
 
 
@@ -205,5 +211,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNjE0ODgyXX0=
+eyJoaXN0b3J5IjpbLTE5MjAxMTM0NzBdfQ==
 -->
