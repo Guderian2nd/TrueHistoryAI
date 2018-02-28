@@ -48,7 +48,8 @@ Gold is GoldLow
 
 EnemyFightingUnitNum is FightingUnitNumHigh
 
-MyUnit 
+MyUnit is FightingUnit
+
 
 
 
@@ -226,5 +227,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDI2NDE3NV19
+eyJoaXN0b3J5IjpbMTU4OTU2MzI5XX0=
 -->
