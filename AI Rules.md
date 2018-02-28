@@ -337,7 +337,7 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 .
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 
-IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is
+IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is Hig
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyNDM3Njg0XX0=
+eyJoaXN0b3J5IjpbMTMwNDU1NDY3MF19
 -->
