@@ -275,7 +275,7 @@ DoQuestTask is VeryLow
 
 # IF THEN
 
-IF MyUnitHP is HP THEN
+IF MyUnitHP is HPHigh THEN
 IF THEN
 IF THEN
 IF THEN
@@ -297,5 +297,5 @@ IF THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjcxOTYzOTJdfQ==
+eyJoaXN0b3J5IjpbNDkyODk4NzEwXX0=
 -->
