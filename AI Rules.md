@@ -297,7 +297,7 @@ IF SpotEnemDist is DistEnemLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
 IF SpotMyCityDist is DistMyCityHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is High
 IF SpotMyCityDist is DistMyCityLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
 IF SkillEffect is DamageEnemy AND SkillTargetHP is HPLow AND SkillTarget is Enemy THEN UseSkill is VeryHigh
-IF THEN
+IF SkulklTHEN
 IF THEN
 IF THEN
 IF THEN
@@ -306,5 +306,5 @@ IF THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY5NjU2NjldfQ==
+eyJoaXN0b3J5IjpbLTEyNjQ0NzQ3MDldfQ==
 -->
