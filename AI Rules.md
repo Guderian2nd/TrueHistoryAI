@@ -19,8 +19,8 @@ SkillEffect is RestoreAP
 SkillEffect is RestoreHP
 SkillEffect is Buff
 
-SkillTarget is HPHigh
-SkillTarget is HPLow
+SkillTargetHP is HPHigh
+SkillTargetHP is HPLow
 SkillTargetSpot is DamageHigh
 SkillTargetSpot is DealHigh
 
@@ -196,5 +196,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA5ODM0NjZdfQ==
+eyJoaXN0b3J5IjpbOTQ4NTE5ODk0XX0=
 -->
