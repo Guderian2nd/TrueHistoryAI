@@ -11,6 +11,10 @@ Spot is DamageHigh
 Spot is DealHigh
 Spot is DistEnemHigh
 Spot is DistEnemLow
+Spot is DistMyCityHigh
+Spot is DistMyCityLow
+
+
 
 
 # THEN
@@ -183,5 +187,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzNjk4NTA3XX0=
+eyJoaXN0b3J5IjpbLTE0OTQ1NTQzNDVdfQ==
 -->
