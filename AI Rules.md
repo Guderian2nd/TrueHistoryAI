@@ -335,7 +335,7 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 .
 .
 .
-IF BuildingProdRes
+IF BuildingProdResource is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzUyMDQzXX0=
+eyJoaXN0b3J5IjpbMTg4MjAyMTk1N119
 -->
