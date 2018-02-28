@@ -362,8 +362,12 @@ IF SpotRsrcBuildingNear is SpotRsrcBuildingNearLow THEN DeployTileResourceBuildi
 IF SpotMyUnitDist is MyUnitDistLow THEN DeployMilitaryBuildingtoSpot is High
 IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is Low
 
+IF NeedCity is High THEN DeployCitytoPioneer is High
+IF NeedCity is Medium THEN DeployCitytoPioneer isMedium
+IF NeedCity is Medium THEN DeployCitytoPioneer is Low
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzIwMjkzMV19
+eyJoaXN0b3J5IjpbLTQzOTQ2MzI2MF19
 -->
