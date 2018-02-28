@@ -300,7 +300,7 @@ IF SkillEffect is DamageEnemy AND SkillTargetHP is HPLow AND SkillTarget is Enem
 IF SkillEffect is RestoreAP THEN UseSkill is MostHigh
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow THEN UseSkill is VeryHigh
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh THEN UseSkill is Medium
-IF SkillEffect is RestoreHP AND SkillTargetSpot is Dam THEN UseSkill is Medium
+IF SkillEffect is RestoreHP AND SkillTargetSpot is DamageHigh THEN UseSkill is Medium
 IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN
 IF THEN
 IF THEN
@@ -308,5 +308,5 @@ IF THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTMxMjA4OV19
+eyJoaXN0b3J5IjpbLTEwMzgxODUzMzhdfQ==
 -->
