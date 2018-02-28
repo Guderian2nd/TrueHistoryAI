@@ -316,6 +316,7 @@ AcceptQuest is Low
 
 AcceptQuest is VeryLow
 
+
 HappinessGoal is HVeryHigh
 
 HappinessGoal is HHigh
@@ -325,6 +326,7 @@ HappinessGoal is HMedium
 HappinessGoal is HLow
 
 HappinessGoal is HVeryLow
+
 
 SetEconInvesttoDouble is VeryHigh
 
@@ -492,5 +494,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzE3Mjk2MjZdfQ==
+eyJoaXN0b3J5IjpbLTc1NTAyOTgyMl19
 -->
