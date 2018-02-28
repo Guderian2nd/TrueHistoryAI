@@ -275,10 +275,10 @@ DoQuestTask is VeryLow
 
 # IF THEN
 
-IF MyUnitHP is HPHigh THEN
-IF THEN
-IF THEN
-IF THEN
+IF MyUnitHP is HPHigh THEN MoveUnittoSpot is High
+IF MyUnit HP is HPLow THEN MoveUnittoSpot is VeryLow
+IF EnemyUnitHP is HPHigh THEN MoveUnittoSpot is Medium
+IF EnemyUnitHP is HPLow THEN
 IF THEN
 IF THEN
 IF THEN
@@ -297,5 +297,5 @@ IF THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyODk4NzEwXX0=
+eyJoaXN0b3J5IjpbNDQ4MTgyMTIxXX0=
 -->
