@@ -208,15 +208,15 @@ DeployTileResourceBuildingtoSpot is Low
 
 DeployTileResourceBuildingtoSpot is VeryLow
 
-DeployTileMilitaryBuildingtoSpot is VeryHigh
+DeployMilitaryBuildingtoSpot is VeryHigh
 
-DeployTileMilitaryBuildingtoSpot is High
+DeployMilitaryBuildingtoSpot is High
 
-DeployTileMilitaryBuildingtoSpot is Medium
+DeployMilitaryBuildingtoSpot is Medium
 
-DeployTileMilitaryBuildingtoSpot is Low
+DeployMilitaryBuildingtoSpot is Low
 
-DeployTileMilitaryBuildingtoSpot is VeryLow
+DeployMilitaryBuildingtoSpot is VeryLow
 
 DeployCitytoPioneer is VeryHigh
 
@@ -359,9 +359,9 @@ IF SpotEnemDist is DistEnemLow THEN DeployTileResourceBuildingtoSpot is VeryLow
 IF SpotRsrcBuildingNear is SpotRsrcBuildingNearHigh THEN DeployTileResourceBuildingtoSpot is Low
 IF SpotRsrcBuildingNear is SpotRsrcBuildingNearLow THEN DeployTileResourceBuildingtoSpot is High
 
-
+IF SpotMyUnitDist is MyUnitDistHigh THEN DeployMilitaryBuildingtoSpot is 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzAxNDEwM119
+eyJoaXN0b3J5IjpbNzMyNzgzMzAwXX0=
 -->
