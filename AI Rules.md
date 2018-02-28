@@ -305,6 +305,7 @@ DeployCitytoPioneer is Low
 
 DeployCitytoPioneer is VeryLow
 
+
 AcceptQuest is VeryHigh
 
 AcceptQuest is High
@@ -491,5 +492,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzAxMDA5Ml19
+eyJoaXN0b3J5IjpbLTEwNzE3Mjk2MjZdfQ==
 -->
