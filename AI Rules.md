@@ -402,7 +402,14 @@ IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is Medium
 IF NeedLogistics is High THEN Logistics is LHigh
 IF NeedLogistics is Medium THEN Logistics is LMedium
 IF NeedLogistics is Low THEN Logistics is LLow
+IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
+IF QuestReward is UltimateWeaponRsrc THEN DoQuestTask is VeryHigh
+If QuestReward is MilitarySpecRsrc
+QuestDisplay is DisplayPeriodLow
+QuestDue is DueLow
+QuestReward is Gold/Labor/Happy/Tech
+QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff
 DoQuestTask is VeryHigh
 
 DoQuestTask is High
@@ -419,5 +426,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTgyNDQzXX0=
+eyJoaXN0b3J5IjpbNjQzMjAwNjYwXX0=
 -->
