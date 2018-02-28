@@ -329,7 +329,8 @@ IF NeedCity is High THEN NeedPioneer is VeryHigh
 IF RemainingGold is RemainGoldLow THEN NeedPioneer is VeryLow
 IF RemainingLabor is RemainLaborLow THEN NeedPioneer is VeryLow
 
-IF
+IF BuildingProdResource is Gold AND Gold is GoldVeryLow THEN BuildResourceBuilding is VeryHigh
+IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding is High
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTUyNzIzNl19
+eyJoaXN0b3J5IjpbLTEzODA5MzAwNDFdfQ==
 -->
