@@ -464,7 +464,9 @@ If NeedPioneer is Low THEN BuildPioneer is Low
 IF BuildingProdResource is Gold AND Gold is GoldVeryLow THEN BuildResourceBuilding is VeryHigh
 
 IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding is High
+
 IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuilding is Medium
+
 .
 .
 .
@@ -541,5 +543,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkyMDI5MDBdfQ==
+eyJoaXN0b3J5IjpbLTE2ODM2NzU1NDBdfQ==
 -->
