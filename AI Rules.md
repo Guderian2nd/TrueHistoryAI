@@ -7,6 +7,8 @@ EnemyUnit is HPLow
 EnemyCity is HPHigh
 EnemyCity is HPLow
 
+Spot is 
+
 
 # THEN
 
@@ -178,5 +180,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc0OTAzNDhdfQ==
+eyJoaXN0b3J5IjpbMjAwMTM3NTA5Nl19
 -->
