@@ -38,7 +38,13 @@ RemainingLabor is RemainLaborLow
 BuildingProdResource is Gold
 BuildingProdResource is Labor
 BuildingProdResource is Tech
-BuildingProdResource is 
+BuildingProdResource is Happy
+
+Gold is GoldHigh
+Gold is GoldMedium
+Gold is GoldLow
+Labor is
+L
 
 
 
@@ -216,5 +222,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTA4ODY3OF19
+eyJoaXN0b3J5IjpbLTEyODMxNDkzODddfQ==
 -->
