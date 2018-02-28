@@ -87,6 +87,7 @@ DmgUnitNum is High
 DmgUnitNum is Medium
 DmgUnitNum is Low
 
+Need
 
 
 
@@ -266,5 +267,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzA3MjA2OF19
+eyJoaXN0b3J5IjpbLTIxMjc0Njk2MzZdfQ==
 -->
