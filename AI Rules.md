@@ -371,7 +371,7 @@ IF NeedCity is Medium THEN DeployCitytoPioneer is High
 IF NeedCity is Low THEN DeployCitytoPioneer is Medium
 
 IF QuestReward is UltimateWeaponRsrc THEN AcceptQuest is VeryHigh
-IF QuestReward is MilitarySpecRsrc THEN AcceptQuest is
+IF QuestReward is MilitarySpecRsrc THEN AcceptQuest is 
 IF QuestDisplay is DisplayPeriodLow THEN
 IF QuestDue is DueLow THEN
 IF QuestReward is Gold/Labor/Happy/Tech THEN
@@ -380,5 +380,5 @@ IF QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTgxMDgyMV19
+eyJoaXN0b3J5IjpbLTE5MjUwMTM0MDNdfQ==
 -->
