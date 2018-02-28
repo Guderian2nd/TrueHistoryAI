@@ -301,13 +301,13 @@ IF SkillEffect is RestoreAP THEN UseSkill is MostHigh
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow THEN UseSkill is VeryHigh
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh THEN UseSkill is Medium
 IF SkillEffect is RestoreHP AND SkillTargetSpot is DamageHigh THEN UseSkill is High
-IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN UseSkill is High ELSE UseSkill is Low
-IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High ELSE UseSkill is Low
+IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN UseSkill is High
+IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
 IF THEN
 IF THEN
 IF THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQxNzQ1MzVdfQ==
+eyJoaXN0b3J5IjpbNzMzNTQ0NTQxXX0=
 -->
