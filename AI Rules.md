@@ -27,7 +27,7 @@ SkillTargetSpot is DealHigh
 DeltaFightingUnitNum is High
 DeltaFightingUnitNum is Low
 
-
+RemainingGoa
 
 
 
@@ -203,5 +203,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NjE5MDMyXX0=
+eyJoaXN0b3J5IjpbNTU1MjIxODkzXX0=
 -->
