@@ -331,7 +331,7 @@ IF RemainingLabor is RemainLaborLow THEN NeedPioneer is VeryLow
 
 IF BuildingProdResource is Gold AND Gold is GoldVeryLow THEN BuildResourceBuilding is VeryHigh
 IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding is High
-IF BuildingProdResource is Gold AND Gold is GoldMedium THEN
+IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResour
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzE2Nzc0MF19
+eyJoaXN0b3J5IjpbLTYxMjExNjQwNl19
 -->
