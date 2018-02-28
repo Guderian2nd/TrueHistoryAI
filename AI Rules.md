@@ -256,15 +256,15 @@ SetEconInvesttoFull is VeryHigh
 
 SetEconInvesttoFull is VeryLow
 
-SetLogisticstoX is VeryHigh
+Logistics is LVeryHigh
 
-SetLogisticstoX is High
+Logistics is LHigh
 
-SetLogisticstoX is Medium
+Logistics is LMedium
 
-SetLogisticstoX is Low
+Logistics is LLow
 
-SetLogisticstoX is VeryLow
+Logistics is LVeryLow
 
 DoQuestTask is VeryHigh
 
@@ -390,12 +390,16 @@ IF Tech is TechHigh THEN NeedTech is Low
 IF Tech is TechNormal THEN NeedTech is Medium
 IF Tech is TechLow THEN NeedTech is High
 IF NeedGold is VeryHigh THEN NeedTech is VeryLow
-IF NeedTech is VeryHigh THEN TechInvest Is THigh
-IF NeedTech is High THEN TechInvest is THi
+IF NeedTech is High THEN TechInvest is THigh
+IF NeedTech is Medium THEN TechInvest is TMedium
+IF NeedTech is Low THEN TechInvest is TLow
+
+IF 
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNjI3NTY3XX0=
+eyJoaXN0b3J5IjpbMTgyNDY0ODk1NV19
 -->
