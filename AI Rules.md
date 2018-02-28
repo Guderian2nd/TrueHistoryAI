@@ -319,8 +319,8 @@ IF RemainingGold is RemainGoldLow THEN NeedFightingUnit is VeryLow
 IF RemainingLabor is RemainLaborLow THEN NeedFightingUnit is VeryLow
 IF NeedFightingUnit is High THEN BuildFightingUnit is High
 IF NeedFightingUnit is Medium THEN BuildFightingUnit is Medium
-IF NeedFightingUnit is Low 
+IF NeedFightingUnit is Low TH
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjE0MzIxMl19
+eyJoaXN0b3J5IjpbLTk0MTc4NjMzNl19
 -->
