@@ -5,54 +5,89 @@
 # IF
 
 MyUnitHP is HPHigh
+
 MyUnitHP is HPLow
+
 EnemyUnitHP is HPHigh
+
 EnemyUnitHP is HPLow
+
 EnemyCityHP is HPHigh
+
 EnemyCityHP is HPLow
 
+
 SpotDamage is DamageHigh
+
 SpotDeal is DealHigh
+
 SpotEnemDist is DistEnemHigh
+
 SpotEnemDist is DistEnemLow
+
 SpotMyCityDist is DistMyCityHigh
+
 SpotMyCityDist is DistMyCityLow
 
+
 SkillEffect is DamageEnemy
+
 SkillEffect is RestoreAP
+
 SkillEffect is RestoreHP
+
 SkillEffect is Buff
 
+
 SkillTargetHP is HPHigh
+
 SkillTargetHP is HPLow
+
 SkillTargetSpot is DamageHigh
+
 SkillTargetSpot is DealHigh
 
+
 DeltaFightingUnitNum is DeltaUnitHigh
+
 DeltaFightingUnitNum is DeltaUnitLow
 
+
 NeedFightingUnit is High
+
 NeedFightingUnit is Low
 
+
 DeltaCityNum is DeltaCityHigh
+
 DeltaCityNum is DeltaCityLow
 
+
 RemainingGold is RemainGoldHigh
+
 RemainingGold is RemainGoldLow
+
 RemainingLabor is RemainLaborHigh
+
 RemainingLabor is RemainLaborLow
+
 
 BuildingProdResource is Gold/Labor/Tech/Happy
 
+
 Gold is GoldHigh
+
 Gold is GoldMedium
+
 Gold is GoldLow
 
 마찬가지
 
 EnemyFightingUnitNum is FightingUnitNumHigh
 
+
 AllMyUnitEnemDist is EnemDistHigh ... 
+
 
 MyUnit is FightingUnit
 MyUnit is Pioneer
@@ -418,5 +453,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwMTI1MTM0XX0=
+eyJoaXN0b3J5IjpbLTE3NzEwMDI1NDhdfQ==
 -->
