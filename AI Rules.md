@@ -343,7 +343,9 @@ IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is Hig
 IF EnemyFightingUnitNum is FightingUnitNumLow THEN BuildMilitaryBuilding is Low
 IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBuilding is High
 IF RemainingGold is RemainGoldLow THEN BuildMilitaryBuilding is VeryLow
-IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding
+IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
+
+IF S
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0NTEyODUyXX0=
+eyJoaXN0b3J5IjpbMTYwNjQzOTU1Nl19
 -->
