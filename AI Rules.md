@@ -281,6 +281,8 @@ IF EnemyUnitHP is HPHigh THEN AttackUnit is Medium
 IF EnemyUnitHP is HPLow THEN AttackUnit is Low
 IF EnemyCityHP is HPHigh THEN AttackUnit is High
 IF EnemyCityHP is HPHigh THEN AttackUnit is VeryHigh
+
+
 IF MyUnitHP is HPHigh THEN MoveUnittoSpot is High
 IF MyUnit HP is HPLow THEN MoveUnittoSpot is VeryLow
 IF EnemyUnitHP is HPHigh THEN MoveUnittoSpot is Medium
@@ -292,10 +294,14 @@ IF SpotDeal is DealHigh THEN MoveUnittoSpot is High
 IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit AND MyUnitHP is HPHigh THEN MoveUnittoSpot is High
 IF SpotEnemDist is DistEnemHigh AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
 IF SpotMyCityDist is DistMyCityLow AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
+
+
 IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is High
 IF SpotEnemDist is DistEnemLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
 IF SpotMyCityDist is DistMyCityHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is High
 IF SpotMyCityDist is DistMyCityLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
+
+
 IF SkillEffect is DamageEnemy AND SkillTargetHP is HPLow AND SkillTarget is Enemy THEN UseSkill is VeryHigh
 IF SkillEffect is RestoreAP THEN UseSkill is MostHigh
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow THEN UseSkill is VeryHigh
@@ -303,11 +309,11 @@ IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh THEN UseSkill is Medium
 IF SkillEffect is RestoreHP AND SkillTargetSpot is DamageHigh THEN UseSkill is High
 IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN UseSkill is High
 IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
-IF THEN
+IF DeltaFightingUnitNum is DeltaUnit HEN
 IF THEN
 IF THEN
 IF THEN
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzNTQ0NTQxXX0=
+eyJoaXN0b3J5IjpbLTE3ODUyNDk2NzNdfQ==
 -->
