@@ -394,12 +394,12 @@ IF NeedTech is High THEN TechInvest is THigh
 IF NeedTech is Medium THEN TechInvest is TMedium
 IF NeedTech is Low THEN TechInvest is TLow
 
-IF 
+IF Dmg
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDY0ODk1NV19
+eyJoaXN0b3J5IjpbMzc1MDY3OTFdfQ==
 -->
