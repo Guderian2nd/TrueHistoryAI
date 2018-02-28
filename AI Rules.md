@@ -341,7 +341,7 @@ IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuild
 
 IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
 IF EnemyFightingUnitNum is FightingUnitNumLow THEn BuildMilitaryBuilding is Low
-IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBui
+IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBuilding is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2Njk4NTE4XX0=
+eyJoaXN0b3J5IjpbMTQzMzQzNzY5NF19
 -->
