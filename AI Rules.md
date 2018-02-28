@@ -51,7 +51,8 @@ EnemyFightingUnitNum is FightingUnitNumHigh
 MyUnit is FightingUnit
 MyUnit is Pioneer
 
-CityatSpotRsrcBuildingNum is RsrcBuildingNum
+CityatSpotRsrcBuildingNum is RsrcBuildingNumHigh
+
 
 
 
@@ -229,5 +230,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE2MzMwMzE1XX0=
+eyJoaXN0b3J5IjpbMTExOTM2NzkyN119
 -->
