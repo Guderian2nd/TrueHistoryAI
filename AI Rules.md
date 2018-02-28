@@ -328,6 +328,8 @@ IF NeedCity is Low THEN NeedPioneer is VeryLow
 IF NeedCity is High THEN NeedPioneer is VeryHigh
 IF RemainingGold is RemainGoldLow THEN NeedPioneer is VeryLow
 IF RemainingLabor is RemainLaborLow THEN NeedPioneer is VeryLow
+
+IF
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczODc4NDM3XX0=
+eyJoaXN0b3J5IjpbMTYzNTUyNzIzNl19
 -->
