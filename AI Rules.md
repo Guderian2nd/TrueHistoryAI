@@ -27,6 +27,7 @@ SkillTargetSpot is DealHigh
 
 
 
+
 # THEN
 
 AttackUnit is VeryHigh
@@ -197,5 +198,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA5OTYxNTZdfQ==
+eyJoaXN0b3J5IjpbNzc2NzQyOTYyXX0=
 -->
