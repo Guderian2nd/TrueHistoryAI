@@ -27,7 +27,7 @@ SkillTargetSpot is DealHigh
 DeltaFightingUnitNum is High
 DeltaFightingUnitNum is Low
 
-RemainingGold is 
+RemainingGold is RemainGold
 
 
 
@@ -203,5 +203,5 @@ DoQuestTask is Low
 
 DoQuestTask is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMjY2MjUwXX0=
+eyJoaXN0b3J5IjpbLTExNDA1MjQ4Ml19
 -->
