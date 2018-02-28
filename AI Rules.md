@@ -313,12 +313,14 @@ IF SkillEffect is RestoreHP AND SkillTargetSpot is DamageHigh THEN UseSkill is H
 IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN UseSkill is High
 IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
 IF DeltaFightingUnitNum is DeltaUnitHigh THEN NeedFightingUnit is High
+IF DeltaFightingUnitNum is DeltaUnitMedium THEN NeedFightingUnit is Medium
 IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is Low
-IF RemainingGold is RemainGoldLow THEN NeedFightingUnit is Low
-IF RemainingLabor is RemainLaborLow THEN NeedFightingUnit is Low
+IF RemainingGold is RemainGoldLow THEN NeedFightingUnit is VeryLow
+IF RemainingLabor is RemainLaborLow THEN NeedFightingUnit is VeryLow
 IF NeedFightingUnit is High THEN BuildFightingUnit is High
-IF THEN
+IF NeedFightingUnit is Medium THEN BuildFightingUnit is Medium
+IF NeedFightingUnit is Low 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDY4NjE3NV19
+eyJoaXN0b3J5IjpbLTY2MjE0MzIxMl19
 -->
