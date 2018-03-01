@@ -47,6 +47,8 @@ If NeedPioneer is Low THEN BuildPioneer is Low
 
 IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
 
+IF EnemyFightingUnitNum is FightingUnitNumMedium THEN BuildMilitaryBuilding is Medium
+
 IF EnemyFightingUnitNum is FightingUnitNumLow THEN BuildMilitaryBuilding is Low
 
 IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBuilding is High
@@ -266,7 +268,8 @@ CityMedium: [-20,-10,+10,+20]
 
 CityLow: [-infinity,-20,-10]
 
-FightingUnitNumHigh: [
+FightingUnitNumHigh: [25,50,+infinity]
+FightingUN
 
 
 ## IF
@@ -784,5 +787,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQxMjU2MTAsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTAwMDgxODIwLDMwMTQ0MjI2Ml19
 -->
