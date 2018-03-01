@@ -472,7 +472,7 @@ DamageLow:  [-infinity, -0.6, -0.3]
 
 DealHigh: [1,3,+infinity]
 
-DealLow:
+DealLow: [-
 
 DistEnemHigh: 
 
@@ -1018,6 +1018,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMxNzM5OTMsLTExNTMwMDgwMjYsMz
+eyJoaXN0b3J5IjpbLTEwMDMxMzk2ODEsLTExNTMwMDgwMjYsMz
 AxNDQyMjYyXX0=
 -->
