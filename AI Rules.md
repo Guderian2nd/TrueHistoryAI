@@ -23,6 +23,7 @@ IF NeedFightingUnit is Low THEN BuildFightingUnit is Low
 
 IF NeedFightingUnit is VeryLow THEN BuildFightingUnit is VeryLow
 
+---
 
 IF DeltaCityNum is CityHigh THEN NeedCity is Low
 
@@ -46,7 +47,7 @@ If NeedPioneer is High THEN BuildPioneer is High
 
 If NeedPioneer is Low THEN BuildPioneer is Low
 
-
+---
 
 
 IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
@@ -64,7 +65,7 @@ IF RemainingGold is RemainGoldLow THEN BuildMilitaryBuilding is VeryLow
 IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
 
 
-
+---
 
 IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoFull is VeryHigh
 
@@ -74,6 +75,7 @@ IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoDouble is VeryHigh
 
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
 
+---
 
 IF NeedLabor is High THEN HappinessGoal is HVeryHigh
 
@@ -90,6 +92,8 @@ IF RemainingLabor is VeryLow OR RemainingLabor is Low THEN NeedLabor is VeryHigh
 IF RemainingLabor is RemainLaborVeryHigh OR RemainingLabor is RemainLaborHigh THEN NeedLabor is VeryLow
 
 IF RemainingLabor is RemainLaborMedium THEN NeedLabor is Medium
+
+---
 
 IF TechLost is TechLostHigh THEN NeedTech is VeryHigh
 
@@ -111,6 +115,8 @@ IF NeedTech is Medium THEN TechInvest is TMedium
 
 IF NeedTech is Low THEN TechInvest is TLow
 
+
+---
 
 IF DmgUnitNum is UnitNumHigh THEN NeedLogistics is High
 
@@ -877,5 +883,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMxNjQ4MjAsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTUwNDI5MDU4MCwzMDE0NDIyNjJdfQ==
 -->
