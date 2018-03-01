@@ -333,7 +333,11 @@ TMedium: [0.5,0.75,1.25,1.5]
 TLow: <0,0,0.5,1]
 
 
-UnitNumHigh: [
+UnitNumHigh: [0.5,0.75,1,1>
+
+UnitNumMedium: [0.2,0.4,0.6,0.8]
+
+UnitNumLow: [
 
 
 
@@ -853,5 +857,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTA3NzUwNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTcyNDg5NjcyNywzMDE0NDIyNjJdfQ==
 -->
