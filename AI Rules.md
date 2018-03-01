@@ -80,6 +80,7 @@ ibid. for Labor
 
 IF TechLost is TechLostHigh THEN NeedTech is VeryHigh
 IF TechLost is TechLostMedium THEN NeedTech is High
+IF T
 
 IF Tech is TechHigh THEN NeedTech is Low
 
@@ -745,5 +746,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU2MzMzMTAsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTE1NzYzOTk2NywzMDE0NDIyNjJdfQ==
 -->
