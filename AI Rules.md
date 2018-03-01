@@ -286,31 +286,52 @@ DeltaHappyGoalHigh: <0,0,+infinity>
 
 DeltaHappyGoalLow: <-infinity,0,0>
 
+
 HVeryHigh: [50,75,100,100>
+
 HHigh: [25,50,75,100]
+
 HMedium: [-50,-25,25,50]
+
 HLow: [-100,-75,-50,-25]
+
 HVeryLow: <-100,-100,-75,-50]
 
+
 TechLostHigh: [2500,5000,+infinity]
+
 TechLostMedium: [0,2500,5000,7500]
+
 TechLostLow: <0,0,2500,5000]
 
+
 GoldHigh: [2500, 5000, +infinity]
+
 GoldNormal: [0,2500,5000,7500]
+
 GoldLow: <0,0,2500,5000]
 
+
 TechHigh: [10000,20000,+infinity]
+
 TechNormal: [5000,10000,20000,25000]
+
 TechLow: <0,0,5000,10000]
 
+
 LaborHigh: [1000,2000,+infinity]
+
 LaborNormal: [250,500,1000,1500]
+
 LaborLow: [0,100,250,500]
 
+
 THigh: [1,1.5,2,2>
+
 TMedium: [0.5,0.75,1.25,1.5]
+
 TLow: <0,0,0.5,1]
+
 
 UnitNumHigh: [
 
@@ -832,5 +853,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE0ODE1MTYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTU0NTA3NzUwNiwzMDE0NDIyNjJdfQ==
 -->
