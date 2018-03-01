@@ -602,9 +602,9 @@ QuestReward is Gold/Labor/Happy/Tech THEN DoQuestTask is Medium
 QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
-# per unit ruyle
+# per unit rules
 
 as
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjkxMzg5MiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMjA0MTcxNTMyNCwzMDE0NDIyNjJdfQ==
 -->
