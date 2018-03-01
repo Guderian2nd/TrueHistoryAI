@@ -199,7 +199,17 @@ NeedGold: 금이 필요한 정도
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
 
-NeedLabor
+NeedLabor: 노동력이 필요한 정도
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
+
+NeedTech: 기술력이 필요한 정도
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
+
+
+
+
 
 
 
@@ -731,5 +741,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0MjYwMzcyLDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTk0OTY0Mjk5OSwzMDE0NDIyNjJdfQ==
 -->
