@@ -455,6 +455,9 @@ SpotMyCityDist: 현재 타일에서 제일 가까운 내 도시까지의 거리�
 *  (-infinity,+infinity)
 * Def. (목표 타일에 제일 가까운 내 도시까지의 거리) - (현재 타일에 제일 가까운 내 도시까지의 거리)
 
+MoveUnittoSpot: 한 유닛을 한 특정한 장소로 이동시키는 Task의 점수
+
+
 
 ## Sets
 
@@ -543,6 +546,8 @@ IF NeedCity is Low THEN DeployCitytoPioneer is Medium
 CityatSpotRsrcBuildingNum:
 
 SpotRsrcBuildingNear :
+
+SpotMyUnitDist
 
 
 
@@ -1024,6 +1029,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjc3MzUyNDMsLTExNTMwMDgwMjYsMz
-AxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTM4NzUxODc1MywtMTE1MzAwODAyNiwzMD
+E0NDIyNjJdfQ==
 -->
