@@ -602,9 +602,14 @@ QuestReward is Gold/Labor/Happy/Tech THEN DoQuestTask is Medium
 QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
-# per unit rules
+# Per Unit Rules
 
-as
+
+# Per Quest Rules
+
+# Per Building Rules
+
+# Per
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTcxNTMyNCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTk1OTMwNTUyOCwzMDE0NDIyNjJdfQ==
 -->
