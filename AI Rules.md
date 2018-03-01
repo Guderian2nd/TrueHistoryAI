@@ -589,6 +589,16 @@ IF NeedLogistics is Low THEN Logistics is LLow
 IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
 
+
+
+
+# Per MoveTask Rules
+
+
+# Per Quest(Pending) Rules
+
+# Per Quest(Accepted) Rules
+
 IF QuestReward is UltimateWeaponRsrc THEN DoQuestTask is VeryHigh
 
 If QuestReward is MilitarySpecRsrc THEN DoQuestTask is High
@@ -601,15 +611,9 @@ QuestReward is Gold/Labor/Happy/Tech THEN DoQuestTask is Medium
 
 QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
-
-# Per Unit Rules
-
-
-# Per Quest Rules
-
 # Per Building Rules
 
-# Per
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTMwNTUyOCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTk2Njk1OTg0NSwzMDE0NDIyNjJdfQ==
 -->
