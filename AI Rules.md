@@ -41,19 +41,6 @@ If NeedPioneer is High THEN BuildPioneer is High
 If NeedPioneer is Low THEN BuildPioneer is Low
 
 
-IF BuildingProdResource is Gold AND Gold is GoldVeryLow THEN BuildResourceBuilding is VeryHigh
-
-IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding is High
-
-IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuilding is Medium
-
-.
-
-.
-
-.
-
-IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 
 
 IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
@@ -165,12 +152,22 @@ DeltaCityNum: 적 도시 갯수와 내 잠재적 도시 갯수와의 차이
 * Def. (My City Number + My Pioneer Number) - (1.5 × Enemy City Number)
 
 NeedCity: 도시가 필요한 정도
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
 NeedPioneer: 개척자가 필요한 정도
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
+
 
 BuildCityCenter: 실제로 도시를 생산할 정도
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
 BuildPioneer: 실제로 개척자를 생산할 정도
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
+
 
 
 
@@ -668,5 +665,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDM3Njk0NiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTkzMzc2NTA3MCwzMDE0NDIyNjJdfQ==
 -->
