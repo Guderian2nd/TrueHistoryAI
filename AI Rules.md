@@ -547,11 +547,13 @@ IF NeedCity is Low THEN DeployCitytoPioneer is Medium
 
 CityatSpotRsrcBuildingNum: 해당 Deploy Task가 Deploy하려는 위치(도시)에 존재하는 동일 종류의 자원 건물의 갯수
 * [0,infinity)
-* Def. 
+* Def. 해당 Deploy Task가 Deploy하려는 위치(도시)에 존재하는 동일 종류의 자원 건물의 갯수
 
-SpotRsrcBuildingNear :
+SpotRsrcBuildingNear : 해당 Deploy Task가 Deploy하려는 타일 주변에 존재하는 자원건물의 갯수
+* [0,infinity)
+* Def. 해당 Deploy Task가 Deploy하려는 타일 3칸 이내에 존재하는 자원 타일 건물들의 갯수
 
-SpotMyUnitDist: 
+SpotMyUnitDist: 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 아군 유닛
 
 DeployUnittoCity:
 * (-infinity,+infinity)
@@ -1051,6 +1053,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODM0NjA2MSwtMTE1MzAwODAyNiwzMD
-E0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE3NTYwNTU2MzAsLTExNTMwMDgwMjYsMz
+AxNDQyMjYyXX0=
 -->
