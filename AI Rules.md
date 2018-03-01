@@ -223,15 +223,9 @@ DmgUnitNum: 피해를 입은 유닛의 갯수
 * [0, +infinity)
 * Def. 피해를 입은 유닛의 갯수
 
-NeedLogistics: 
-
-
-
-
-
-
-
-
+NeedLogistics: 병참이 필요한 정도
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
 
 ## Sets
@@ -240,6 +234,7 @@ DeltaUnitHigh: [0,50,+infinity]
 DeltaUnitMedium: [-70, -30, 30, 70]
 DeltaUnitLow: [-infinity, -50, 0]
 
+RemainGold
 
 ## IF
 
@@ -756,5 +751,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY5NTIwMDksMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbNzMwNjk3NjE0LDMwMTQ0MjI2Ml19
 -->
