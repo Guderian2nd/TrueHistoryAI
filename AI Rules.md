@@ -545,21 +545,32 @@ IF NeedCity is Low THEN DeployCitytoPioneer is Medium
 
 ## Variables
 
-CityatSpotRsrcBuildingNum:
+CityatSpotRsrcBuildingNum: 해당 Deploy Task가 Deploy하려는 위치(도시)에 존재하는 동일 종류의 자원 건물의 갯수
+*[0,infinity
 
 SpotRsrcBuildingNear :
 
 SpotMyUnitDist: 
 
 DeployUnittoCity:
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
 DeployInteriorBuildingtoSpot:
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
 DeployTileResourceBuildingtoSpot:
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
 DeployMilitaryBuildingtoSpot: 
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
 DeployCitytoPioneer:
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
 ## Sets
 
@@ -1039,6 +1050,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODcxNjIyMzcsLTExNTMwMDgwMjYsMz
-AxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbODY0NTMzNzA1LC0xMTUzMDA4MDI2LDMwMT
+Q0MjI2Ml19
 -->
