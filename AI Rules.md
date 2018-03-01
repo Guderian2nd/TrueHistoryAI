@@ -20,9 +20,9 @@ IF NeedFightingUnit is Low THEN BuildFightingUnit is Low
 IF NeedFightingUnit is VeryLow THEN BuildFightingUnit is VeryLow
 
 
-IF DeltaCityNum is High THEN NeedCity is Low
+IF DeltaCityNum is CityHigh THEN NeedCity is Low
 
-IF DeltaCityNum is Low THEN NeedCity is High
+IF DeltaCityNum is CityLow THEN NeedCity is High
 
 IF NeedCity is Low THEN NeedPioneer is VeryLow
 
@@ -156,7 +156,7 @@ NeedFightingUnit: 전투유닛이 필요한 정도
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
 
-
+DeltaCityNum: 적
 
 
 
@@ -649,5 +649,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzgxMzQ0MjQsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTkzNjE3MjEyOCwzMDE0NDIyNjJdfQ==
 -->
