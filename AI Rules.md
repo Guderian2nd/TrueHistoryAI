@@ -154,7 +154,7 @@ RemainingLabor: 턴당 노동력의 여유로운 정도
 
 NeedFightingUnit: 전투유닛이 필요한 정도
 * (-infinity,+infinity)
-* Def. [VeryLow, Low, Medium
+* Def. [VeryLow, Low, Medium, Low, Hgi
 
 
 
@@ -647,5 +647,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjEzNDg3NywzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE0NzQyNzQzNDksMzAxNDQyMjYyXX0=
 -->
