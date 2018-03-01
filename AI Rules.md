@@ -452,12 +452,6 @@ SpotMyCityDist: 현재 타일에서 제일 가까운 내 도시까지의 거리�
 * Def. (목표 타일에 제일 가까운 내 도시까지의 거리) - (현재 타일에 제일 가까운 내 도시까지의 거리)
 
 
-
-
-SpotEnemDist
-
-SpotEnemDist
-
 ## Sets
 
 # Per AttackTask Rules
@@ -996,5 +990,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ2OTE0MTgwLDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
