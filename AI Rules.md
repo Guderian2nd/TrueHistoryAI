@@ -156,7 +156,7 @@ NeedFightingUnit: 전투유닛이 필요한 정도
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
 
-DeltaCityNum: 적
+DeltaCityNum: 적 도시 갯수와 내 도시 
 
 
 
@@ -649,5 +649,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjE3MjEyOCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMjE0NDY3MDAzMywzMDE0NDIyNjJdfQ==
 -->
