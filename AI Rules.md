@@ -139,8 +139,10 @@ IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
 ## Variables
 
-DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유닛 갯수와의 차이, [
+DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유닛 갯수와의 차이
 * (My Fighting Unit Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
+
+
 
 
 
@@ -627,5 +629,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjA4NTQ5MCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbNTM2ODkzMDcxLDMwMTQ0MjI2Ml19
 -->
