@@ -399,7 +399,7 @@ IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is VeryHigh
 
 IF SpotDamage is DamageHigh THEN MoveUnittoSpot is VeryLow
 
-IF SpotDamage is Damage
+IF SpotDamage is DamageLow THEN MoveUnittoS
 
 IF SpotDeal is DealHigh THEN MoveUnittoSpot is High
 
@@ -1012,6 +1012,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ0NzY2MTYsLTExNTMwMDgwMjYsMz
+eyJoaXN0b3J5IjpbLTE4ODMyMjY2NzYsLTExNTMwMDgwMjYsMz
 AxNDQyMjYyXX0=
 -->
