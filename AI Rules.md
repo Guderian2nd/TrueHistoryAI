@@ -290,7 +290,7 @@ HVeryHigh: [50,75,100,100>
 HHigh
 HMedium
 HLow
-H
+HVeryLow
 
 
 
@@ -809,5 +809,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDEwMDQxOSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTM0ODU1NDcwNSwzMDE0NDIyNjJdfQ==
 -->
