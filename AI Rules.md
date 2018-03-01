@@ -207,6 +207,9 @@ NeedTech: 기술력이 필요한 정도
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
 
+TechLost: 기술력을 일어버렸는지 아닌지
+* [0,1]
+* Def. True OR False 인 Crisp Boolean Function
 
 
 
@@ -741,5 +744,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTY0Mjk5OSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTIxMzU5NjA5NjEsMzAxNDQyMjYyXX0=
 -->
