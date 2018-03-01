@@ -461,7 +461,7 @@ DealHigh
 DistEnemHigh
 DistEnemLow
 DistMyCityHigh
-DistMy
+DistMyCityLow
 
 # Per AttackTask Rules
 
@@ -999,6 +999,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzMyMjY4NywtMTE1MzAwODAyNiwzMD
+eyJoaXN0b3J5IjpbLTc5MjY5MDYxOCwtMTE1MzAwODAyNiwzMD
 E0NDIyNjJdfQ==
 -->
