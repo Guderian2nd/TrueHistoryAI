@@ -440,11 +440,12 @@ SpotDamage: 현재 타일에서 적 유닛들에게서 받을수 있는 총 데�
 
 SpotDeal: 현재 타일에서 다음 서브턴에 공격할수 있는 적 유닛들의 갯수와 해당 MoveTask가 이동하고자하는 타일에서 다음 서브턴에 공격할수 있는 적 유닛들의 갯수(스킬 제외, 이동공격포함)의 차
 *  (-infinity,+infinity)
-* Def. (해당 타일에 근접해 있거나 이동공격할수 있는 유닛의 갯수)
+* Def. (목표 타일에 근접해 있거나 이동공격할수 있는 유닛의 갯수) - 
+* (현재 타일에 근접해 있거나 이동공격할수 있는 유닛의 갯수)
 
 SpotEnemDist: 현재 일에서 제일 가까운 적 유닛/도시까지의 거리와 해당 MoveTask가 이동하고자 하는 타일에서 제일 가까운 적 유닛/도시까지의 거리의 차
 * [0,+infinity)
-* Def. (해당 타일에 제일 가까운 적 유닛/도시까지의 거리)
+* Def. (목표 타일에 제일 가까운 적 유닛/도시까지의 거리)
 
 SpotMyCityDist: 해당 MoveTask가 이동하고자 하는 타일에서 제일 가까운 내 도시까지의 거리
 
@@ -994,5 +995,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4MjExMjM3LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTEzNTc4MzI3NTEsMzAxNDQyMjYyXX0=
 -->
