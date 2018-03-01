@@ -264,7 +264,7 @@ NeedFightingUnit is High
 
 NeedFightingUnit is Medium
 
-NeedFightingUnit is VeryLow
+NeedFightingUnit is Low
 
 NeedFightingUnit is VeryLow
 
@@ -784,5 +784,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NDg5NSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTY0NTQ5NjA3MSwzMDE0NDIyNjJdfQ==
 -->
