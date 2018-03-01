@@ -456,6 +456,8 @@ SpotMyCityDist: 현재 타일에서 제일 가까운 내 도시까지의 거리�
 * Def. (목표 타일에 제일 가까운 내 도시까지의 거리) - (현재 타일에 제일 가까운 내 도시까지의 거리)
 
 MoveUnittoSpot: 한 유닛을 한 특정한 장소로 이동시키는 Task의 점수
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
 
 
@@ -547,7 +549,7 @@ CityatSpotRsrcBuildingNum:
 
 SpotRsrcBuildingNear :
 
-SpotMyUnitDist
+SpotMyUnitDist: 
 
 
 
@@ -1029,6 +1031,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzUxODc1MywtMTE1MzAwODAyNiwzMD
-E0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE0NTc5NjY5ODgsLTExNTMwMDgwMjYsMz
+AxNDQyMjYyXX0=
 -->
