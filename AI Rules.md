@@ -466,7 +466,7 @@ HPLow: [-infinity, 0.3, 0.6]
 
 DamageHigh: [0.3,0.6,+infinity]
 
-DamageLow:  [-infinity,
+DamageLow:  [-infinity, -0.6, -0.3]
 
 DealHigh
 
@@ -1014,6 +1014,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDA0NTM1NTQsLTExNTMwMDgwMjYsMz
-AxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTk0MzI5MzA2NCwtMTE1MzAwODAyNiwzMD
+E0NDIyNjJdfQ==
 -->
