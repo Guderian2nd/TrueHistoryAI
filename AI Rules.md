@@ -426,11 +426,13 @@ MyUnitHP: 해당 MoveTask의 주체가 만약 이 Task를 시행했을시의 결
 * [0,1]
 * Def. (해당 Task를 실행후 남아있는 유닛의 실제 HP)/(유닛의 풀HP)
 
-EnemyUnitHP: 만약 해당 MoveTask가 Moving Attack일 경우, 공격받는 적 유닛의 Task시행후 남아있는 HP의 비율
+EnemyUnitHP: 만약 해당 MoveTask가 Moving Attack이며 공격대상이 일반적 유닛일때, 공격받는 적 유닛의 Task시행후 남아있는 HP의 비율
 * [0,1]
 * Def. (해당 Task를 실행후 남아있는 공격받은 적 유닛의 실제 HP)/(유닛의 풀HP)
 
-SpotDamage: 해당 MoveTask가 이동하고자 하는 장소에서 근접해있는 유닛들에게서 받을수 있는 총 데미지량
+EnemyCityHP: 만약 해당 MoveTask가 Moving Attack이며 공격대상이 도시일때, 공격받는 적 유닛의 Task시행후 남아있는 HP의 비율
+
+SpotDamage: 해당 MoveTask가 이동하고자 하는 장소에서 근접해있는 유닛들에게서 받을수 있는 총 데미지량(스킬 제외)
 
 SpotDeal
 
@@ -976,5 +978,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzM5NjUwNCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTQ5ODIyMjE4LDMwMTQ0MjI2Ml19
 -->
