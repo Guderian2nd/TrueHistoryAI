@@ -71,9 +71,10 @@ IF NeedGold is VeryHigh THEN HappinessGoal is HLow
 
 IF RemainingGold is VeryLow OR RemainingGold is Low THEN NeedGold is VeryHigh
 
-IF RemainingGold is VeryHigh OR RemainingGold is High THEN NeedGold is VeryLow
+IF RemainingGold is RemainGoldVeryHigh OR RemainingGold is RemainGoldHigh THEN NeedGold is VeryLow
 
-IF RemainingGold is 
+IF RemainingGold is RemainGoldMedium THEN NeedGold is Medium
+
 ibid. for Labor
 
 
@@ -194,7 +195,7 @@ Happy: 현재 행복도
 * [-100,+100]
 * Def. 현재 행복도
 
-NeedGold
+NeedGold: 금
 
 
 
@@ -727,5 +728,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0MjEzOTk5LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMjEwNDMwNTEwMCwzMDE0NDIyNjJdfQ==
 -->
