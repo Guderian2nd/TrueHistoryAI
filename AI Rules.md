@@ -173,6 +173,19 @@ HappinessGoal: 목표행복도
 * [-100,100]
 * Def. 목표행복도
  
+Gold: 현재 금 보유량
+* [0, +infinity)
+* Def. 현재 금 보유량
+
+Tech: 현재 금 보유량
+* ibid.
+
+Gold: 현재 금 보유량
+* [0, +infinity)
+* Def. 현재 금 보유량
+Gold: 현재 금 보유량
+* [0, +infinity)
+* Def. 현재 금 보유량
 
 
 
@@ -706,5 +719,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDM0ODQ2NywzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTU3MzA4MTU0OCwzMDE0NDIyNjJdfQ==
 -->
