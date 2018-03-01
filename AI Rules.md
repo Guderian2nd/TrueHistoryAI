@@ -177,15 +177,15 @@ Gold: 현재 금 보유량
 * [0, +infinity)
 * Def. 현재 금 보유량
 
-Tech: 현재 금 보유량
+Tech: 현재 기술력 보유량
 * ibid.
 
-Gold: 현재 금 보유량
-* [0, +infinity)
-* Def. 현재 금 보유량
-Gold: 현재 금 보유량
-* [0, +infinity)
-* Def. 현재 금 보유량
+Labor: 현재 노동력 보유량
+* ibid.
+
+Happy: 현재 금 보유량
+* [-100,+100]
+* De
 
 
 
@@ -719,5 +719,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzA4MTU0OCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTEwMzQ1NDAwNTYsMzAxNDQyMjYyXX0=
 -->
