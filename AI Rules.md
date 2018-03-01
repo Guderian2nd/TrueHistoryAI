@@ -247,15 +247,18 @@ RemainGoldLow: [-1500,-1000,-500,0]
 
 RemainGoldVeryLow: [-infinity,-1000,-500]
 
-RemainGoldVeryHigh: [500,1000,+infinity]
+RemainLaborVeryHigh: [500,1000,+infinity]
 
-RemainGoldHigh: [0, 500,1000,1500]
+RemainLaborHigh: [0, 500,1000,1500]
 
-RemainGoldMedium: [-750,-250,250,750]
+RemainLaborMedium: [-750,-250,250,750]
 
-RemainGoldLow: [-1500,-1000,-500,0]
+RemainLaborLow: [-1500,-1000,-500,0]
 
-RemainGoldVeryLow: [-infinity,-1000,-500]
+RemainLaborVeryLow: [-infinity,-1000,-500]
+
+
+NeedFightingUnit
 
 
 ## IF
@@ -773,5 +776,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDQyNjQzOCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMjAzOTY0NTk1MCwzMDE0NDIyNjJdfQ==
 -->
