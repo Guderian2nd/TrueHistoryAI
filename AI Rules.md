@@ -602,5 +602,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTc0MzI4ODM3NCwzMDE0NDIyNjJdfQ==
 -->
