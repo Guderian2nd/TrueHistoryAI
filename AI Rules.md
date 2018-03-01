@@ -157,10 +157,11 @@ EnemyFightingUnitNum: 적 전투유닛의 갯수
  * [0, +infinity)
 * Def. 각 개별적 내 전투유닛들과 가장 가까운 적 전투유닛과의 거리의 평균
 
-DeltaHappyGoal: 내 목표행복도와 현재 행복도와의 차이 정도
-*[-200, +200]
+DeltaHappyGoal: 내 목표행복도(Happiness Goal)와 현재 행복도와의 차이 정도
+* [-200, +200]
+* Def. HappinessGoal - 현재 행복도
 
- 
+SetEconInvesttoFu 
 
 
 
@@ -693,5 +694,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg5Mjk5NzcsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTgzMzQyNDk0OCwzMDE0NDIyNjJdfQ==
 -->
