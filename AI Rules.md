@@ -141,7 +141,9 @@ IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
 
 ## Sets
-# IF
+
+
+## IF
 
 MyUnitHP is HPHigh
 
@@ -310,7 +312,7 @@ NeedLogistics is Low
 
 
 
-# THEN
+## THEN
 
 AttackUnit is VeryHigh
 
@@ -621,5 +623,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyNjU2NTY2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTY2NDc3NjMyOCwzMDE0NDIyNjJdfQ==
 -->
