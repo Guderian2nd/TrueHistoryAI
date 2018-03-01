@@ -418,6 +418,20 @@ IF SpotMyCityDist is DistMyCityLow AND MyUnit is Pioneer THEN MoveUnittoSpot is 
 
 ## Variables
 
+MyUnit
+
+MyUnitHP
+
+EnemyUnitHP
+
+SpotDamage
+
+SpotDeal
+
+SpotEnemDist
+
+
+
 ## Sets
 
 # Per AttackTask Rules
@@ -956,5 +970,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzM4NzE0OCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE2NTQ0MTExODIsMzAxNDQyMjYyXX0=
 -->
