@@ -555,8 +555,11 @@ DeployUnittoCity:
 
 DeployInteriorBuildingtoSpot:
 
+DeployTileResourceBuildingtoSpot:
 
+DeployMilitaryBuildingtoSpot: 
 
+DeployCitytoPioneer:
 
 ## Sets
 
@@ -1036,6 +1039,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Nzg1NTIwNywtMTE1MzAwODAyNiwzMD
-E0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTEzODcxNjIyMzcsLTExNTMwMDgwMjYsMz
+AxNDQyMjYyXX0=
 -->
