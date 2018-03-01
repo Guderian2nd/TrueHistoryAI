@@ -85,8 +85,11 @@ IF RemainingGold is RemainGoldVeryHigh OR RemainingGold is RemainGoldHigh THEN N
 
 IF RemainingGold is RemainGoldMedium THEN NeedGold is Medium
 
+IF RemainingLabor is VeryLow OR RemainingLabor is Low THEN NeedLabor is VeryHigh
+
 IF RemainingLabor is RemainLaborVeryHigh OR RemainingLabor is RemainLaborHigh THEN NeedLabor is VeryLow
 
+IF RemainingLabor is RemainLaborMedium THEN NeedLabor is Medium
 
 IF TechLost is TechLostHigh THEN NeedTech is VeryHigh
 
@@ -874,5 +877,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE1NzMxODUsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTEyNzMxNjQ4MjAsMzAxNDQyMjYyXX0=
 -->
