@@ -55,12 +55,6 @@ IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
 
 
 
-IF NeedCity is High THEN DeployCitytoPioneer is High
-
-IF NeedCity is Medium THEN DeployCitytoPioneer is High
-
-IF NeedCity is Low THEN DeployCitytoPioneer is Medium
-
 
 IF QuestReward is UltimateWeaponRsrc THEN AcceptQuest is VeryHigh
 
@@ -168,7 +162,7 @@ BuildPioneer: 실제로 개척자를 생산할 정도
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
 
-
+EnemyFightingUnitNum: 적 전튜
 
 
 
@@ -627,7 +621,15 @@ IF SpotRsrcBuildingNear is SpotRsrcBuildingNearLow THEN DeployTileResourceBuildi
 
 IF SpotMyUnitDist is MyUnitDistLow THEN DeployMilitaryBuildingtoSpot is High
 
-IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is Low]
+IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is Low
+
+
+IF NeedCity is High THEN DeployCitytoPioneer is High
+
+IF NeedCity is Medium THEN DeployCitytoPioneer is High
+
+IF NeedCity is Low THEN DeployCitytoPioneer is Medium
+
 
 # Per UseSkillTask Rules
 
@@ -664,6 +666,19 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 # Per Building Rules
 
 
+IF BuildingProdResource is Gold AND Gold is GoldVeryLow THEN BuildResourceBuilding is VeryHigh
+
+IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding is High
+
+IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuilding is Medium
+
+.
+
+.
+
+.
+
+IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzc2NTA3MCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTY1MDUxMjQ5MCwzMDE0NDIyNjJdfQ==
 -->
