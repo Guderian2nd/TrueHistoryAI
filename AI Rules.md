@@ -162,9 +162,17 @@ DeltaHappyGoal: 내 목표행복도(Happiness Goal)와 현재 행복도와의 �
 * Def. HappinessGoal - 현재 행복도
 
 SetEconInvesttoFull: 민간계투자량을 100%로 하고싶은 정도
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
+SetEconInvesttoDouble: 민간계투자량을 200%로 하고싶은 정도
+ * (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
- 
+HappinessGoal: 목표행복도
+* [-100,100]
+* 
+
 
 
 
@@ -697,5 +705,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjc2NTc5OCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTA5NzY1ODkwNSwzMDE0NDIyNjJdfQ==
 -->
