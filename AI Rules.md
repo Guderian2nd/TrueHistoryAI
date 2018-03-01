@@ -632,6 +632,7 @@ BuildFightingUnit is Low
 
 BuildFightingUnit is VeryLow
 
+---
 
 BuildResourceBuilding is VeryHigh
 
@@ -643,6 +644,7 @@ BuildResourceBuilding is Low
 
 BuildResourceBuilding is VeryLow
 
+---
 
 BuildMilitaryBuilding is VeryHigh
 
@@ -654,6 +656,7 @@ BuildMilitaryBuilding is Low
 
 BuildMilitaryBuilding is VeryLow
 
+---
 
 DeployUnittoCity is VeryHigh
 
@@ -665,6 +668,7 @@ DeployUnittoCity is Low
 
 DeployUnittoCity is VeryLow
 
+---
 
 DeployInteriorBuildingtoCity is VeryHigh
 
@@ -676,6 +680,7 @@ DeployInteriorBuildingtoCity is Low
 
 DeployInteriorBuildingtoCity is VeryLow
 
+---
 
 DeployTileResourceBuildingtoSpot is VeryHigh
 
@@ -688,6 +693,7 @@ DeployTileResourceBuildingtoSpot is Low
 DeployTileResourceBuildingtoSpot is VeryLow
 
 
+---
 DeployMilitaryBuildingtoSpot is VeryHigh
 
 DeployMilitaryBuildingtoSpot is High
@@ -698,6 +704,7 @@ DeployMilitaryBuildingtoSpot is Low
 
 DeployMilitaryBuildingtoSpot is VeryLow
 
+---
 
 DeployCitytoPioneer is VeryHigh
 
@@ -710,6 +717,7 @@ DeployCitytoPioneer is Low
 DeployCitytoPioneer is VeryLow
 
 
+---
 AcceptQuest is VeryHigh
 
 AcceptQuest is High
@@ -721,6 +729,7 @@ AcceptQuest is Low
 AcceptQuest is VeryLow
 
 
+---
 HappinessGoal is HVeryHigh
 
 HappinessGoal is HHigh
@@ -731,6 +740,7 @@ HappinessGoal is HLow
 
 HappinessGoal is HVeryLow
 
+---
 
 SetEconInvesttoDouble is VeryHigh
 
@@ -740,6 +750,7 @@ SetEconInvesttoFull is VeryHigh
 
 SetEconInvesttoFull is VeryLow
 
+---
 
 Logistics is LVeryHigh
 
@@ -751,6 +762,7 @@ Logistics is LLow
 
 Logistics is LVeryLow
 
+---
 
 DoQuestTask is VeryHigh
 
@@ -761,13 +773,6 @@ DoQuestTask is Medium
 DoQuestTask is Low
 
 DoQuestTask is VeryLow
-
----
-
-
-
-
-
 
 
 
@@ -922,5 +927,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjczNjQ3LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTE3MTQzNzk5NDQsMzAxNDQyMjYyXX0=
 -->
