@@ -154,6 +154,7 @@ RemainingLabor: 턴당 노동력의 여유로운 정도
 
 
 
+
 ## Sets
 
 DeltaUnitHigh: [0,50,+infinity]
@@ -641,5 +642,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwNjYxMjcxLDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTE5NzYyMTU5MSwzMDE0NDIyNjJdfQ==
 -->
