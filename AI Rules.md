@@ -540,6 +540,12 @@ IF NeedCity is Low THEN DeployCitytoPioneer is Medium
 
 ## Variables
 
+CityatSpotRsrcBuildingNum:
+
+SpotRsrcBuildingNear :
+
+
+
 ## Sets
 
 
@@ -1018,6 +1024,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjMwOTQzNjMsLTExNTMwMDgwMjYsMz
+eyJoaXN0b3J5IjpbLTE1Mjc3MzUyNDMsLTExNTMwMDgwMjYsMz
 AxNDQyMjYyXX0=
 -->
