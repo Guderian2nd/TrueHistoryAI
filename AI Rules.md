@@ -137,7 +137,9 @@ IF NeedLogistics is Low THEN Logistics is LLow
 
 IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
-## V
+## Variables
+
+
 ## Sets
 # IF
 
@@ -619,5 +621,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTI1NjgzNywzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbNjMyNjU2NTY2LDMwMTQ0MjI2Ml19
 -->
