@@ -403,6 +403,8 @@ IF SpotDamage is DamageLow THEN MoveUnittoSpot is Medium
 
 IF SpotDeal is DealHigh THEN MoveUnittoSpot is High
 
+IF SpotDeal is DealLow THEN MoveUnittoSpot is Low
+
 IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit AND MyUnitHP is HPHigh THEN MoveUnittoSpot is High
 
 IF SpotEnemDist is DistEnemHigh AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
@@ -1014,6 +1016,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTcwODk1MTgsLTExNTMwMDgwMjYsMz
-AxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTcyNjA4NjYsLTExNTMwMDgwMjYsMzAxND
+QyMjYyXX0=
 -->
