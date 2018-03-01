@@ -260,7 +260,7 @@ RemainLaborLow: [-1500,-1000,-500,0]
 RemainLaborVeryLow: [-infinity,-1000,-500]
 
 
-CityHigh: [10,20,+
+CityHigh: [10,20,+i
 
 CityLow:
 
@@ -780,5 +780,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjM3MTAwNCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTA3MzY5MTA0MywzMDE0NDIyNjJdfQ==
 -->
