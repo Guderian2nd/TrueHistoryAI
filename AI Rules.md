@@ -260,6 +260,7 @@ DeltaUnitMedium: [-70, -50, 50, 70]
 
 DeltaUnitLow: [-infinity, -50, 0]
 
+---
 
 RemainGoldVeryHigh: [500,1000,+infinity]
 
@@ -281,6 +282,7 @@ RemainLaborLow: <0,0,50,100]
 
 RemainLaborVeryLow: [-infinity,-1000,-500]
 
+---
 
 CityHigh: [+10,+20,+infinity]
 
@@ -289,6 +291,7 @@ CityMedium: [-20,-10,+10,+20]
 CityLow: [-infinity,-20,-10]
 
 
+---
 FightingUnitNumHigh: [25,50,+infinity]
 
 FightingUnitNumMedium:[0,25,50,75]
@@ -300,11 +303,13 @@ EnemDistLow: [-infinity, 3,5]
 EnemDistHigh: [4,6,+infinity]
 
 
+---
 DeltaHappyGoalHigh: <0,0,+infinity>
 
 DeltaHappyGoalLow: <-infinity,0,0>
 
 
+---
 HVeryHigh: [50,75,100,100>
 
 HHigh: [25,50,75,100]
@@ -315,6 +320,7 @@ HLow: [-100,-75,-50,-25]
 
 HVeryLow: <-100,-100,-75,-50]
 
+---
 
 TechLostHigh: [2500,5000,+infinity]
 
@@ -323,12 +329,14 @@ TechLostMedium: [0,2500,5000,7500]
 TechLostLow: <0,0,2500,5000]
 
 
+---
 GoldHigh: [2500, 5000, +infinity]
 
 GoldNormal: [0,2500,5000,7500]
 
 GoldLow: <0,0,2500,5000]
 
+---
 
 TechHigh: [10000,20000,+infinity]
 
@@ -337,12 +345,14 @@ TechNormal: [5000,10000,20000,25000]
 TechLow: <0,0,5000,10000]
 
 
+---
 LaborHigh: [1000,2000,+infinity]
 
 LaborNormal: [250,500,1000,1500]
 
 LaborLow: [0,100,250,500]
 
+---
 
 THigh: [1,1.5,2,2>
 
@@ -350,6 +360,7 @@ TMedium: [0.5,0.75,1.25,1.5]
 
 TLow: <0,0,0.5,1]
 
+---
 
 UnitNumHigh: [0.5,0.75,1,1>
 
@@ -359,6 +370,7 @@ UnitNumLow: [0,0.1,0.2,0.25]
 
 UnitNumVeryLow: <0>
 
+---
 
 LHigh: <1>
 
@@ -382,6 +394,7 @@ EnemyCityHP is HPHigh
 
 EnemyCityHP is HPLow
 
+---
 
 SpotDamage is DamageHigh
 
@@ -395,6 +408,7 @@ SpotMyCityDist is DistMyCityHigh
 
 SpotMyCityDist is DistMyCityLow
 
+---
 
 SkillEffect is DamageEnemy
 
@@ -404,6 +418,7 @@ SkillEffect is RestoreHP
 
 SkillEffect is Buff
 
+---
 
 SkillTargetHP is HPHigh
 
@@ -413,21 +428,25 @@ SkillTargetSpot is DamageHigh
 
 SkillTargetSpot is DealHigh
 
+---
 
 DeltaFightingUnitNum is DeltaUnitHigh
 
 DeltaFightingUnitNum is DeltaUnitLow
 
+---
 
 NeedFightingUnit is High
 
 NeedFightingUnit is Low
 
+---
 
 DeltaCityNum is DeltaCityHigh
 
 DeltaCityNum is DeltaCityLow
 
+---
 
 RemainingGold is RemainGoldHigh
 
@@ -438,9 +457,11 @@ RemainingLabor is RemainLaborHigh
 RemainingLabor is RemainLaborLow
 
 
+---
 BuildingProdResource is Gold/Labor/Tech/Happy
 
 
+---
 Gold is GoldHigh
 
 Gold is GoldMedium
@@ -452,28 +473,34 @@ Gold is GoldLow
 EnemyFightingUnitNum is FightingUnitNumHigh
 
 
+---
 AllMyUnitEnemDist is EnemDistHigh ... 
 
+---
 
 MyUnit is FightingUnit
 
 MyUnit is Pioneer
 
+---
 
 CityatSpotRsrcBuildingNum is RsrcBuildingNumHigh
 
 CityatSpotRsrcBuildingNum is RsrcBuildingNumLow
 
 
+---
 SpotRsrcBuildingNear is SpotRsrcBuildingNearHigh
 
 SpotRsrcBuildingNear is SpotRsrcBuildingNearLow
 
+---
 
 SpotMyUnitDist is MyUnitDistHigh
 
 SpotMyUnitDist is MyUnitDistLow
 
+---
 
 QuestReward is UltimateWeaponRsrc
 
@@ -487,12 +514,14 @@ QuestReward is Gold/Labor/Happy/Tech
 
 QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff
 
+---
 
 DeltaHappyGoal is DeltaHappyGoalHigh
 
 DeltaHappyGoal is DeltaHappyGoalLow
 
 
+---
 NeedLabor is High
 
 NeedLabor is Medium
@@ -507,6 +536,7 @@ NeedGold is Medium
 
 NeedGold is Low
 
+---
 
 Tech is TechHigh
 
@@ -515,12 +545,13 @@ Tech is TechMedium
 Tech is TechLow
 
 
+---
 NeedTech is High
 
 NeedTech is Medium
 
 NeedTech is Low
-
+---
 
 DmgUnitNum is High
 
@@ -883,5 +914,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDI5MDU4MCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE3MTUxMzMxMzQsMzAxNDQyMjYyXX0=
 -->
