@@ -602,9 +602,9 @@ QuestReward is Gold/Labor/Happy/Tech THEN DoQuestTask is Medium
 QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
-#
+# per uni
 
 as
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4NjQzMzQyLDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTE3NTU3NjgwMzEsMzAxNDQyMjYyXX0=
 -->
