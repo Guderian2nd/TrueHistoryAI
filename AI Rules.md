@@ -382,7 +382,6 @@ LVeryLow: <0>
 
 
 
-
 # Per MoveTask Rules
 
 
@@ -533,5 +532,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDM3NDk4MiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTAzMTcxNzQxNiwzMDE0NDIyNjJdfQ==
 -->
