@@ -71,7 +71,7 @@ IF NeedGold is VeryHigh THEN HappinessGoal is HLow
 
 IF RemainingGold is VeryLow THEN NeedGold is VeryHigh
 
-IF RemainingGold isVer
+IF RemainingGold is VeryHigh
 
 
 IF TechLost is True THEN NeedTech is VeryHigh
@@ -724,5 +724,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MTE4ODc1LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTQwOTc4ODExMiwzMDE0NDIyNjJdfQ==
 -->
