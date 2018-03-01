@@ -594,6 +594,7 @@ MoveFightingUnittoSpot is Low
 
 MoveFightingUnittoSpot is VeryLow
 
+---
 
 MovePioneertoSpot is VeryHigh
 
@@ -917,5 +918,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDUwMzkzOCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTM2NjgyODAzOSwzMDE0NDIyNjJdfQ==
 -->
