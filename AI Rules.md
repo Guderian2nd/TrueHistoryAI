@@ -234,7 +234,11 @@ DeltaUnitHigh: [0,50,+infinity]
 DeltaUnitMedium: [-70, -30, 30, 70]
 DeltaUnitLow: [-infinity, -50, 0]
 
-RemainGold
+RemainGoldVeryHigh: 
+RemainGoldHigh: 
+RemainGoldMedium: 
+RemainGoldLow: 
+RemainGoldVeryLow: 
 
 ## IF
 
@@ -751,5 +755,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwNjk3NjE0LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTIzMTU5OTkxNSwzMDE0NDIyNjJdfQ==
 -->
