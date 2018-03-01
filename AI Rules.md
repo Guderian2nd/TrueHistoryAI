@@ -185,7 +185,7 @@ Labor: 현재 노동력 보유량
 
 Happy: 현재 금 보유량
 * [-100,+100]
-* Def. 현재 행
+* Def. 현재 행복도
 
 
 
@@ -719,5 +719,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjQxNDg1NSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE5MDAyMjE2NDIsMzAxNDQyMjYyXX0=
 -->
