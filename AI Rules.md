@@ -426,8 +426,7 @@ MyUnitHP: 해당 MoveTask의 주체가 만약 이 Task를 시행했을시의 결
 * [0,1]
 * Def. (해당 Task를 실행후 남아있는 유닛의 실제 HP)/(유닛의 풀HP)
 
-
-EnemyUnitHP
+EnemyUnitHP: 만약 해당 MoveTask가 Moving Attack일 경우, 공격받는 적 ㅇ
 
 SpotDamage
 
@@ -975,5 +974,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjQ5Nzg4MiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTA1MzM0OTk4MiwzMDE0NDIyNjJdfQ==
 -->
