@@ -1,4 +1,4 @@
-[_TOC_]
+[[_TOC_]]
 
 
 
@@ -874,5 +874,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0NzA0NzAxLDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTY1Nzg5NDU3NywzMDE0NDIyNjJdfQ==
 -->
