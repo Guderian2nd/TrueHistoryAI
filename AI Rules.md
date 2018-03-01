@@ -79,6 +79,7 @@ ibid. for Labor
 
 
 IF TechLost is TechLostHigh THEN NeedTech is VeryHigh
+IF TechLost is TechLostMedium THEN NeedTech is High
 
 IF Tech is TechHigh THEN NeedTech is Low
 
@@ -209,7 +210,7 @@ NeedTech: 기술력이 필요한 정도
 
 TechLost: 기술력이 정복등으로 사라진량
 * [0,+infinity)
-* Def. True OR False 인 Crisp Boolean Function
+* Def. 바로전 적국 Subturn때 내가 정복등으로 잃어버린 기술력의 량
 
 
 
@@ -744,5 +745,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzYzNTE2MzcsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTE2MDU2MzMzMTAsMzAxNDQyMjYyXX0=
 -->
