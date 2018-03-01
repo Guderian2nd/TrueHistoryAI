@@ -387,7 +387,7 @@ LVeryLow: <0>
 
 IF MyUnitHP is HPHigh THEN MoveUnittoSpot is High
 
-IF MyUnit HP is HPLow THEN MoveUnittoSpot is VeryLow
+IF MyUnitHP is HPLow THEN MoveUnittoSpot is VeryLow
 
 IF EnemyUnitHP is HPHigh THEN MoveUnittoSpot is Medium
 
@@ -460,7 +460,7 @@ Pioneer: <0>
 
 HPHigh: [0.5, 0.75, +infinity]
 
-HPLow
+HPLow: [-infinity, 0.3, 0.5]
 
 DamageHigh
 
@@ -1010,6 +1010,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ1OTgxODMsLTExNTMwMDgwMjYsMz
-AxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTY3NDg3OTQxNiwtMTE1MzAwODAyNiwzMD
+E0NDIyNjJdfQ==
 -->
