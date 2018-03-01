@@ -279,7 +279,7 @@ FightingUnitNumLow:[-infinity,0,25]
 
 EnemDistLow: [-infinity, 3,5]
 
-EnemDistMedium
+EnemDistHigh: [4,6,+infinity]
 
 
 ## IF
@@ -797,5 +797,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTU3Mzk1MiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTExOTgyODA4NTIsMzAxNDQyMjYyXX0=
 -->
