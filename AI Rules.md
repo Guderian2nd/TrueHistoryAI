@@ -223,7 +223,6 @@ DmgUnitNum: 피해를 입은 유닛의 갯수
 * [0, +infinity)
 * Def. 피해를 입은 유닛의 갯수
 * 
-* 
 
 
 
@@ -756,5 +755,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE4Mjc3MTgsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTU3NTI4NzU0LDMwMTQ0MjI2Ml19
 -->
