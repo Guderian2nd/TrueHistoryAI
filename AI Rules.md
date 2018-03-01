@@ -551,6 +551,11 @@ SpotRsrcBuildingNear :
 
 SpotMyUnitDist: 
 
+DeployUnittoCity:
+
+DeployInteriorBuildingtoSpot:
+
+
 
 
 ## Sets
@@ -1031,6 +1036,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc5NjY5ODgsLTExNTMwMDgwMjYsMz
-AxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTI5Nzg1NTIwNywtMTE1MzAwODAyNiwzMD
+E0NDIyNjJdfQ==
 -->
