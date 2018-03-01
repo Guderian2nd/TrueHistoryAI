@@ -474,13 +474,13 @@ DealHigh: [0,3,+infinity]
 
 DealLow: [-infinity, -3,0]
 
-DistEnemHigh: [0,
+DistEnemHigh: <0,+infinity>
 
-DistEnemLow: 
+DistEnemLow: <-infinity,0>
 
-DistMyCityHigh: 
+DistMyCityHigh: <0,+infinity>
 
-DistMyCityLow: 
+DistMyCityLow: <-infinity,0>
 
 # Per AttackTask Rules
 
@@ -1018,6 +1018,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjk4MjAyMiwtMTE1MzAwODAyNiwzMD
-E0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTEyNjMwOTQzNjMsLTExNTMwMDgwMjYsMz
+AxNDQyMjYyXX0=
 -->
