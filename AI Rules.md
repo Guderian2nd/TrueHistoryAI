@@ -78,7 +78,7 @@ IF RemainingGold is RemainGoldMedium THEN NeedGold is Medium
 ibid. for Labor
 
 
-IF TechLost is True THEN NeedTech is VeryHigh
+IF TechLost is TechLostHigh THEN NeedTech is VeryHigh
 
 IF Tech is TechHigh THEN NeedTech is Low
 
@@ -207,7 +207,7 @@ NeedTech: 기술력이 필요한 정도
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
 
-TechLost: 기술력을 일어버렸는지 아닌지
+TechLost: 기술력이 정복등으로 사라진량
 * [0,1]
 * Def. True OR False 인 Crisp Boolean Function
 
@@ -744,5 +744,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU5NjA5NjEsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTIwNzgzNzA3NywzMDE0NDIyNjJdfQ==
 -->
