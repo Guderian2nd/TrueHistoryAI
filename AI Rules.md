@@ -424,7 +424,7 @@ MyUnit : 해당 MoveTask의 주체가 되는 유닛의 종류
 
 MyUnitHP: 해당 MoveTask의 주체가 만약 이 Task를 시행했을시의 결과로 나오는, 해당 유닛의 HP가 풀피에서 남아있는 비율
 * [0,1]
-* Def. (현재 유닛의 실제 HP)/(유닛의 풀HP)
+* Def. (해당 Task를 실행후 남아있는 유닛의 실제 HP)/(유닛의 풀HP)
 
 
 EnemyUnitHP
@@ -975,5 +975,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODc3NTg3NSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTQ2MjQ5Nzg4MiwzMDE0NDIyNjJdfQ==
 -->
