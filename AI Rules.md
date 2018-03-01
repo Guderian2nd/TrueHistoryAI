@@ -162,7 +162,7 @@ BuildPioneer: 실제로 개척자를 생산할 정도
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
 
-EnemyFightingUnitNum: 적 전튜
+EnemyFightingUnitNum: 적 전투유닛의 
 
 
 
@@ -680,5 +680,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDUxMjQ5MCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTA4MjM2MTAwMSwzMDE0NDIyNjJdfQ==
 -->
