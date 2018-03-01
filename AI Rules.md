@@ -302,7 +302,7 @@ GoldLow: <0,0,2500,5000]
 
 TechHigh: [10000,20000,+infinity]
 TechNormal: [5000,10000,20000,25000]
-TechLow: <0,0,5000,10000
+TechLow: <0,0,5000,10000]
 
 LaborHigh
 LaborNormal
@@ -826,5 +826,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjM5NTkzOCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTQ1ODQ3NjEzNywzMDE0NDIyNjJdfQ==
 -->
