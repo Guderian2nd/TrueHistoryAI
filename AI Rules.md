@@ -458,7 +458,7 @@ FightingUnit: <1>
 
 Pioneer: <0>
 
-HPHigh: [0.5,1
+HPHigh: [0.5, 0.75, +infinity]
 
 HPLow
 
@@ -1010,6 +1010,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDExNzQyNCwtMTE1MzAwODAyNiwzMD
-E0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE3NDQ1OTgxODMsLTExNTMwMDgwMjYsMz
+AxNDQyMjYyXX0=
 -->
