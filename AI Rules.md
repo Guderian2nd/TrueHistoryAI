@@ -160,6 +160,8 @@ NeedFightingUnit: 전투유닛이 필요한 정도
 
 
 
+
+
 ## Sets
 
 DeltaUnitHigh: [0,50,+infinity]
@@ -647,5 +649,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTkyMDgxMjQsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTExNzgxMzQ0MjQsMzAxNDQyMjYyXX0=
 -->
