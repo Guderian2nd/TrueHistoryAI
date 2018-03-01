@@ -258,15 +258,9 @@ RemainLaborLow: [-1500,-1000,-500,0]
 RemainLaborVeryLow: [-infinity,-1000,-500]
 
 
-NeedFightingUnit is VeryHigh
+CityHigh: 
 
-NeedFightingUnit is High
-
-NeedFightingUnit is Medium
-
-NeedFightingUnit is Low
-
-NeedFightingUnit is VeryLow
+CityLow:
 
 
 ## IF
@@ -784,5 +778,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTQ5NjA3MSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTY4MjE4NTk4LDMwMTQ0MjI2Ml19
 -->
