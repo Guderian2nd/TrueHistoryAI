@@ -227,7 +227,7 @@ TechInvest: 기술계 투자량
 
 DmgUnitNum: 피해를 입은 유닛의 전체 유닛중 비율
 * [0, 1]
-* Def. 피해를 입은 유닛의 갯수/총 유
+* Def. 피해를 입은 유닛의 갯수/총 유닛의 갯수
 
 NeedLogistics: 병참이 필요한 정도
 * (-infinity,+infinity)
@@ -832,5 +832,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTEwMzk1NCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE3NDE0ODE1MTYsMzAxNDQyMjYyXX0=
 -->
