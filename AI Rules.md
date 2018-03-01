@@ -547,7 +547,7 @@ IF NeedCity is Low THEN DeployCitytoPioneer is Medium
 
 CityatSpotRsrcBuildingNum: 해당 Deploy Task가 Deploy하려는 위치(도시)에 존재하는 동일 종류의 자원 건물의 갯수
 *[0,infinity)
-* ㅇ
+* Def. 
 
 SpotRsrcBuildingNear :
 
@@ -1051,6 +1051,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDcxMDg2NywtMTE1MzAwODAyNiwzMD
+eyJoaXN0b3J5IjpbLTM0Mjc2MTAyMSwtMTE1MzAwODAyNiwzMD
 E0NDIyNjJdfQ==
 -->
