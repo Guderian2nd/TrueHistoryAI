@@ -454,6 +454,15 @@ SpotMyCityDist: 현재 타일에서 제일 가까운 내 도시까지의 거리�
 
 ## Sets
 
+HPHigh
+HPLow
+DamageHigh
+DealHigh
+DistEnemHigh
+DistEnemLow
+DistMyCityHigh
+DistMy
+
 # Per AttackTask Rules
 
 IF MyUnitHP is HPHigh THEN AttackUnit is High
@@ -990,6 +999,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc3MzgzOTMsLTExNTMwMDgwMjYsMz
-AxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTc5MzMyMjY4NywtMTE1MzAwODAyNiwzMD
+E0NDIyNjJdfQ==
 -->
