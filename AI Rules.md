@@ -144,10 +144,11 @@ DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유�
 * Def. (My Fighting Unit Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
 
 
-
 RemainingGold: 턴당 금 생산량의 여유로운 정도
 * [0, +infinity)
 * Def. 현재 남아있는 턴당 금(즉 사용되지 않고 있는)
+
+RemainingLabor: 턴당 노동려
 
 
 
@@ -640,5 +641,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5MjU3NTE1LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTQ4MjYyMzQxNSwzMDE0NDIyNjJdfQ==
 -->
