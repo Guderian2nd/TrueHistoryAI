@@ -161,7 +161,7 @@ DeltaHappyGoal: 내 목표행복도(Happiness Goal)와 현재 행복도와의 �
 * [-200, +200]
 * Def. HappinessGoal - 현재 행복도
 
-SetEconInvesttoFull: 민 
+SetEconInvesttoFull: 민간계투자량 
 
 
 
@@ -694,5 +694,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Mjc1MTQ4OCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbODMzMDEwODQ1LDMwMTQ0MjI2Ml19
 -->
