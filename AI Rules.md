@@ -125,7 +125,7 @@ DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유�
 
 
 RemainingGold: 턴당 금 생산량의 여유로운 정도
-* [0, +infinity)
+* (-infinity, +infinity)
 * Def. 현재 남아있는 턴당 금(즉 사용되지 않고 있는)
 
 RemainingLabor: 턴당 노동력의 여유로운 정도
@@ -231,10 +231,13 @@ NeedLogistics: 병참이 필요한 정도
 ## Sets
 
 DeltaUnitHigh: [0,50,+infinity]
-DeltaUnitMedium: [-70, -30, 30, 70]
+
+DeltaUnitMedium: [-70, -50, 50, 70]
+
 DeltaUnitLow: [-infinity, -50, 0]
 
-RemainGoldVeryHigh: 
+
+RemainGoldVeryHigh: [1000,2000,+i
 RemainGoldHigh: 
 RemainGoldMedium: 
 RemainGoldLow: 
@@ -755,5 +758,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTU5OTkxNSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTY3MDkxNjEwNSwzMDE0NDIyNjJdfQ==
 -->
