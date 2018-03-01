@@ -195,7 +195,7 @@ Happy: 현재 행복도
 * [-100,+100]
 * Def. 현재 행복도
 
-NeedGold: 금
+NeedGold: 금이 필요한 정도
 
 
 
@@ -728,5 +728,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDMwNTEwMCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTE4MTQyODE4NywzMDE0NDIyNjJdfQ==
 -->
