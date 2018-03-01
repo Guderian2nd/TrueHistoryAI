@@ -444,7 +444,11 @@ SpotDeal: 해당 MoveTask가 이동하고자하는 타일에서 다음 서브턴
 
 SpotEnemDist: 해당 MoveTask가 이동하고자 하는 타일에서 제일 가까운 적 유닛/도시까지의 거리
 * [0,+infinity)
-* Def. 
+* Def. (해당 타일에 제일 가까운 적 유닛/도시까지의 거리)
+
+SpotMyCityDist: 해당 MoveTask가 이동하고자 하는 타일에서 제일 가까운 내 도시까지의 거리
+
+
 
 
 
@@ -990,5 +994,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTk3NDQxMTAsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTY3NzQ3MDI3NiwzMDE0NDIyNjJdfQ==
 -->
