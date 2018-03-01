@@ -222,7 +222,7 @@ TechLost: 기술력이 정복등으로 사라진량
 * Def. 바로전 적국 Subturn때 내가 정복등으로 잃어버린 기술력의 량
 
 TechInvest: 기술계 투자량
-* [0,1]
+* [0,2]
 * Def. 기술계 투자량
 
 DmgUnitNum: 피해를 입은 유닛의 갯수
@@ -308,9 +308,11 @@ LaborHigh: [1000,2000,+infinity]
 LaborNormal: [250,500,1000,1500]
 LaborLow: [0,100,250,500]
 
-THigh
-TMedium
-TLow: 
+THigh: [1,1.5,2,2>
+TMedium: [0.5,0.75,1.25,1.5]
+TLow: <0,0,0.5,1]
+
+
 
 
 
@@ -830,5 +832,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4NjA2ODk1LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMjAyODQ1NDA3MCwzMDE0NDIyNjJdfQ==
 -->
