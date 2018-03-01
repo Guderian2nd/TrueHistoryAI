@@ -56,19 +56,6 @@ IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
 
 
 
-IF QuestReward is UltimateWeaponRsrc THEN AcceptQuest is VeryHigh
-
-IF QuestReward is MilitarySpecRsrc THEN AcceptQuest is High
-
-IF QuestDisplay is DisplayPeriodLow THEN AcceptQuest is Medium
-
-IF QuestDue is DueLow THEN AcceptQuest is High
-
-IF QuestReward is Gold/Labor/Happy/Tech AND [Resource] is [Resource]Low THEN AcceptQuest is High
-
-IF QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff AND [Resource] is [Resource]Low THEN AcceptQuest is High
-
-
 IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoFull is VeryHigh
 
 IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoDouble is VeryLow
@@ -166,7 +153,11 @@ EnemyFightingUnitNum: 적 전투유닛의 갯수
 * [0, +infinity)
 * Def. 적 전투유닛의 갯수
 
- AllMyUnitEnemDist: 각 개별적 내 전투유닛들과 가장 가까운 
+ AllMyUnitEnemDist: 얼마나 적 군대와 내 군대가 가까운지의 정도
+ * [0, +infinity)
+* Def. 각 개별적 내 전투유닛들과 가장 가까운 적 전투유닛과의 거리의 평균
+
+ 
 
 
 
@@ -685,5 +676,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDczOTczLDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTkxNzQ3OTY1NSwzMDE0NDIyNjJdfQ==
 -->
