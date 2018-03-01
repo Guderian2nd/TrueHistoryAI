@@ -233,6 +233,11 @@ NeedLogistics: 병참이 필요한 정도
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
 
+Logistics: 병참 투자율
+* [0,1]
+* Def. 병참 투자율
+
+
 
 ## Sets
 
@@ -337,7 +342,8 @@ UnitNumHigh: [0.5,0.75,1,1>
 
 UnitNumMedium: [0.2,0.4,0.6,0.8]
 
-UnitNumLow: [
+UnitNumLow: [0.05,0.1,0.2,0.25]
+
 
 
 
@@ -857,5 +863,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDg5NjcyNywzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMjEwMDU3MTYwMCwzMDE0NDIyNjJdfQ==
 -->
