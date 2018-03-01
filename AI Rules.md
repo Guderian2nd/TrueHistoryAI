@@ -140,7 +140,7 @@ IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 ## Variables
 
 DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유닛 갯수와의 차이
-* 범위: 모든
+* 범위: 모든 실수
 * (My Fighting Unit Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
 
 RemainingGold: 턴당 금 생산량의 여유로운 정도
@@ -637,5 +637,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzM2OTgyMiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTY0NjY2OTM3NiwzMDE0NDIyNjJdfQ==
 -->
