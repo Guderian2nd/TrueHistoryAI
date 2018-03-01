@@ -148,7 +148,7 @@ RemainingGold: 턴당 금 생산량의 여유로운 정도
 * [0, +infinity)
 * Def. 현재 남아있는 턴당 금(즉 사용되지 않고 있는)
 
-RemainingLabor: 턴당 노동려
+RemainingLabor: 턴당 노동력의 여유렁
 
 
 
@@ -641,5 +641,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjYyMzQxNSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTY1MDk5ODUyOSwzMDE0NDIyNjJdfQ==
 -->
