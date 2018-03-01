@@ -53,6 +53,8 @@ IF EnemyFightingUnitNum is FightingUnitNumLow THEN BuildMilitaryBuilding is Low
 
 IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBuilding is High
 
+IF AllMyUnitEnemDist is EnemDistHigh THEN BuildMilitaryBuilding is Low
+
 IF RemainingGold is RemainGoldLow THEN BuildMilitaryBuilding is VeryLow
 
 IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
@@ -268,9 +270,14 @@ CityMedium: [-20,-10,+10,+20]
 
 CityLow: [-infinity,-20,-10]
 
+
 FightingUnitNumHigh: [25,50,+infinity]
+
 FightingUnitNumMedium:[0,25,50,75]
-FightingUnitNumLow:[-infinity,
+
+FightingUnitNumLow:[-infinity,0,25]
+
+E
 
 
 ## IF
@@ -788,5 +795,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Mjc2NzIxMiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTUwMjIwMDAyOSwzMDE0NDIyNjJdfQ==
 -->
