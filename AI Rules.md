@@ -418,7 +418,7 @@ IF SpotMyCityDist is DistMyCityLow AND MyUnit is Pioneer THEN MoveUnittoSpot is 
 
 ## Variables
 
-MyUnit : 해당 
+MyUnit : 해당 MoveTa
 
 MyUnitHP
 
@@ -970,5 +970,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDQ1MzIyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTQ5NDY5MzA5NiwzMDE0NDIyNjJdfQ==
 -->
