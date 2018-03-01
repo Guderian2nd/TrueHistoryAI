@@ -286,6 +286,11 @@ DeltaHappyGoalHigh: <0,0,+infinity>
 
 DeltaHappyGoalLow: <-infinity,0,0>
 
+HVeryHigh: [50,75,100,100>
+HHigh
+HMedium
+HLow
+H
 
 
 
@@ -804,5 +809,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODI0ODEwOCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTMyNDEwMDQxOSwzMDE0NDIyNjJdfQ==
 -->
