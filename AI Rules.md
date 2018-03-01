@@ -65,9 +65,13 @@ IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoDouble is VeryHigh
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
 
 
-If NeedLabor is High THEN HappinessGoal is HVeryHigh
+IF NeedLabor is High THEN HappinessGoal is HVeryHigh
 
-If NeedGold is VeryHigh THEN HappinessGoal is HLow
+IF NeedGold is VeryHigh THEN HappinessGoal is HLow
+
+IF RemainingGold is VeryLow THEN NeedGold is VeryHigh
+
+IF RemainingGold is Very
 
 
 IF TechLost is True THEN NeedTech is VeryHigh
@@ -159,7 +163,7 @@ EnemyFightingUnitNum: 적 전투유닛의 갯수
 
 DeltaHappyGoal: 내 목표행복도(Happiness Goal)와 현재 행복도와의 차이 정도
 * [-200, +200]
-* Def. HappinessGoal - 현재 행복도
+* Def. HappinessGoal - Happy
 
 SetEconInvesttoFull: 민간계투자량을 100%로 하고싶은 정도
 * (-infinity,+infinity)
@@ -183,10 +187,11 @@ Tech: 현재 기술력 보유량
 Labor: 현재 노동력 보유량
 * ibid.
 
-Happy: 현재 금 보유량
+Happy: 현재 행복도
 * [-100,+100]
 * Def. 현재 행복도
 
+NeedGold
 
 
 
@@ -719,5 +724,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDAyMjE2NDIsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTI5NTAzODQ3OCwzMDE0NDIyNjJdfQ==
 -->
