@@ -364,49 +364,6 @@ DoQuestTask is VeryLow
 
 # IF THEN
 
-IF MyUnitHP is HPHigh THEN AttackUnit is High
-
-IF MyUnit HP is HPLow THEN AttackUnit is VeryLow
-
-IF EnemyUnitHP is HPHigh THEN AttackUnit is Medium
-
-IF EnemyUnitHP is HPLow THEN AttackUnit is Low
-
-IF EnemyCityHP is HPHigh THEN AttackUnit is High
-
-IF EnemyCityHP is HPHigh THEN AttackUnit is VeryHigh
-
-
-IF MyUnitHP is HPHigh THEN MoveUnittoSpot is High
-
-IF MyUnit HP is HPLow THEN MoveUnittoSpot is VeryLow
-
-IF EnemyUnitHP is HPHigh THEN MoveUnittoSpot is Medium
-
-IF EnemyUnitHP is HPLow THEN MoveUnittoSpot is Low
-
-IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is High
-
-IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is VeryHigh
-
-IF SpotDamage is DamageHigh THEN MoveUnittoSpot is VeryLow
-
-IF SpotDeal is DealHigh THEN MoveUnittoSpot is High
-
-IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit AND MyUnitHP is HPHigh THEN MoveUnittoSpot is High
-
-IF SpotEnemDist is DistEnemHigh AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
-
-IF SpotMyCityDist is DistMyCityLow AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
-
-
-IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is High
-
-IF SpotEnemDist is DistEnemLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
-
-IF SpotMyCityDist is DistMyCityHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is High
-
-IF SpotMyCityDist is DistMyCityLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
 
 
 
@@ -553,8 +510,50 @@ IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 # Per MoveTask Rules
 
 
+IF MyUnitHP is HPHigh THEN MoveUnittoSpot is High
+
+IF MyUnit HP is HPLow THEN MoveUnittoSpot is VeryLow
+
+IF EnemyUnitHP is HPHigh THEN MoveUnittoSpot is Medium
+
+IF EnemyUnitHP is HPLow THEN MoveUnittoSpot is Low
+
+IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is High
+
+IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is VeryHigh
+
+IF SpotDamage is DamageHigh THEN MoveUnittoSpot is VeryLow
+
+IF SpotDeal is DealHigh THEN MoveUnittoSpot is High
+
+IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit AND MyUnitHP is HPHigh THEN MoveUnittoSpot is High
+
+IF SpotEnemDist is DistEnemHigh AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
+
+IF SpotMyCityDist is DistMyCityLow AND MyUnit is FightingUnit AND MyUnitHP is HPLow THEN MoveUnittoSpot is High
+
+
+IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is High
+
+IF SpotEnemDist is DistEnemLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
+
+IF SpotMyCityDist is DistMyCityHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is High
+
+IF SpotMyCityDist is DistMyCityLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
 
 # Per AttackTask Rules
+
+IF MyUnitHP is HPHigh THEN AttackUnit is High
+
+IF MyUnit HP is HPLow THEN AttackUnit is VeryLow
+
+IF EnemyUnitHP is HPHigh THEN AttackUnit is Medium
+
+IF EnemyUnitHP is HPLow THEN AttackUnit is Low
+
+IF EnemyCityHP is HPHigh THEN AttackUnit is High
+
+IF EnemyCityHP is HPHigh THEN AttackUnit is VeryHigh
 
 # Per DeployTask Rules
 
@@ -585,7 +584,23 @@ IF SpotRsrcBuildingNear is SpotRsrcBuildingNearLow THEN DeployTileResourceBuildi
 
 IF SpotMyUnitDist is MyUnitDistLow THEN DeployMilitaryBuildingtoSpot is High
 
-IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is Low
+IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is Low]
+
+# Per UseSkillTask Rules
+
+IF SkillEffect is DamageEnemy AND SkillTargetHP is HPLow AND SkillTarget is Enemy THEN UseSkill is VeryHigh
+
+IF SkillEffect is RestoreAP THEN UseSkill is MostHigh
+
+IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow THEN UseSkill is VeryHigh
+
+IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh THEN UseSkill is Medium
+
+IF SkillEffect is RestoreHP AND SkillTargetSpot is DamageHigh THEN UseSkill is High
+
+IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN UseSkill is High
+
+IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
 
 # Per Quest(Pending) Rules
 
@@ -607,5 +622,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA3MjE2ODksMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbODkzNDc5MDMzLDMwMTQ0MjI2Ml19
 -->
