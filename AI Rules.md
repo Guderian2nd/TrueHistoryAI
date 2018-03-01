@@ -215,6 +215,8 @@ TechLost: 기술력이 정복등으로 사라진량
 * [0,+infinity)
 * Def. 바로전 적국 Subturn때 내가 정복등으로 잃어버린 기술력의 량
 
+TechInvest: 기술계 투자량
+* [0,1]
 
 
 
@@ -748,5 +750,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDEwNTA3MSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbNTI1MTI2MTAwLDMwMTQ0MjI2Ml19
 -->
