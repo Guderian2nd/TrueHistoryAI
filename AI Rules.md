@@ -157,12 +157,22 @@ NeedFightingUnit: 전투유닛이 필요한 정도
 * Def. [VeryLow, Low, Medium, Low, High]
 
 BuildFightingUnit: 전투유닛을 실제로 생산할 정도
-*
-
+* (-infinity,+infinity)
+* Def. [VeryLow, Low, Medium, Low, High]
 
 DeltaCityNum: 적 도시 갯수와 내 잠재적 도시 갯수와의 차이
 * (-infinity, +infinity)
 * Def. (My City Number + My Pioneer Number) - (1.5 × Enemy City Number)
+
+NeedCity: 도시가 필요한 정도
+
+NeedPioneer: 개척자가 필요한 정도
+
+BuildCityCenter: 실제로 도시를 생산할 정도
+
+BuildPioneer: 실젤
+
+
 
 
 
@@ -658,5 +668,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIyNDAwMDYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbNjQxMzU0MzA5LDMwMTQ0MjI2Ml19
 -->
