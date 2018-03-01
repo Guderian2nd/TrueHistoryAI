@@ -554,7 +554,8 @@ SpotRsrcBuildingNear : 해당 Deploy Task가 Deploy하려는 타일 주변에 �
 * Def. 해당 Deploy Task가 Deploy하려는 타일 3칸 이내에 존재하는 자원 타일 건물들의 갯수
 
 SpotMyUnitDist: 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 아군 유닛까지의 거리
-
+* [0,infinity)
+* 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 아군 유닛까지의 거리
 
 DeployUnittoCity:
 * (-infinity,+infinity)
@@ -577,6 +578,9 @@ DeployCitytoPioneer:
 * Def. [VeryLow, Low, Medium, Low, High]
 
 ## Sets
+
+
+
 
 
 # Per UseSkillTask Rules
@@ -1054,6 +1058,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTM1NTI4LC0xMTUzMDA4MDI2LDMwMT
+eyJoaXN0b3J5IjpbNjY2NjE4Njc3LC0xMTUzMDA4MDI2LDMwMT
 Q0MjI2Ml19
 -->
