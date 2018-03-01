@@ -255,7 +255,7 @@ RemainGoldVeryLow: [-infinity,-1000,-500]
 
 RemainLaborVeryHigh: [500,1000,+infinity]
 
-RemainLaborHigh: [0, 500,1000,1500]
+RemainLaborHigh: [500, 1000,1500,2000]
 
 RemainLaborMedium: [-750,-250,250,750]
 
@@ -304,7 +304,7 @@ TechHigh: [10000,20000,+infinity]
 TechNormal: [5000,10000,20000,25000]
 TechLow: <0,0,5000,10000]
 
-LaborHigh
+LaborHigh: [500
 LaborNormal
 LaborLow
 
@@ -826,5 +826,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODQ3NjEzNywzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE1MzUwMzUzMzksMzAxNDQyMjYyXX0=
 -->
