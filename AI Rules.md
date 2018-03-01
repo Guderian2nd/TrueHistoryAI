@@ -418,7 +418,8 @@ IF SpotMyCityDist is DistMyCityLow AND MyUnit is Pioneer THEN MoveUnittoSpot is 
 
 ## Variables
 
-MyUnit : 해당 MoveTask의 주체가 되는 유닛의 종류
+MyUnit : 해당 MoveTask의 주체가 되는 유닛의 종류*
+
 
 MyUnitHP
 
@@ -970,5 +971,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTA1NzgzMCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE5MTAxNDU1MzgsMzAxNDQyMjYyXX0=
 -->
