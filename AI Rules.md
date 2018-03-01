@@ -1,10 +1,144 @@
-# Variables
+# Global Rules
 
-MyUnit: Type of Unit - [0,1]
-MyUnitHP: HP of Unit Selected
 
-# Sets
+IF DeltaFightingUnitNum is DeltaUnitHigh THEN NeedFightingUnit is Low
 
+IF DeltaFightingUnitNum is DeltaUnitMedium THEN NeedFightingUnit is Medium
+
+IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is High
+
+IF RemainingGold is RemainGoldLow THEN NeedFightingUnit is VeryLow
+
+IF RemainingLabor is RemainLaborLow THEN NeedFightingUnit is VeryLow
+
+IF NeedFightingUnit is High THEN BuildFightingUnit is High
+
+IF NeedFightingUnit is Medium THEN BuildFightingUnit is Medium
+
+IF NeedFightingUnit is Low THEN BuildFightingUnit is Low
+
+IF NeedFightingUnit is VeryLow THEN BuildFightingUnit is VeryLow
+
+
+IF DeltaCityNum is High THEN NeedCity is Low
+
+IF DeltaCityNum is Low THEN NeedCity is High
+
+IF NeedCity is Low THEN NeedPioneer is VeryLow
+
+IF NeedCity is High THEN NeedPioneer is VeryHigh
+
+IF RemainingGold is RemainGoldLow THEN NeedPioneer is VeryLow
+
+IF RemainingLabor is RemainLaborLow THEN NeedPioneer is VeryLow
+
+If NeedCity is High THEN BuildCityCenter is High
+
+If NeedCity is Low THEN BuildCityCenter is Low
+
+If NeedPioneer is High THEN BuildPioneer is High
+
+If NeedPioneer is Low THEN BuildPioneer is Low
+
+
+IF BuildingProdResource is Gold AND Gold is GoldVeryLow THEN BuildResourceBuilding is VeryHigh
+
+IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding is High
+
+IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuilding is Medium
+
+.
+
+.
+
+.
+
+IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
+
+
+IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
+
+IF EnemyFightingUnitNum is FightingUnitNumLow THEN BuildMilitaryBuilding is Low
+
+IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBuilding is High
+
+IF RemainingGold is RemainGoldLow THEN BuildMilitaryBuilding is VeryLow
+
+IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
+
+
+
+IF NeedCity is High THEN DeployCitytoPioneer is High
+
+IF NeedCity is Medium THEN DeployCitytoPioneer is High
+
+IF NeedCity is Low THEN DeployCitytoPioneer is Medium
+
+
+IF QuestReward is UltimateWeaponRsrc THEN AcceptQuest is VeryHigh
+
+IF QuestReward is MilitarySpecRsrc THEN AcceptQuest is High
+
+IF QuestDisplay is DisplayPeriodLow THEN AcceptQuest is Medium
+
+IF QuestDue is DueLow THEN AcceptQuest is High
+
+IF QuestReward is Gold/Labor/Happy/Tech AND [Resource] is [Resource]Low THEN AcceptQuest is High
+
+IF QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff AND [Resource] is [Resource]Low THEN AcceptQuest is High
+
+
+IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoFull is VeryHigh
+
+IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoDouble is VeryLow
+
+IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoDouble is VeryHigh
+
+IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
+
+
+If NeedLabor is High THEN HappinessGoal is HVeryHigh
+
+If NeedGold is VeryHigh THEN HappinessGoal is HLow
+
+
+IF TechLost is True THEN NeedTech is VeryHigh
+
+IF Tech is TechHigh THEN NeedTech is Low
+
+IF Tech is TechNormal THEN NeedTech is Medium
+
+IF Tech is TechLow THEN NeedTech is High
+
+IF NeedGold is VeryHigh THEN NeedTech is VeryLow
+
+IF NeedTech is High THEN TechInvest is THigh
+
+IF NeedTech is Medium THEN TechInvest is TMedium
+
+IF NeedTech is Low THEN TechInvest is TLow
+
+
+IF DmgUnitNum is High THEN NeedLogistics is High
+
+IF DmgUnitNum is Medium THEN NeedLogistics is Medium
+
+IF DmgUnitNum is Low THEN NeedLogistics is Low
+
+IF DmgUnitNum is VeryLow THEN NeedLogistics is VeryLow
+
+IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is Medium
+
+IF NeedLogistics is High THEN Logistics is LHigh
+
+IF NeedLogistics is Medium THEN Logistics is LMedium
+
+IF NeedLogistics is Low THEN Logistics is LLow
+
+IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
+
+## V
+## Sets
 # IF
 
 MyUnitHP is HPHigh
@@ -362,146 +496,9 @@ DoQuestTask is VeryLow
 
 ---
 
-# IF THEN
 
 
 
-
-IF DeltaFightingUnitNum is DeltaUnitHigh THEN NeedFightingUnit is Low
-
-IF DeltaFightingUnitNum is DeltaUnitMedium THEN NeedFightingUnit is Medium
-
-IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is High
-
-IF RemainingGold is RemainGoldLow THEN NeedFightingUnit is VeryLow
-
-IF RemainingLabor is RemainLaborLow THEN NeedFightingUnit is VeryLow
-
-IF NeedFightingUnit is High THEN BuildFightingUnit is High
-
-IF NeedFightingUnit is Medium THEN BuildFightingUnit is Medium
-
-IF NeedFightingUnit is Low THEN BuildFightingUnit is Low
-
-IF NeedFightingUnit is VeryLow THEN BuildFightingUnit is VeryLow
-
-
-IF DeltaCityNum is High THEN NeedCity is Low
-
-IF DeltaCityNum is Low THEN NeedCity is High
-
-IF NeedCity is Low THEN NeedPioneer is VeryLow
-
-IF NeedCity is High THEN NeedPioneer is VeryHigh
-
-IF RemainingGold is RemainGoldLow THEN NeedPioneer is VeryLow
-
-IF RemainingLabor is RemainLaborLow THEN NeedPioneer is VeryLow
-
-If NeedCity is High THEN BuildCityCenter is High
-
-If NeedCity is Low THEN BuildCityCenter is Low
-
-If NeedPioneer is High THEN BuildPioneer is High
-
-If NeedPioneer is Low THEN BuildPioneer is Low
-
-
-IF BuildingProdResource is Gold AND Gold is GoldVeryLow THEN BuildResourceBuilding is VeryHigh
-
-IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding is High
-
-IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuilding is Medium
-
-.
-
-.
-
-.
-
-IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
-
-
-IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
-
-IF EnemyFightingUnitNum is FightingUnitNumLow THEN BuildMilitaryBuilding is Low
-
-IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBuilding is High
-
-IF RemainingGold is RemainGoldLow THEN BuildMilitaryBuilding is VeryLow
-
-IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
-
-
-
-IF NeedCity is High THEN DeployCitytoPioneer is High
-
-IF NeedCity is Medium THEN DeployCitytoPioneer is High
-
-IF NeedCity is Low THEN DeployCitytoPioneer is Medium
-
-
-IF QuestReward is UltimateWeaponRsrc THEN AcceptQuest is VeryHigh
-
-IF QuestReward is MilitarySpecRsrc THEN AcceptQuest is High
-
-IF QuestDisplay is DisplayPeriodLow THEN AcceptQuest is Medium
-
-IF QuestDue is DueLow THEN AcceptQuest is High
-
-IF QuestReward is Gold/Labor/Happy/Tech AND [Resource] is [Resource]Low THEN AcceptQuest is High
-
-IF QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff AND [Resource] is [Resource]Low THEN AcceptQuest is High
-
-
-IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoFull is VeryHigh
-
-IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoDouble is VeryLow
-
-IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoDouble is VeryHigh
-
-IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
-
-
-If NeedLabor is High THEN HappinessGoal is HVeryHigh
-
-If NeedGold is VeryHigh THEN HappinessGoal is HLow
-
-
-IF TechLost is True THEN NeedTech is VeryHigh
-
-IF Tech is TechHigh THEN NeedTech is Low
-
-IF Tech is TechNormal THEN NeedTech is Medium
-
-IF Tech is TechLow THEN NeedTech is High
-
-IF NeedGold is VeryHigh THEN NeedTech is VeryLow
-
-IF NeedTech is High THEN TechInvest is THigh
-
-IF NeedTech is Medium THEN TechInvest is TMedium
-
-IF NeedTech is Low THEN TechInvest is TLow
-
-
-IF DmgUnitNum is High THEN NeedLogistics is High
-
-IF DmgUnitNum is Medium THEN NeedLogistics is Medium
-
-IF DmgUnitNum is Low THEN NeedLogistics is Low
-
-IF DmgUnitNum is VeryLow THEN NeedLogistics is VeryLow
-
-IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is Medium
-
-IF NeedLogistics is High THEN Logistics is LHigh
-
-IF NeedLogistics is Medium THEN Logistics is LMedium
-
-IF NeedLogistics is Low THEN Logistics is LLow
-
-IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
 
 
@@ -622,5 +619,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNDc5MDMzLDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTc1MTI1NjgzNywzMDE0NDIyNjJdfQ==
 -->
