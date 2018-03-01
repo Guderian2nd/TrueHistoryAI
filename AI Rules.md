@@ -399,6 +399,8 @@ IF EnemyCityHP is HPHigh THEN MoveUnittoSpot is VeryHigh
 
 IF SpotDamage is DamageHigh THEN MoveUnittoSpot is VeryLow
 
+IF Spot
+
 IF SpotDeal is DealHigh THEN MoveUnittoSpot is High
 
 IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit AND MyUnitHP is HPHigh THEN MoveUnittoSpot is High
@@ -460,9 +462,9 @@ Pioneer: <0>
 
 HPHigh: [0.5, 0.75, +infinity]
 
-HPLow: [-infinity, 0.3, 0.5]
+HPLow: [-infinity, 0.3, 0.6]
 
-DamageHigh
+DamageHigh: 
 
 DealHigh
 
@@ -1010,6 +1012,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDg3OTQxNiwtMTE1MzAwODAyNiwzMD
+eyJoaXN0b3J5IjpbMTU4MzU5NTQzNiwtMTE1MzAwODAyNiwzMD
 E0NDIyNjJdfQ==
 -->
