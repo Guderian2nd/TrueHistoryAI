@@ -551,6 +551,7 @@ NeedTech is High
 NeedTech is Medium
 
 NeedTech is Low
+
 ---
 
 DmgUnitNum is High
@@ -558,6 +559,7 @@ DmgUnitNum is High
 DmgUnitNum is Medium
 
 DmgUnitNum is Low
+
 
 
 NeedLogistics is High
@@ -914,5 +916,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTUxMzMxMzQsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTUxMDgzNTY5OCwzMDE0NDIyNjJdfQ==
 -->
