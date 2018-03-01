@@ -171,7 +171,8 @@ SetEconInvesttoDouble: 민간계투자량을 200%로 하고싶은 정도
 
 HappinessGoal: 목표행복도
 * [-100,100]
-* 
+* Def. 목표행복도
+ 
 
 
 
@@ -705,5 +706,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzY1ODkwNSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTk4NDM0ODQ2NywzMDE0NDIyNjJdfQ==
 -->
