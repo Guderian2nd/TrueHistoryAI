@@ -281,9 +281,12 @@ EnemDistLow: [-infinity, 3,5]
 
 EnemDistHigh: [4,6,+infinity]
 
+
 DeltaHappyGoalHigh: <0,0,+infinity>
 
 DeltaHappyGoalLow: <-infinity,0,0>
+
+
 
 
 ## IF
@@ -801,5 +804,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg2MzI3NDIsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTQyODI0ODEwOCwzMDE0NDIyNjJdfQ==
 -->
