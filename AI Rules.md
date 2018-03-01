@@ -170,7 +170,7 @@ NeedPioneer: 개척자가 필요한 정도
 
 BuildCityCenter: 실제로 도시를 생산할 정도
 
-BuildPioneer: 실제로 개척잘
+BuildPioneer: 실제로 개척자를 생산할 ㅈ
 
 
 
@@ -668,5 +668,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTQ4Mzk2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMzk2MTY3Mjk1LDMwMTQ0MjI2Ml19
 -->
