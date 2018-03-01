@@ -430,7 +430,7 @@ SpotDeal
 
 SpotEnemDist
 
-SpotEn
+SpotEnemDist
 
 ## Sets
 
@@ -970,5 +970,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzY1MDM2NSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbNjYzMTM5MzcxLDMwMTQ0MjI2Ml19
 -->
