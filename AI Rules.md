@@ -220,8 +220,8 @@ TechInvest: 기술계 투자량
 * Def. 기술계 투자량
 
 DmgUnitNum: 피해를 입은 유닛의 갯수
-*[0, +infinity)
-* Def.
+* [0, +infinity)
+* Def. 
 
 
 
@@ -754,5 +754,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTg3MDQ1MSwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE5MTU3MTUzNDcsMzAxNDQyMjYyXX0=
 -->
