@@ -617,7 +617,10 @@ UseSkill is Medium
 UseSkill is Low
 
 UseSkill is VeryLow
--
+
+---
+
+
 
 BuildFightingUnit is VeryHigh
 
@@ -919,5 +922,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODUyMDk2MywzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTQ4MjczNjQ3LDMwMTQ0MjI2Ml19
 -->
