@@ -1,5 +1,6 @@
 # Variables
 
+MyUnit: Type of Unit - Enum[0
 
 # Sets
 
@@ -602,5 +603,5 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzI4ODM3NCwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTg2ODgzODUwNiwzMDE0NDIyNjJdfQ==
 -->
