@@ -268,6 +268,7 @@ CityLow: [-infinity,-20,-10]
 
 
 
+
 ## IF
 
 MyUnitHP is HPHigh
@@ -783,5 +784,5 @@ IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuildin
 
 IF BuildingProdResource is Tech AND Tech is TechVeryHigh THEN BuildResourceBuilding is VeryLow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjkzNTEzNywzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTk3MjA1OTQ0MywzMDE0NDIyNjJdfQ==
 -->
