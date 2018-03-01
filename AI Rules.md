@@ -438,7 +438,7 @@ EnemyCityHP: 만약 해당 MoveTask가 Moving Attack이며 공격대상이 도�
 
 SpotDamage: 현재 타일에서 적 유닛들에게서 받을수 있는 총 데미지량(최대 HP의 비율로 나타낸)과 해당 MoveTask가 이동하고자 하는 타일에서 적 유닛들에게서 받을수 있는 총 데미지량(스킬 제외, 이동공격포함) 의 차
 * (-infinity,+infinity)
-* Def. Σ (목표 타일을 다음 서브턴에 공격할수 있는 적 유닛의 공격력) -  Σ (현재 타일을 다음 서브턴에 공격할수 있는 적 유닛의 공격력)
+* Def. Σ (목표 타일을 다음 서브턴에 공격할수 있는 적 유닛의 공격력)/(MovingTask주체 유닛의 최대 HP) -  Σ (현재 타일을 다음 서브턴에 공격할수 있는 적 유닛의 공격력)/(MovingTask주체 유닛의 최대 HP) 
 
 SpotDeal: 현재 타일에서 다음 서브턴에 공격할수 있는 적 유닛들의 갯수와 해당 MoveTask가 이동하고자하는 타일에서 다음 서브턴에 공격할수 있는 적 유닛들의 갯수(스킬 제외, 이동공격포함)의 차
 *  (-infinity,+infinity)
@@ -464,9 +464,9 @@ HPHigh: [0.5, 0.75, +infinity]
 
 HPLow: [-infinity, 0.3, 0.6]
 
-DamageHigh: 
+DamageHigh: [0.3,0.6,+infinity]
 
-DamageLow: 
+DamageLow:  [
 
 DealHigh
 
@@ -1014,6 +1014,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDU2NTE1MCwtMTE1MzAwODAyNiwzMD
-E0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTEzMTI1NDMxOTUsLTExNTMwMDgwMjYsMz
+AxNDQyMjYyXX0=
 -->
