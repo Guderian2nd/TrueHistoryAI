@@ -438,7 +438,7 @@ SpotDamage: 해당 MoveTask가 이동하고자 하는 타일에서 적 유닛들
 * [0,+infinity)
 * Def. Σ (해당 타일을 다음 서브턴에 공격할수 있는 적 유닛의 공격력)
 
-SpotDeal: 해당 MoveTask가 이동하고자하는 타일에서 근접한 적 유닛들ㅇ
+SpotDeal: 해당 MoveTask가 이동하고자하는 타일에서 근접한 적 유닛들
 
 SpotEnemDist
 
@@ -982,5 +982,5 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODI2NDA3NDUsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTExOTU1NzQ1OTgsMzAxNDQyMjYyXX0=
 -->
