@@ -636,7 +636,7 @@ SkillTargetSpotDamage: 해당 UseSkillTask의 주체가 사용하고자 하는 �
 
 SkillTargetSpotDeal: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 위치에서 공격할수 있는 총 적 유닛의 갯수
 *[0,+infinity)
-*
+* 
 
 
 
@@ -1099,7 +1099,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzIyNTY4MDQsMTY4NDM0OTc1NCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTMxODc1NzY2NiwxNjg0MzQ5NzU0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
