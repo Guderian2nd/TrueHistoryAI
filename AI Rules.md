@@ -488,32 +488,37 @@ MyUnitHP: 해당 Task의 주체가 만약 이 Task를 시행했을시의 결과�
 EnemyUnitHP: 만약 해당 MoveTask가 Moving Attack이며 공격대상이 일반적 유닛일때, 공격받는 적 유닛의 Task시행후 남아있는 HP의 비율
 * [0,1]
 * Def. (해당 Task를 실행후 남아있는 공격받은 적 유닛의 실제 HP)/(유닛의 풀HP)
+* HPSet
 
 EnemyCityHP: 만약 해당 MoveTask가 Moving Attack이며 공격대상이 도시일때, 공격받는 도시의 Task시행후 남아있는 HP의 비율
 * [0,1]
 * Def. (해당 Task를 실행후 남아있는 공격받은 도시의 실제 HP)/(도시의 풀HP)
+* HPSet
 
 SpotDamage: 현재 타일에서 적 유닛들에게서 받을수 있는 총 데미지량(최대 HP의 비율로 나타낸)과 해당 MoveTask가 이동하고자 하는 타일에서 적 유닛들에게서 받을수 있는 총 데미지량(스킬 제외, 이동공격포함) 의 차
 * (-infinity,+infinity)
 * Def. Σ (목표 타일을 다음 서브턴에 공격할수 있는 적 유닛의 공격력)/(MovingTask주체 유닛의 최대 HP) -  Σ (현재 타일을 다음 서브턴에 공격할수 있는 적 유닛의 공격력)/(MovingTask주체 유닛의 최대 HP) 
+* DamageSet
 
 SpotDeal: 현재 타일에서 다음 서브턴에 공격할수 있는 적 유닛들의 갯수와 해당 MoveTask가 이동하고자하는 타일에서 다음 서브턴에 공격할수 있는 적 유닛들의 갯수(스킬 제외, 이동공격포함)의 차
 *  (-infinity,+infinity)
-* Def. (목표 타일에 근접해 있거나 이동공격할수 있는 유닛의 갯수) - 
-* (현재 타일에 근접해 있거나 이동공격할수 있는 유닛의 갯수)
+* Def. (목표 타일에 근접해 있거나 이동공격할수 있는 유닛의 갯수) -  (현재 타일에 근접해 있거나 이동공격할수 있는 유닛의 갯수)
+* DealSet
 
 SpotEnemDist: 현재 타일에서 제일 가까운 적 유닛/도시까지의 거리와 해당 MoveTask가 이동하고자 하는 타일에서 제일 가까운 적 유닛/도시까지의 거리의 차
 *  (-infinity,+infinity)
 * Def. (목표 타일에 제일 가까운 적 유닛/도시까지의 거리) - (현재 타일에 제일 가까운 적 유닛/도시까지의 거리)
+* DistEnemSet
 
 SpotMyCityDist: 현재 타일에서 제일 가까운 내 도시까지의 거리와 해당 MoveTask가 이동하고자 하는 타일에서 제일 가까운 내 도시까지의 거리의 차
 *  (-infinity,+infinity)
 * Def. (목표 타일에 제일 가까운 내 도시까지의 거리) - (현재 타일에 제일 가까운 내 도시까지의 거리)
+* DistMyCitySet
 
 MoveUnittoSpot: 한 유닛을 한 특정한 장소로 이동시키는 Task의 점수
-* (-infinity,+infinity)
+* (-1
 * Def. [VeryLow, Low, Medium, Low, High]
-
+* ResultSet
 
 
 ## Sets
@@ -1170,9 +1175,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODI2NzUyMyw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTE4MjY2NjEwMDIsOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
