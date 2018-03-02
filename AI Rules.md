@@ -847,7 +847,12 @@ BuildingProdResource: 해당 BuildTask가 지으려는 건물이 자원생산건
 * Def. [Gold, Tech, Labor, Happy] = [금, 기술력, 노동력, 행복도]
 * ResourceType
 
-###
+### Output
+
+BuildResourceBuilding: 해당 자원생산건물을 지으려는 정도
+* (-1,+1)
+* Def. [VeryLow, Low, Medium, High, VeryHigh]
+* ResultSet
 
 ## Sets
 
@@ -859,7 +864,6 @@ Tech: <1>
 Labor:<2>
 
 Happy:<3>
-
 
 
 
@@ -1259,9 +1263,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM4MDg5ODAsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTI2NzYxMjYxNiw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
