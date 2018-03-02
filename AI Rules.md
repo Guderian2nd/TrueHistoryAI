@@ -601,6 +601,8 @@ IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
 
 ## Variables
 
+
+
 ## Sets
 
 # Per Quest(Pending) Rules
@@ -1058,6 +1060,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzNzk4OTMzLC0xMTUzMDA4MDI2LDMwMT
-Q0MjI2Ml19
+eyJoaXN0b3J5IjpbLTQwMDQ5MDgyMywtMTE1MzAwODAyNiwzMD
+E0NDIyNjJdfQ==
 -->
