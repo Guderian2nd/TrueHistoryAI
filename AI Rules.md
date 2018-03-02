@@ -405,7 +405,16 @@ MyCityNum: 내가 가지고 있는 총 도시의 갯수 + 잠재적 도시 갯�
 
 
 ### Output
-ibid.
+NeedCity: 도시가 필요한 정도
+* (-1,+1)
+* Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
+
+NeedPioneer: 개척자가 필요한 정도
+* (-1,+1)
+* Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
+
 
 ## Sets
 
@@ -420,6 +429,11 @@ FightingUnitNumLow:[-infinity,0,25]
 
 ### MyCityNum
 
+MyCityNumHigh: [4,6,+infinity)
+
+MyCityNumMedium: [3,4,6,7]
+
+MyCityNum
 
 # Per MoveTask Rules
 
@@ -1154,9 +1168,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEzODU5MDIsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTQ4MTU2MjE1OSw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
