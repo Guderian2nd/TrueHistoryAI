@@ -431,11 +431,11 @@ FightingUnitNumLow:[-infinity,0,25]
 
 MyCityNumHigh: [4,6,+infinity)
 
-MyCityNumMedium: [3,4,6,7]
+MyCityNumMedium: [2,4,6,8]
 
-MyCityNumLow: (-infinity,
+MyCityNumLow: (-infinity, 2,4]
 
-# Per MoveTask Rules
+# Per MoveTask Rules(Common)
 
 
 IF MyUnitHP is HPHigh THEN MoveUnittoSpot is High
@@ -1168,9 +1168,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzkxMjczODAsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbODAwNDQ5NTM3LDk3MTk0MTkxNiwtMTIwMT
+AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
+LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
