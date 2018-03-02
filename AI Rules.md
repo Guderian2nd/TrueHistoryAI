@@ -110,7 +110,7 @@ IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
 ### Input
 
-RemaingGold: 턴당 금 생산량의 여유로운 정도
+RemainingGold: 턴당 금 생산량의 여유로운 정도
 * (-infinity, +infinity)
 * Def. 현재 남아있는 턴당 금(즉 사용되지 않고 있는)
 * RemainGoldSet
@@ -382,6 +382,8 @@ IF MyFightingUnitNum is FightingUnitNumHigh THEN NeedFightingUnit is VeryLow
 IF MyFightingUnitNum is FightingUnitNumMedium THEN NeedFightingUnit is Low
 
 IF MyFightingUnitNum is FightingUnitNumLow THEN NeedFightingUnit is Medium
+
+IF MyCityNum is City
 
 
 # Per MoveTask Rules
@@ -1117,7 +1119,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzgwOTczOTcsOTcxOTQxOTE2LC0xMj
+eyJoaXN0b3J5IjpbLTEzNzMyNDk5MzEsOTcxOTQxOTE2LC0xMj
 AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
 MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
 UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
