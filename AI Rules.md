@@ -673,26 +673,27 @@ SpotMyUnitDist: 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가
 * 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 아군 유닛까지의 거리
 * MyUnitDist
 
-### Output
-
 DeploySpotEnemDist: 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 적 유닛까지의 거리
 * [0,infinity)
 * 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 적 유닛까지의 거리
+* DeployDistEnem
+
+### Output
 
 DeployUnittoCity:
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 
 DeployInteriorBuildingtoSpot:
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 
 DeployTileResourceBuildingtoSpot:
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 
 DeployMilitaryBuildingtoSpot: 
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 
 DeployCitytoPioneer:
@@ -1269,7 +1270,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5NDY0Nzk1LDk3MTk0MTkxNiwtMTIwMT
+eyJoaXN0b3J5IjpbOTY2OTIzNDUzLDk3MTk0MTkxNiwtMTIwMT
 AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
 LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
 UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
