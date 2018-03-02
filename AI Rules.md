@@ -770,7 +770,8 @@ SkillTargetSpotDeal: 해당 UseSkillTask의 주체가 사용하고자 하는 스
 * (목표 타일에 근접해 있거나 이동공격할수 있는 유닛의 갯수)
 * SpotDeal
 
-UseSkill: 해당 Skill Task를 시
+UseSkill: 해당 Skill Task를 시행할 정도
+
 
 
 ## Sets
@@ -1287,7 +1288,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjkxODk5OCw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbLTk3MDQxMDU4MCw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
