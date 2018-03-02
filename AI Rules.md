@@ -593,11 +593,11 @@ IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow THEN UseSkill is VeryHigh
 
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh THEN UseSkill is Medium
 
-IF SkillEffect is RestoreHP AND SkillTargetSpot is DamageHigh THEN UseSkill is High
+IF SkillEffect is RestoreHP AND SkillTargetSpotDamage is DamageHigh THEN UseSkill is High
 
-IF SkillEffect is Buff AND SkillTargetSpot is DamageHigh THEN UseSkill is High
+IF SkillEffect is Buff AND SkillTargetSpotDamage is DamageHigh THEN UseSkill is High
 
-IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
+IF SkillEffect is Buff AND SkillTargetSpotDeal is DealHigh THEN UseSkill is High
 
 ## Variables
 
@@ -613,7 +613,9 @@ SkillTargetHP: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의
 * [0,1]
 * Def. (해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 현재 HP)/(대상의 풀HP)
 
+SkillTargetSpotDamage:
 
+SkillTargetSpotDeal:
 
 
 
@@ -1075,6 +1077,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTcxMTUxMTAsLTExNTMwMDgwMjYsMz
+eyJoaXN0b3J5IjpbLTE4Njg5Mzk1NzksLTExNTMwMDgwMjYsMz
 AxNDQyMjYyXX0=
 -->
