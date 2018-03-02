@@ -525,14 +525,17 @@ MoveUnittoSpot: 한 유닛을 한 특정한 장소로 이동시키는 Task의 �
 
 ## Sets
 
+### UnitType
 FightingUnit: <0>
 
 Pioneer: <1>
 
+### HP
 HPHigh: [0.5, 0.75, +infinity]
 
 HPLow: [-infinity, 0.3, 0.6]
 
+### Dama
 DamageHigh: [0.3,0.6,+infinity]
 
 DamageLow:  [-infinity, -0.6, -0.3]
@@ -1182,9 +1185,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5MTcyODQ1LDk3MTk0MTkxNiwtMTIwMT
-AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
-LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
-UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
-MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTExMjIyMTkxMSw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
