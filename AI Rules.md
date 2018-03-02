@@ -604,6 +604,8 @@ DeployDistEnemLow: <0,0,3,6]
 
 IF SkillEffect is DamageEnemy AND SkillTargetHP is HPLow AND SkillTarget is Enemy THEN UseSkill is VeryHigh
 
+IF SkillEffect is DamageEnemy AND SkillTargetHP is HPHigh AND SkillTarget is Enemy THEN UseSkill is High
+
 IF SkillEffect is RestoreAP THEN UseSkill is MostHigh
 
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow THEN UseSkill is VeryHigh
@@ -637,8 +639,6 @@ SkillTargetSpotDamage: 해당 UseSkillTask의 주체가 사용하고자 하는 �
 SkillTargetSpotDeal: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 위치에서 공격할수 있는 총 적 유닛의 갯수
 * [0,+infinity)
 * (목표 타일에 근접해 있거나 이동공격할수 있는 유닛의 갯수)
-
-
 
 
 
@@ -1115,7 +1115,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYyNTE4OTMsMTY2NDY3NDQzNywtNT
-EwMzk1MDM0LDQ1MDUzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0
-LC03NDE3NzQxNSwtMTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTkzNjA2MDc2NCwxNjY0Njc0NDM3LC01MT
+AzOTUwMzQsNDUwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQs
+LTc0MTc3NDE1LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
