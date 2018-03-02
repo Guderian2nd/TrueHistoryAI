@@ -819,6 +819,7 @@ IF BuildingProdResource is Gold AND (Gold is GoldVeryLow OR NeedGold is VeryHigh
 
 
 
+
 IF BuildingProdResource is Tech AND (Tech is TechLow OR NeedTech is High) THEN BuildResourceBuilding is High
 
 IF BuildingProdResource is Tech AND (Tech is TechMedium OR NeedTech is Medium) THEN BuildResourceBuilding is Medium
@@ -1236,7 +1237,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5NTM4ODE3LDk3MTk0MTkxNiwtMTIwMT
+eyJoaXN0b3J5IjpbLTcxOTczNDg1LDk3MTk0MTkxNiwtMTIwMT
 AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
 LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
 UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
