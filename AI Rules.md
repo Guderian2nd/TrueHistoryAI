@@ -648,7 +648,9 @@ DamageEnemy: <0>
 
 RestoreAP: <1>
 
-RestoreHP: <2
+RestoreHP: <2>
+
+
 
 
 # Per Quest(Pending) Rules
@@ -1106,7 +1108,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDkzMDc4NywxNjY0Njc0NDM3LC01MT
+eyJoaXN0b3J5IjpbMTYxOTM2NDU0NSwxNjY0Njc0NDM3LC01MT
 AzOTUwMzQsNDUwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQs
 LTc0MTc3NDE1LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
