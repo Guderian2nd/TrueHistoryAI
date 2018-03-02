@@ -823,34 +823,26 @@ IF BuildingProdResource is Tech AND (Tech is TechLow OR NeedTech is VeryHigh OR 
 
 IF BuildingProdResource is Tech AND (Tech is TechMedium OR NeedTech is Medium) THEN BuildResourceBuilding is Medium
 
-IF BuildingProdResource is Tech AND (Tech is TechHigh OR NeedTech is Low) THEN BuildResourceBuilding is Low
-
-IF BuildingProdResource is Tech AND (Tech is TechVeryHigh OR NeedTech is VeryLow) THEN BuildResourceBuilding is VeryLow
+IF BuildingProdResource is Tech AND (Tech is TechHigh OR NeedTech is Low OR NeedTech is VeryLow) THEN BuildResourceBuilding is Low
 
 
-
-IF BuildingProdResource is Labor AND (Labor is LaborVeryLow OR NeedLabor is VeryHigh) THEN BuildResourceBuilding is VeryHigh
-
-IF BuildingProdResource is Labor AND (Labor is LaborLow OR NeedLabor is High) THEN BuildResourceBuilding is High
+IF BuildingProdResource is Labor AND (Labor is LaborLow OR NeedLabor is High OR NeedLabor is VeryHigh) THEN BuildResourceBuilding is High
 
 IF BuildingProdResource is Labor AND (Labor is LaborMedium OR NeedLabor is Medium) THEN BuildResourceBuilding is Medium
 
-IF BuildingProdResource is Labor AND (Labor is LaborHigh OR NeedLabor is Low) THEN BuildResourceBuilding is Low
-
-IF BuildingProdResource is Labor AND (Labor is LaborVeryHigh OR NeedLabor is VeryLow) THEN BuildResourceBuilding is VeryLow
+IF BuildingProdResource is Labor AND (Labor is LaborHigh OR NeedLabor is Low OR NeedLabor is VeryLow) THEN BuildResourceBuilding is Low
 
 
-IF BuildingProdResource is Happy AND (Happy is HappyVeryLow OR NeedHappy is VeryHigh) THEN BuildResourceBuilding is VeryHigh
-
-IF BuildingProdResource is Happy AND (Happy is HappyLow OR NeedHappy is High) THEN BuildResourceBuilding is High
+IF BuildingProdResource is Happy AND (Happy is HappyLow OR NeedHappy is High OR NeedHappy is VeryHigh) THEN BuildResourceBuilding is High
 
 IF BuildingProdResource is Happy AND (Happy is HappyMedium OR NeedHappy is Medium) THEN BuildResourceBuilding is Medium
 
-IF BuildingProdResource is Happy AND (Happy is HappyHigh OR NeedHappy is Low) THEN BuildResourceBuilding is Low
+IF BuildingProdResource is Happy AND (Happy is HappyHigh OR NeedHappy is Low OR NeedHappy is VeryLow) THEN BuildResourceBuilding is Low
 
-IF BuildingProdResource is Happy AND (Happy is HappyVeryHigh OR NeedHappy is VeryLow) THEN BuildResourceBuilding is VeryLow
 
 ## Variables
+
+
 
 ## Sets
 
@@ -1251,9 +1243,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTM3NzkyMiw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbNTk1NTE3NDkzLDk3MTk0MTkxNiwtMTIwMT
+AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
+LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
