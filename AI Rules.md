@@ -574,7 +574,16 @@ DistMyCityLow: [-infinity,-0.5,0]
 
 IF SpotOwner is Enemy OR SpotOwner is Ally THEN MoveUnittoSpot is VeryLow
 
-IF SpotOwnder is Me THEN MoveUnittoSpot is Medium
+IF SpotOwner is Me THEN MoveUnittoSpot is Medium
+
+## Variables
+### Input
+SpotOwner: 해당 MoveTask로 이동하고자 하는 타일의 주인
+* [0,1,2]
+* D
+
+
+## Sets
 
 
 # Per AttackTask Rules
@@ -1205,7 +1214,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzQxODk3Nyw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbMTE4NzQyNzk2Niw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
