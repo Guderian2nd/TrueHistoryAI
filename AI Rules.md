@@ -2,7 +2,7 @@
 
 
 
-# Global Rules
+# Global Rules (Common AI)
 
 IF RemainingGold is RemainGoldVeryLow OR RemainingGold is RemainGoldLow THEN NeedFightingUnit is Low
 
@@ -151,7 +151,7 @@ NeedPioneer: 개척자가 필요한 정도
 * Def. [VeryLow, Low, Medium, Low, High]
 * ResultSet
 
-FightingUnitNum: 적 전투유닛의 갯수
+EnemFightingUnitNum: 적 전투유닛의 갯수
 * [0, +infinity)
 * Def. 적 전투유닛의 갯수
 * 
@@ -1087,9 +1087,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM4MDI2ODksOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTM3NzMwMTE5MCw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
