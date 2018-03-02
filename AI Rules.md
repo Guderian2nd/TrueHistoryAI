@@ -381,7 +381,7 @@ IF MyFightingUnitNum is FightingUnitNumHigh THEN NeedFightingUnit is VeryLow
 
 IF MyFightingUnitNum is FightingUnitNumMedium THEN NeedFightingUnit is Low
 
-IF MyFightingUnitNum is FightingUnitNumLow
+IF MyFightingUnitNum is FightingUnitNumLow THEN Nee
 
 
 # Per MoveTask Rules
@@ -1117,9 +1117,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTE4NDkyMTEsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbOTY4MTIyMjI2LDk3MTk0MTkxNiwtMTIwMT
+AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
+LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
