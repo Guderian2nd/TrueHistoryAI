@@ -554,13 +554,17 @@ DealLow: [-infinity, -1,0]
 
 DistEnemHigh: [0,0.5,+infinity]
 
+
+
 DistEnemLow: [-infinity,-0.5,0]
 
 ### DistMyCity
 
-DistMyCityHigh: <0,+infinity>
+DistMyCityHigh: [0,0.5,+infinity]
 
-DistMyCityLow: <-infinity,0>
+DistMyCityMedium: [-0.5,0,0.5]
+
+DistMyCityLow: [-infinity,-0.5,0]
 
 # Per MoveTask Rules(Other)
 
@@ -1195,9 +1199,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzc0NDkxMDIsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTU4NTU0MjMyMiw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
