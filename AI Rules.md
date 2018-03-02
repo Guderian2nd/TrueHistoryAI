@@ -116,23 +116,24 @@ IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유닛 + 생산되고 있는 갯수와의 차이
 * (-infinity,+infinity)
 * Def. (My Fighting Unit Number + My Fighting Unit Being Produced Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
+* Set: DeltaUnitSets
 
 
 RemainingGold: 턴당 금 생산량의 여유로운 정도
 * (-infinity, +infinity)
 * Def. 현재 남아있는 턴당 금(즉 사용되지 않고 있는)
+* Set: RemainGoldSet
 
 RemainingLabor: 턴당 노동력의 여유로운 정도
 * [0, +infinity)
 * Def. 현재 남아있는 턴당 노동력(즉 사용되지 않고 있는)
+* RemainLaborSet
 
 NeedFightingUnit: 전투유닛이 필요한 정도
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
+* NeedFightingUnitSet
 
-BuildFightingUnit: 전투유닛을 실제로 생산할 정도
-* (-infinity,+infinity)
-* Def. [VeryLow, Low, Medium, Low, High]
 
 DeltaCityNum: 적 도시 갯수와 내 잠재적 도시 갯수와의 차이
 * (-infinity, +infinity)
@@ -1090,9 +1091,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzY2NTY1MCw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbNTUyNzMzMTcsOTcxOTQxOTE2LC0xMjAxMD
+E5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYs
+LTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsNDUwNT
+M2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1LC0x
+MTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
