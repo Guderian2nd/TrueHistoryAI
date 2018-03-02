@@ -394,7 +394,7 @@ IF MyCityNum is MyCityNumLow THEN NeedCity is High
 ### Input
 
 MyFightingUnitNum: 내가 가지고 있는 총 전투 유닛의 갯수 + 생산되고 있는 전투 유닛의 갯수
-
+* [0
 
 
 ### Output
@@ -1139,7 +1139,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTMzMzEyLDk3MTk0MTkxNiwtMTIwMT
+eyJoaXN0b3J5IjpbLTc1MDMzODc3LDk3MTk0MTkxNiwtMTIwMT
 AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
 LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
 UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
