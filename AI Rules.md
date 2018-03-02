@@ -237,7 +237,7 @@ RemainLaborMedium: [50,100,250,500]
 
 RemainLaborLow: [15,50,50,100]
 
-RemainLaborVeryLow: [-infinity,-1000,-500]
+RemainLaborVeryLow: [-infinity,25,50]
 
 ---
 
@@ -261,7 +261,7 @@ EnemDistHigh: [4,6,+infinity]
 
 
 ---
-DeltaHappyGoalHigh: <0,0,+infinity>
+DeltaHappyGoalHigh: <0,0,200>
 
 DeltaHappyGoalLow: <-infinity,0,0>
 
@@ -1114,7 +1114,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzExNjMyNyw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbMTc2MDMyNDM3MCw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
