@@ -842,7 +842,7 @@ IF BuildingProdResource is Happy AND (Happy is HappyHigh OR NeedHappy is Low OR 
 
 ## Variables
 
-BuildingProdResource: 핻
+BuildingProdResource: 해당 Build
 
 
 ## Sets
@@ -1244,7 +1244,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxMjg1MTY3LDk3MTk0MTkxNiwtMTIwMT
+eyJoaXN0b3J5IjpbODAzMDUwMjY1LDk3MTk0MTkxNiwtMTIwMT
 AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
 LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
 UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
