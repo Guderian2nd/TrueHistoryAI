@@ -608,7 +608,7 @@ IF SkillEffect is DamageEnemy AND SkillTargetHP is HPHigh AND SkillTarget is Ene
 
 IF SkillEffect is RestoreAP THEN UseSkill is MostHigh
 
-IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow THEN UseSkill is VeryHigh
+IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow AND SkillTarget is Ally THEN UseSkill is VeryHigh
 
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh THEN UseSkill is Medium
 
@@ -1115,7 +1115,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjA2MDc2NCwxNjY0Njc0NDM3LC01MT
-AzOTUwMzQsNDUwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQs
-LTc0MTc3NDE1LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMzY2OTQ3NzA5LDE2NjQ2NzQ0MzcsLTUxMD
+M5NTAzNCw0NTA1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwt
+NzQxNzc0MTUsLTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
