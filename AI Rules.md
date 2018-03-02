@@ -375,6 +375,9 @@ FightingUnitNumMedium:[0,25,50,75]
 
 FightingUnitNumLow:[-infinity,0,25]
 
+# Global Additional Rules(Other)
+
+
 
 # Per MoveTask Rules
 
@@ -1109,7 +1112,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTIyMjc3MCw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbMTEyNDA1OTgzMyw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
