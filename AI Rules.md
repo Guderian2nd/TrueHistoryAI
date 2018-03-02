@@ -591,13 +591,13 @@ SpotRsrcBuildingNearHigh: [12,24,36,36>
 
 SpotRsrcBuildingNearLow: <0,0,12,24]
 
-MyUnitDistHigh: [6,12,+infinity]
+MyUnitDistHigh: [5,8,+infinity]
 
-MyUnitDistLow: <0,0,6,12]
+MyUnitDistLow: <0,0,3,6]
 
-DeployDistEnemHigh:
+DeployDistEnemHigh: [5,8,+infinity]
 
-DeployDistEnemLow:
+DeployDistEnemLow: <0,0,3,6]
 
 
 # Per UseSkillTask Rules
@@ -1094,7 +1094,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDMwODI3MCwtMTk5ODk1MTA2MSwxNT
-UwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwtMTE1MzAwODAy
-NiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE3NjYxOTU2MTYsLTE5OTg5NTEwNjEsMT
+U1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUsLTExNTMwMDgw
+MjYsMzAxNDQyMjYyXX0=
 -->
