@@ -474,7 +474,7 @@ IF SpotMyCityDist is DistMyCityHigh AND MyUnit is Pioneer THEN MoveUnittoSpot is
 IF SpotMyCityDist is DistMyCityLow AND MyUnit is Pioneer THEN MoveUnittoSpot is Low
 
 ## Variables
-
+### Input
 MyUnit : 해당 Task의 주체가 되는 유닛의 종류
 * [0,1]
 * Def. [FightingUnit, Pioneer] - 전투유닛 아니면 개척자, 둘중 하나
@@ -515,6 +515,8 @@ SpotMyCityDist: 현재 타일에서 제일 가까운 내 도시까지의 거리�
 * Def. (목표 타일에 제일 가까운 내 도시까지의 거리) - (현재 타일에 제일 가까운 내 도시까지의 거리)
 * DistMyCitySet
 
+### Output
+
 MoveUnittoSpot: 한 유닛을 한 특정한 장소로 이동시키는 Task의 점수
 * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
@@ -546,6 +548,11 @@ DistEnemLow: <-infinity,0>
 DistMyCityHigh: <0,+infinity>
 
 DistMyCityLow: <-infinity,0>
+
+# Per MoveTask Rules(Other)
+
+IF 
+
 
 # Per AttackTask Rules
 
@@ -1175,9 +1182,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODk1NTMyNyw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbNTM5MTcyODQ1LDk3MTk0MTkxNiwtMTIwMT
+AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
+LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
