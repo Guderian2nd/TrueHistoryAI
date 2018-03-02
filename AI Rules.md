@@ -130,23 +130,23 @@ DeltaHappyGoal: 내 목표행복도(Happiness Goal)와 현재 행복도와의 �
 * Def. HappinessGoal(100) - Happy
 * DeltaHappySet
 
-HappinessGoal: 목표행복도
-* [-100,100]
-* Def. 목표행복도
- 
 Gold: 현재 금 보유량
 * [0, +infinity)
 * Def. 현재 금 보유량
+* GoldSet
 
 Tech: 현재 기술력 보유량
 * ibid.
+* TechSet
 
 Labor: 현재 노동력 보유량
 * ibid.
+* LaborSet
 
 Happy: 현재 행복도
 * [-100,+100]
 * Def. 현재 행복도
+* HappySet
 
 TechLost: 기술력이 정복등으로 사라진량
 * [0,+infinity)
@@ -280,6 +280,14 @@ LaborHigh: [1000,2000,+infinity]
 LaborNormal: [250,500,1000,1500]
 
 LaborLow: [0,100,250,500]
+
+### Happy
+
+HappyHigh
+
+HappyNormal
+
+HappyLow:
 
 ### T
 
@@ -1252,7 +1260,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY3Mzk5OTMsOTcxOTQxOTE2LC0xMj
+eyJoaXN0b3J5IjpbLTIwMDIxMDQ3OTcsOTcxOTQxOTE2LC0xMj
 AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
 MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
 UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
