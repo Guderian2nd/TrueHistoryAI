@@ -748,10 +748,12 @@ IF SkillEffect is Buff AND SkillTargetSpotDeal is SpotDealHigh AND SkillTarget i
 SkillEffect: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 효과
 * [0, 1,2,3]
 * Def.  [DamageEnemy, RestoreAP, RestoreHP, Buff]
+* SkillEffectType
 
 SkillTarget: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상이 적군인지 아군인지(대상이 있는 스킬이면)
 * [0,1]
 * Def. [Ally, Enemy]
+* 
 
 SkillTargetHP: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 HP가 풀피에서 남아있는 비율
 * [0,1]
@@ -1275,9 +1277,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjA0OTQwNiw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTE0NDE0NTQzNTYsOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
