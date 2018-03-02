@@ -400,14 +400,23 @@ MyFightingUnitNum: 내가 가지고 있는 총 전투 유닛의 갯수 + 생산�
 
 MyCityNum: 내가 가지고 있는 총 도시의 갯수 + 잠재적 도시 갯수
 * [0, +infinity)
-* 
+* Def. (My City Number + My Pioneer Number + Max(My Pioneer Under Production Number, My City Center Under Production))
+* MyCityNumSet
 
 
 ### Output
+ibid.
 
 ## Sets
 
 ### FightingUnitNum
+
+FightingUnitNumHigh: [25,50,+infinity]
+
+FightingUnitNumMedium:[0,25,50,75]
+
+FightingUnitNumLow:[-infinity,0,25]
+
 
 ### MyCityNum
 
@@ -1145,9 +1154,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0NDQ2MDkyLDk3MTk0MTkxNiwtMTIwMT
-AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
-LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
-UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
-MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE5NDEzODU5MDIsOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
