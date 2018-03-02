@@ -103,6 +103,7 @@ IF DmgUnitNum is UnitNumMedium THEN NeedLogistics is Medium
 IF DmgUnitNum is UnitNumLow THEN NeedLogistics is Low
 
 IF DmgUnitNum is UnitNumVeryLow THEN NeedLogistics is VeryLow
+
 IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is Medium
 IF NeedLogistics is High THEN Logistics is LHigh
 IF NeedLogistics is Medium THEN Logistics is LMedium
@@ -1082,7 +1083,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjIxNjgzNyw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbMTc0MDI0NDc1OSw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
