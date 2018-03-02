@@ -813,22 +813,13 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 # Per Building Rules (Common)
 
 
-IF BuildingProdResource is Gold AND (Gold is GoldVeryLow OR NeedGold is VeryHigh) THEN BuildResourceBuilding is VeryHigh
-
-IF BuildingProdResource is Gold AND (Gold is GoldLow OR NeedGold is High) THEN BuildResourceBuilding is High
+IF BuildingProdResource is Gold AND (Gold is GoldLow OR NeedGold is VeryHigh OR NeedGold is High) THEN BuildResourceBuilding is VeryHigh
 
 IF BuildingProdResource is Gold AND (Gold is GoldMedium OR NeedGold is Medium) THEN BuildResourceBuilding is Medium
 
-IF BuildingProdResource is Gold AND (Gold is GoldHigh OR NeedGold is Low) THEN BuildResourceBuilding is Low
+IF BuildingProdResource is Gold AND (Gold is GoldHigh OR NeedGold is Low OR NeedGold is VeryLow) THEN BuildResourceBuilding is Low
 
-IF BuildingProdResource is Gold AND (Gold is GoldVeryHigh OR NeedGold is VeryLow) THEN BuildResourceBuilding is VeryLow
-
-IF BuildingProdResource is Gold AND (Gold is GoldVeryLow OR NeedGold is VeryHigh) THEN BuildResourceBuilding is VeryHigh
-
-
-IF BuildingProdResource is Tech AND (Tech is TechVeryLow OR NeedTech is VeryHigh) THEN BuildResourceBuilding is VeryHigh
-
-IF BuildingProdResource is Tech AND (Tech is TechLow OR NeedTech is High) THEN BuildResourceBuilding is High
+IF BuildingProdResource is Tech AND (Tech is TechLow OR NeedTech is VeryHigh OR NeedTech is High) THEN BuildResourceBuilding is VeryHigh
 
 IF BuildingProdResource is Tech AND (Tech is TechMedium OR NeedTech is Medium) THEN BuildResourceBuilding is Medium
 
@@ -1260,7 +1251,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjQzMzQ5Myw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbLTQ5NTM3NzkyMiw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
