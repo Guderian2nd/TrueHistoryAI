@@ -557,6 +557,10 @@ SpotMyUnitDist: 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가
 * [0,infinity)
 * 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 아군 유닛까지의 거리
 
+DeploySpotEnemDist: 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 적 유닛까지의 거리
+* [0,infinity)
+* 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 적 유닛까지의 거리
+
 DeployUnittoCity:
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
@@ -587,9 +591,13 @@ SpotRsrcBuildingNearHigh: [12,24,36,36>
 
 SpotRsrcBuildingNearLow: <0,0,12,24]
 
-MyUnitDistHigh: 
+MyUnitDistHigh: [6,
 
 MyUnitDistLow: 
+
+DeployDistEnemHigh:
+
+DeployDistEnemLow:
 
 
 # Per UseSkillTask Rules
@@ -1086,7 +1094,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg5NTEwNjEsMTc1NDM2NDMwMCwxNT
-UwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwtMTE1MzAwODAy
-NiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTEzNjU4MzQwMzUsLTE5OTg5NTEwNjEsMT
+U1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUsLTExNTMwMDgw
+MjYsMzAxNDQyMjYyXX0=
 -->
