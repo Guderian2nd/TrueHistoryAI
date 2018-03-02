@@ -580,11 +580,13 @@ IF SpotOwner is Me THEN MoveUnittoSpot is Medium
 ### Input
 SpotOwner: 해당 MoveTask로 이동하고자 하는 타일의 주인
 * [0,1,2]
-* Def. [Me, Enemy, Ally]
+* Def. [Me, Enemy, Ally] - Ally는 동맹이지만 내가 아닌 타일 주인 국가
+* OwnerType
 
 
 ## Sets
 
+### OwnerType
 
 # Per AttackTask Rules
 
@@ -1214,9 +1216,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNDQ5MzU3LDk3MTk0MTkxNiwtMTIwMT
-AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
-LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
-UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
-MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTA3Mjg3ODc5MCw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
