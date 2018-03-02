@@ -263,11 +263,11 @@ EnemDistHigh: [4,6,+infinity]
 ---
 DeltaHappyGoalHigh: <0,0,200>
 
-DeltaHappyGoalLow: <-infinity,0,0>
+DeltaHappyGoalLow: <-200,0,0>
 
 
 ---
-HVeryHigh: [50,75,100,100>
+HVeryHigh: [50,75,100,100]
 
 HHigh: [25,50,75,100]
 
@@ -275,7 +275,7 @@ HMedium: [-50,-25,25,50]
 
 HLow: [-100,-75,-50,-25]
 
-HVeryLow: <-100,-100,-75,-50]
+HVeryLow: [-100,-100,-75,-50]
 
 ---
 
@@ -283,7 +283,7 @@ TechLostHigh: [2500,5000,+infinity]
 
 TechLostMedium: [0,2500,5000,7500]
 
-TechLostLow: <0,0,2500,5000]
+TechLostLow: [-infinity,2500,5000]
 
 
 ---
@@ -1114,9 +1114,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDMyNDM3MCw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbNTkxMjE4MDYyLDk3MTk0MTkxNiwtMTIwMT
+AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
+LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
