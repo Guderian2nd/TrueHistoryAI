@@ -603,7 +603,7 @@ IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
 
 SkillEffect: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 효과
 * [0, 1,2,3]
-* Def. [DamageEnemy, RestoreAP, RestoreHP, Buff]
+* Def.  [DamageEnemy, RestoreAP, RestoreHP, Buff]
 
 
 
@@ -1064,6 +1064,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDgyNDI5NCwtMTE1MzAwODAyNiwzMD
+eyJoaXN0b3J5IjpbMTQxOTAxMzQxOCwtMTE1MzAwODAyNiwzMD
 E0NDIyNjJdfQ==
 -->
