@@ -175,6 +175,22 @@ Happy: 현재 행복도
 * [-100,+100]
 * Def. 현재 행복도
 
+TechLost: 기술력이 정복등으로 사라진량
+* [0,+infinity)
+* Def. 바로전 적국 Subturn때 내가 정복등으로 잃어버린 기술력의 량
+
+TechInvest: 기술계 투자량
+* [0,2]
+* Def. 기술계 투자량
+
+DmgUnitNum: 피해를 입은 유닛의 전체 유닛중 비율
+* [0, 1]
+* Def. 피해를 입은 유닛의 갯수/총 유닛의 갯수
+
+Logistics: 병참 투자율
+* [0,1]
+* Def. 병참 투자율
+
 ### Output
 
 NeedFightingUnit: 전투유닛이 필요한 정도
@@ -208,27 +224,10 @@ NeedTech: 기술력이 필요한 정도
 * Def. [VeryLow, Low, Medium, Low, High]
 * ResultSets
 
-TechLost: 기술력이 정복등으로 사라진량
-* [0,+infinity)
-* Def. 바로전 적국 Subturn때 내가 정복등으로 잃어버린 기술력의 량
-
-TechInvest: 기술계 투자량
-* [0,2]
-* Def. 기술계 투자량
-
-DmgUnitNum: 피해를 입은 유닛의 전체 유닛중 비율
-* [0, 1]
-* Def. 피해를 입은 유닛의 갯수/총 유닛의 갯수
-
 NeedLogistics: 병참이 필요한 정도
 * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 * ResultSets
-
-Logistics: 병참 투자율
-* [0,1]
-* Def. 병참 투자율
-
 
 
 ## Sets
@@ -1094,9 +1093,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTM2NTM0Nyw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTE1NDY0MTQyOTEsOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
