@@ -151,14 +151,16 @@ NeedPioneer: 개척자가 필요한 정도
 * Def. [VeryLow, Low, Medium, Low, High]
 * ResultSet
 
-EnemFightingUnitNum: 적 전투유닛의 갯수
+
+**EnemFightingUnitNum: 적 전투유닛의 갯수**
 * [0, +infinity)
 * Def. 적 전투유닛의 갯수
-* 
+* FightingUnitNumSet
+
 
  AllMyUnitEnemDist: 얼마나 적 군대와 내 군대가 가까운지의 정도
  * [0, +infinity)
-* Def. 각 개별적 내 전투유닛들과 가장 가까운 적 전투유닛과의 거리의 평균
+* Def. 각 개별적 내 전투유닛&도시들과 가장 가까운 적 전투유닛과의 거리의 평균, 만약 도시와 
 
 DeltaHappyGoal: 내 목표행복도(Happiness Goal)와 현재 행복도와의 차이 정도
 * [-200, +200]
@@ -1087,7 +1089,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzMwMTE5MCw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbMTA4MjkzODQ0OSw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
