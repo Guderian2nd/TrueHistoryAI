@@ -381,9 +381,15 @@ IF MyFightingUnitNum is FightingUnitNumHigh THEN NeedFightingUnit is VeryLow
 
 IF MyFightingUnitNum is FightingUnitNumMedium THEN NeedFightingUnit is Low
 
-IF MyFightingUnitNum is FightingUnitNumLow THEN NeedFightingUnit is Medium
+IF MyFightingUnitNum is FightingUnitNumLow THEN NeedFightingUnit is High
 
-IF MyCityNum is City
+IF MyCityNum is MyCityNumHigh THEN NeedCity is VeryLow
+
+IF MyCityNum is MyCityNumMedium THEN NeedCity is Low
+
+IF MyCityNum is MyCityNumLow THEN NeedCity is High
+
+### 
 
 
 # Per MoveTask Rules
@@ -1119,9 +1125,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzMyNDk5MzEsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTYzMTcxNTM4OCw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
