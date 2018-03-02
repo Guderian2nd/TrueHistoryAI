@@ -77,7 +77,9 @@ IF RemainingLabor is RemainLaborVeryHigh OR RemainingLabor is RemainLaborHigh TH
 IF RemainingLabor is RemainLaborMedium THEN NeedLabor is Medium
 
 IF TechLost is TechLostHigh THEN NeedTech is VeryHigh
+
 IF TechLost is TechLostMedium THEN NeedTech is High
+
 IF TechLost is TechLostLow THEN NeedTech is Medium
 IF Tech is TechHigh THEN NeedTech is Low
 IF Tech is TechNormal THEN NeedTech is Medium
@@ -1069,9 +1071,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDAwMTQ1Nyw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbNTEwNTE4NjA3LDk3MTk0MTkxNiwtMTIwMT
+AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
+LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
