@@ -136,24 +136,25 @@ RemainingLabor: 턴당 노동력의 여유로운 정도
 * RemainLaborSet
 
 NeedFightingUnit: 전투유닛이 필요한 정도
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 * ResultSet
 
 
 NeedCity: 도시가 필요한 정도
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 * ResultSet
 
 NeedPioneer: 개척자가 필요한 정도
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 * ResultSet
 
 FightingUnitNum: 적 전투유닛의 갯수
 * [0, +infinity)
 * Def. 적 전투유닛의 갯수
+* 
 
  AllMyUnitEnemDist: 얼마나 적 군대와 내 군대가 가까운지의 정도
  * [0, +infinity)
@@ -1086,9 +1087,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MDM2NDQ1LDk3MTk0MTkxNiwtMTIwMT
-AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
-LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
-UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
-MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTIxNDM4MDI2ODksOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
