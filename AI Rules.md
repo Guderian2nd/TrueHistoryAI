@@ -478,10 +478,12 @@ IF SpotMyCityDist is DistMyCityLow AND MyUnit is Pioneer THEN MoveUnittoSpot is 
 MyUnit : 해당 Task의 주체가 되는 유닛의 종류
 * [0,1]
 * Def. [FightingUnit, Pioneer] - 전투유닛 아니면 개척자, 둘중 하나
+* UnitTypeSet
 
 MyUnitHP: 해당 Task의 주체가 만약 이 Task를 시행했을시의 결과로 나오는, 해당 유닛의 HP가 풀피에서 남아있는 비율
 * [0,1]
 * Def. (해당 Task를 실행후 남아있는 유닛의 실제 HP)/(유닛의 풀HP)
+* HPSet
 
 EnemyUnitHP: 만약 해당 MoveTask가 Moving Attack이며 공격대상이 일반적 유닛일때, 공격받는 적 유닛의 Task시행후 남아있는 HP의 비율
 * [0,1]
@@ -1168,9 +1170,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwNDQ5NTM3LDk3MTk0MTkxNiwtMTIwMT
-AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
-LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
-UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
-MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTgzODI2NzUyMyw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
