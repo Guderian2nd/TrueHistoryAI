@@ -5,114 +5,7 @@
 # Global Rules
 
 
-
-IF RemainingGold is RemainGoldVeryLow OR RemainingGold is RemainGoldLow THEN NeedFightingUnit is Low
-
-IF RemainingGold is RemainGoldMedium THEN NeedFightingUnit is Medium
-
-IF RemainingGold is RemainGoldHigh OR RemainingGold is RemainGoldVeryHigh THEN NeedFightingUnit is High
-
-IF RemainingLabor is RemainLaborVeryLow OR RemainingLabor is RemainLaborLow THEN NeedFightingUnit is Low
-
-IF RemainingLabor is RemainLaborMedium THEN NeedFightingUnit is Medium
-
-IF RemainingLabor is RemainLaborHigh OR RemainingLabor is RemainLaborVeryHigh THEN NeedFightingUnit is High
-
-IF DeltaCityNum is CityHigh THEN NeedCity is Low
-
-IF DeltaCityNum is CityMedium THEN NeedCity is Medium
-
-IF DeltaCityNum is CityLow THEN NeedCity is High
-
-IF NeedCity is Low THEN NeedPioneer is VeryLow
-
-IF NeedCity is High THEN NeedPioneer is VeryHigh
-
-IF RemainingGold is RemainGoldVeryLow OR RemainingGold is RemainGoldLow THEN NeedPioneer is Low
-
-IF RemainingGold is RemainGoldMedium THEN NeedPioneer is Medium
-
-IF RemainingGold is RemainGoldHigh OR RemainingGold is RemainGoldVeryHigh THEN NeedPioneer is High
-
-IF RemainingLabor is RemainLaborVeryLow OR RemainingLabor is RemainLaborLow THEN NeedPioneer is Low
-
-IF RemainingLabor is RemainLaborMedium THEN NeedPioneer is Medium
-
-IF RemainingLabor is RemainLaborHigh OR RemainingLabor is RemainLaborVeryHigh THEN NeedPioneer is High
-
-IF AllMyUnitEnemDist is EnemDistLow THEN NeedMilitaryBuilding is High
-
-IF AllMyUnitEnemDist is EnemDistHigh THEN NeedMilitaryBuilding is Low
-
-IF RemainingGold is RemainGoldVeryLow OR RemainingGold is RemainGoldLow THEN NeedMilitaryBuilding is Low
-
-IF RemainingGold is RemainGoldMedium THEN NeedMilitaryBuilding is Medium
-
-IF RemainingGold is RemainGoldHigh OR RemainingGold is RemainGoldVeryHigh THEN NeedMilitaryBuilding is High
-
-IF RemainingLabor is RemainLaborVeryLow OR RemainingLabor is RemainLaborLow THEN NeedMilitaryBuilding is Low
-
-IF RemainingLabor is RemainLaborMedium THEN NeedMilitaryBuilding is Medium
-
-IF RemainingLabor is RemainLaborHigh OR RemainingLabor is RemainLaborVeryHigh THEN NeedMilitaryBuilding is High
-
-IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoFull is VeryHigh
-
-IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoDouble is VeryLow
-
-IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoDouble is VeryHigh
-
-IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
-
-IF RemainingGold is RemainGoldVeryLow OR RemainingGold is RemainGoldLow THEN NeedGold is VeryHigh
-
-IF RemainingGold is RemainGoldVeryHigh OR RemainingGold is RemainGoldHigh THEN NeedGold is VeryLow
-
-IF RemainingGold is RemainGoldMedium THEN NeedGold is Medium
-
-IF RemainingLabor is RemainLaborVeryLow OR RemainingLabor is RemainLaborLow THEN NeedLabor is VeryHigh
-
-IF RemainingLabor is RemainLaborVeryHigh OR RemainingLabor is RemainLaborHigh THEN NeedLabor is VeryLow
-
-IF RemainingLabor is RemainLaborMedium THEN NeedLabor is Medium
-
-IF TechLost is TechLostHigh THEN NeedTech is VeryHigh
-
-IF TechLost is TechLostMedium THEN NeedTech is High
-
-IF TechLost is TechLostLow THEN NeedTech is Medium
-
-IF Tech is TechHigh THEN NeedTech is Low
-
-IF Tech is TechNormal THEN NeedTech is Medium
-
-IF Tech is TechLow THEN NeedTech is High
-
-IF NeedGold is VeryHigh THEN NeedTech is VeryLow
-
-IF NeedTech is High THEN TechInvest is THigh
-
-IF NeedTech is Medium THEN TechInvest is TMedium
-
-IF NeedTech is Low THEN TechInvest is TLow
-
-IF DmgUnitNum is UnitNumHigh THEN NeedLogistics is High
-
-IF DmgUnitNum is UnitNumMedium THEN NeedLogistics is Medium
-
-IF DmgUnitNum is UnitNumLow THEN NeedLogistics is Low
-
-IF DmgUnitNum is UnitNumVeryLow THEN NeedLogistics is VeryLow
-
-IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is Medium
-
-IF NeedLogistics is High THEN Logistics is LHigh
-
-IF NeedLogistics is Medium THEN Logistics is LMedium
-
-IF NeedLogistics is Low THEN Logistics is LLow
-
-IF NeedLogistics is VeryLow THEN Logistics is LVeryLownit Number + My Fighting Unit Being Produced Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
+Init Number + My Fighting Unit Being Produced Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
 
 
 RemainingGold: 턴당 금 생산량의 여유로운 정도
@@ -133,7 +26,7 @@ BuildFightingUnit: 전투유닛을 실제로 생산할 정도
 
 DeltaCityNum: 적 도시 갯수와 내 잠재적 도시 갯수와의 차이
 * (-infinity, +infinity)
-* Def. (My City Number + My Pioneer Number + My Pioneer in Production Number) - (1.5 × Enemy City Number)
+* Def. (My City Number + My Pioneer Number + My ) - (1.5 × Enemy City Number)
 
 NeedCity: 도시가 필요한 정도
 * (-infinity,+infinity)
@@ -1087,9 +980,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTE1MjY4OSw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTE1OTA5NzQzMDUsOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
