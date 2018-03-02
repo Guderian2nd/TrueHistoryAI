@@ -635,7 +635,8 @@ SkillTargetSpotDamage: 해당 UseSkillTask의 주체가 사용하고자 하는 �
 * Def. Σ (목표 타일을 다음 서브턴에 공격할수 있는 적 유닛의 공격력)/(UseSkillTask의 대상 유닛의 최대 HP)
 
 SkillTargetSpotDeal: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 위치에서 공격할수 있는 총 적 유닛의 갯수
-*[0,+infinity(
+*[0,+infinity)
+
 
 
 
@@ -1098,7 +1099,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyOTY1MTQxLDE2ODQzNDk3NTQsNDUwNT
-M2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1LC0x
-MTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTA2NDA0MDgwOCwxNjg0MzQ5NzU0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
