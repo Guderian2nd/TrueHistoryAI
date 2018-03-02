@@ -433,7 +433,7 @@ MyCityNumHigh: [4,6,+infinity)
 
 MyCityNumMedium: [3,4,6,7]
 
-MyCityNumLow:
+MyCityNumLow: [0
 
 # Per MoveTask Rules
 
@@ -1168,7 +1168,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxNTYxMzU1LDk3MTk0MTkxNiwtMTIwMT
+eyJoaXN0b3J5IjpbLTY5MDMwMjAyLDk3MTk0MTkxNiwtMTIwMT
 AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
 LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
 UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
