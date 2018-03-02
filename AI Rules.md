@@ -123,20 +123,12 @@ RemainingLabor: 턴당 노동력의 여유로운 정도
 AllMyUnitEnemDist: 얼마나 적 군대와 내 군대가 가까운지의 정도
  * [0, +infinity)
 * Def. 각 개별적 내 전투유닛&도시들과 가장 가까운 적 전투유닛과의 거리의 평균, 만약 도시와 유닛이 내가 없을경우 맵의 너비와 높이의 합.
-* EnemDist
+* EnemDistSet
 
 DeltaHappyGoal: 내 목표행복도(Happiness Goal)와 현재 행복도와의 차이 정도
 * [-200, +200]
 * Def. HappinessGoal(100) - Happy
-* DeltaHappy
-
-SetEconInvesttoFull: 민간계투자량을 100%로 하고싶은 정도
-* (-1,+1)
-* Def. [VeryLow, Low, Medium, Low, High]
-
-SetEconInvesttoDouble: 민간계투자량을 200%로 하고싶은 정도
- * (-1,+1)
-* Def. [VeryLow, Low, Medium, Low, High]
+* DeltaHappySet
 
 HappinessGoal: 목표행복도
 * [-100,100]
@@ -179,7 +171,6 @@ NeedFightingUnit: 전투유닛이 필요한 정도
 * Def. [VeryLow, Low, Medium, Low, High]
 * ResultSet
 
-
 NeedCity: 도시가 필요한 정도
 * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
@@ -210,6 +201,15 @@ NeedLogistics: 병참이 필요한 정도
 * Def. [VeryLow, Low, Medium, Low, High]
 * ResultSets
 
+SetEconInvesttoFull: 민간계투자량을 100%로 하고싶은 정도
+* (-1,+1)
+* Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
+
+SetEconInvesttoDouble: 민간계투자량을 200%로 하고싶은 정도
+ * (-1,+1)
+* Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
 
 ## Sets
 
@@ -1109,9 +1109,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTgxNzQzMTIsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTk0OTIyMjc3MCw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
