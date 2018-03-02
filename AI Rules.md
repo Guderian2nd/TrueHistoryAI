@@ -758,14 +758,17 @@ SkillTarget: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 �
 SkillTargetHP: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 HP가 풀피에서 남아있는 비율
 * [0,1]
 * Def. (해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 현재 HP)/(대상의 풀HP)
+* HP
 
 SkillTargetSpotDamage: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 위치에서 받을수 있는 총 데미지량(풀피의 비율로 나타낸)의 합
 * [0,+infinity)
 * Def. Σ (UseSkillTask의 대상 유닛 타일을 다음 서브턴에 공격할수 있는 적 유닛의 공격력)/(UseSkillTask의 대상 유닛의 최대 HP)
+* SpotDamage
 
 SkillTargetSpotDeal: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 위치에서 공격할수 있는 총 적 유닛의 갯수
 * [0,+infinity)
 * (목표 타일에 근접해 있거나 이동공격할수 있는 유닛의 갯수)
+* SpotDeal
 
 
 
@@ -1277,7 +1280,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDU4MTQ3Niw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbLTM1NjE5MjAyNyw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
