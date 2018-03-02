@@ -193,15 +193,15 @@ Happy: 현재 행복도
 * Def. 현재 행복도
 
 NeedGold: 금이 필요한 정도
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 
 NeedLabor: 노동력이 필요한 정도
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 
 NeedTech: 기술력이 필요한 정도
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 
 TechLost: 기술력이 정복등으로 사라진량
@@ -217,8 +217,9 @@ DmgUnitNum: 피해를 입은 유닛의 전체 유닛중 비율
 * Def. 피해를 입은 유닛의 갯수/총 유닛의 갯수
 
 NeedLogistics: 병참이 필요한 정도
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
+* ResultSets
 
 Logistics: 병참 투자율
 * [0,1]
@@ -1089,9 +1090,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDczMDA4NzUsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbLTc5OTI0OTM3Myw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
