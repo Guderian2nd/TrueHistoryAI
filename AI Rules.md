@@ -221,9 +221,9 @@ DeltaUnitLow: [-infinity, -50, 0]
 
 RemainGoldVeryHigh: [500,1000,+infinity]
 
-RemainGoldHigh: [0, 500,1000,1500]
+RemainGoldHigh: [0, 250,1000,1500]
 
-RemainGoldMedium: [-750,-250,250,750]
+RemainGoldMedium: [-750,-500,250,750]
 
 RemainGoldLow: [-1500,-1000,-500,0]
 
@@ -235,7 +235,7 @@ RemainLaborHigh: [250, 500,750,1000]
 
 RemainLaborMedium: [50,100,250,500]
 
-RemainLaborLow: <0,0,50,100]
+RemainLaborLow: [15,50,50,100]
 
 RemainLaborVeryLow: [-infinity,-1000,-500]
 
@@ -1114,9 +1114,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTEzNzMxNzcsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTE5MzExNjMyNyw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
