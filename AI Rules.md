@@ -160,18 +160,18 @@ NeedPioneer: 개척자가 필요한 정도
 
  AllMyUnitEnemDist: 얼마나 적 군대와 내 군대가 가까운지의 정도
  * [0, +infinity)
-* Def. 각 개별적 내 전투유닛&도시들과 가장 가까운 적 전투유닛과의 거리의 평균, 만약 도시와 
+* Def. 각 개별적 내 전투유닛&도시들과 가장 가까운 적 전투유닛과의 거리의 평균, 만약 도시와 유닛이 내가 없을경우 맵의 너비와 높이의 합.
 
 DeltaHappyGoal: 내 목표행복도(Happiness Goal)와 현재 행복도와의 차이 정도
 * [-200, +200]
 * Def. HappinessGoal - Happy
 
 SetEconInvesttoFull: 민간계투자량을 100%로 하고싶은 정도
-* (-infinity,+infinity)
+* (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 
 SetEconInvesttoDouble: 민간계투자량을 200%로 하고싶은 정도
- * (-infinity,+infinity)
+ * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
 
 HappinessGoal: 목표행복도
@@ -1089,9 +1089,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjkzODQ0OSw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTIwMDczMDA4NzUsOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
