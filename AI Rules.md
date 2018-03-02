@@ -587,9 +587,9 @@ SpotRsrcBuildingNearHigh: [12,24,36,36>
 
 SpotRsrcBuildingNearLow: <0,0,12,24]
 
-MyUnitDistHigh:
+MyUnitDistHigh: 
 
-MyUnitDistLow:
+MyUnitDistLow: 
 
 
 # Per UseSkillTask Rules
@@ -1086,7 +1086,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjgyNTk5NDUsLTEwNDM2MDc4NzcsMT
+eyJoaXN0b3J5IjpbLTEyODQ4NzgzNzcsLTEwNDM2MDc4NzcsMT
 U1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUsLTExNTMwMDgw
 MjYsMzAxNDQyMjYyXX0=
 -->
