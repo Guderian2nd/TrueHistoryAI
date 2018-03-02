@@ -602,7 +602,7 @@ IF SkillEffect is Buff AND SkillTargetSpot is DealHigh THEN UseSkill is High
 ## Variables
 
 SkillEffect: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 효과
-* [0, +infinity)
+* [0, 1,2,3,4]
 * Def.
 
 
@@ -1064,6 +1064,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3MDgyMzk4LC0xMTUzMDA4MDI2LDMwMT
-Q0MjI2Ml19
+eyJoaXN0b3J5IjpbMTY2MTgzNjIyMywtMTE1MzAwODAyNiwzMD
+E0NDIyNjJdfQ==
 -->
