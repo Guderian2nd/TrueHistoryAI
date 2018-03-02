@@ -610,11 +610,11 @@ IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow THEN UseSkill is VeryHigh
 
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh THEN UseSkill is Medium
 
-IF SkillEffect is RestoreHP AND SkillTargetSpotDamage is DamageHigh THEN UseSkill is High
+IF SkillEffect is RestoreHP AND SkillTargetSpotDamage is DeployDamageHigh THEN UseSkill is High
 
-IF SkillEffect is Buff AND SkillTargetSpotDamage is DamageHigh THEN UseSkill is High
+IF SkillEffect is Buff AND SkillTargetSpotDamage is DeployDamageHigh THEN UseSkill is High
 
-IF SkillEffect is Buff AND SkillTargetSpotDeal is DealHigh THEN UseSkill is High
+IF SkillEffect is Buff AND SkillTargetSpotDeal is DeployDealHigh THEN UseSkill is High
 
 ## Variables
 
@@ -1094,7 +1094,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDM0OTc1NCw1NTg2MzIwOTEsNDUwNT
+eyJoaXN0b3J5IjpbLTczOTg3NjAwLDE2ODQzNDk3NTQsNDUwNT
 M2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1LC0x
 MTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
