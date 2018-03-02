@@ -507,25 +507,25 @@ IF EnemyCityHP is HPHigh THEN AttackUnit is VeryHigh
 
 # Per DeployTask Rules
 
-IF SpotEnemDist is DistEnemLow AND MyUnit is FightingUnit THEN DeployUnittoCity is VeryHigh
+IF DeploySpotEnemDist is DeployDistEnemLow AND MyUnit is FightingUnit THEN DeployUnittoCity is VeryHigh
 
 IF RemainingGold is RemainGoldLow THEN DeployUnittoCity is Low
 
-IF SpotEnemDist is DistEnemHigh AND MyUnit is Pioneer THEN DeployUnittoCity is VeryHigh
+IF DeploySpotEnemDist is DeployDistEnemHigh AND MyUnit is Pioneer THEN DeployUnittoCity is VeryHigh
 
 
-IF SpotEnemDist is DistEnemHigh THEN DeployInteriorBuildingtoSpot is VeryHigh
+IF DeploySpotEnemDist is DeployDistEnemHigh THEN DeployInteriorBuildingtoSpot is VeryHigh
 
 IF CityatSpotRsrcBuildingNum is RsrcBuildingNumHigh THEN DeployInteriorBuildingtoSpot is Low
 
-IF SpotEnemDist is DistEnemLow THEN DeployInteriorBuildingtoSpot is VeryLow
+IF DeploySpotEnemDist is DistEnemLow THEN DeployInteriorBuildingtoSpot is VeryLow
 
 IF CityatSpotRsrcBuildingNum is RsrcBuildingNumLow THEN DeployInteriorBuildingtoSpot is High
 
 
-IF SpotEnemDist is DistEnemHigh THEN DeployTileResourceBuildingtoSpot is VeryHigh
+IF DeploySpotEnemDist is DeployDistEnemHigh THEN DeployTileResourceBuildingtoSpot is VeryHigh
 
-IF SpotEnemDist is DistEnemLow THEN DeployTileResourceBuildingtoSpot is VeryLow
+IF DeploySpotEnemDist is DeployDistEnemLow THEN DeployTileResourceBuildingtoSpot is VeryLow
 
 IF SpotRsrcBuildingNear is SpotRsrcBuildingNearHigh THEN DeployTileResourceBuildingtoSpot is Low
 
@@ -1086,7 +1086,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxODYxNTA4LDE2NDY3MDQzNTcsMTU1MD
+eyJoaXN0b3J5IjpbMTc1NDM2NDMwMCw3MDE4NjE1MDgsMTU1MD
 k0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUsLTExNTMwMDgwMjYs
 MzAxNDQyMjYyXX0=
 -->
