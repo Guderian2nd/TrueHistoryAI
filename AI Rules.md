@@ -126,7 +126,7 @@ AllMyUnitEnemDist: 얼마나 적 군대와 내 군대가 가까운지의 정도
 
 DeltaHappyGoal: 내 목표행복도(Happiness Goal)와 현재 행복도와의 차이 정도
 * [-200, +200]
-* Def. HappinessGoal - Happy
+* Def. HappinessGoal(100) - Happy
 
 SetEconInvesttoFull: 민간계투자량을 100%로 하고싶은 정도
 * (-1,+1)
@@ -247,19 +247,7 @@ DeltaHappyGoalHigh: <0,0,200>
 
 DeltaHappyGoalLow: <-200,0,0>
 
-
----
-HVeryHigh: [50,75,100,100]
-
-HHigh: [25,50,75,100]
-
-HMedium: [-50,-25,25,50]
-
-HLow: [-100,-75,-50,-25]
-
-HVeryLow: [-100,-100,-75,-50]
-
----
+### TechLost
 
 TechLostHigh: [2500,5000,+infinity]
 
@@ -267,15 +255,14 @@ TechLostMedium: [0,2500,5000,7500]
 
 TechLostLow: [-infinity,2500,5000]
 
+### Gold
 
----
 GoldHigh: [2500, 5000, +infinity]
 
 GoldNormal: [0,2500,5000,7500]
 
 GoldLow: [-infinity,2500,5000]
-
----
+###
 
 TechHigh: [10000,20000,+infinity]
 
@@ -1119,7 +1106,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUyODg4OSw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbMTcwMzEzNDAzOSw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
