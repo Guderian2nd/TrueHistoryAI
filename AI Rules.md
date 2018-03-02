@@ -844,7 +844,7 @@ IF BuildingProdResource is Happy AND (Happy is HappyHigh OR NeedHappy is Low OR 
 
 BuildingProdResource: 해당 BuildTask가 지으려는 건물이 자원생산건물일 경우, 해당 자원생산건물이 생산하는 자원 종류
 * [0,1,2,3]
-* Def. [Gold, Tech, Labor, Happy] = [금, 기술력, 녿
+* Def. [Gold, Tech, Labor, Happy] = [금, 기술력, 노동력, 행ㅂ
 
 ## Sets
 
@@ -1245,7 +1245,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE2Mjg0MTEsOTcxOTQxOTE2LC0xMj
+eyJoaXN0b3J5IjpbLTEzMTMxODE3MDUsOTcxOTQxOTE2LC0xMj
 AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
 MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
 UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
