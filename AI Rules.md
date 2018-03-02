@@ -377,7 +377,11 @@ FightingUnitNumLow:[-infinity,0,25]
 
 # Global Additional Rules(Other)
 
-IF EnemNuminTerritory is VeryLow THEN 
+IF MyFightingUnitNum is FightingUnitNumHigh THEN NeedFightingUnit is VeryLow
+
+IF MyFightingUnitNum is FightingUnitNumMedium THEN NeedFightingUnit is Low
+
+IF My
 
 
 # Per MoveTask Rules
@@ -1113,7 +1117,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzgxMTIxNjEsOTcxOTQxOTE2LC0xMj
+eyJoaXN0b3J5IjpbLTE3ODI2OTM5MzMsOTcxOTQxOTE2LC0xMj
 AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
 MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
 UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
