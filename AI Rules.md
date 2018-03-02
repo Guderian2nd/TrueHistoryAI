@@ -841,6 +841,16 @@ IF BuildingProdResource is Labor AND (Labor is LaborHigh OR NeedLabor is Low) TH
 IF BuildingProdResource is Labor AND (Labor is LaborVeryHigh OR NeedLabor is VeryLow) THEN BuildResourceBuilding is VeryLow
 
 
+IF BuildingProdResource is Happy AND (Happy is HappyVeryLow OR NeedHappy is VeryHigh) THEN BuildResourceBuilding is VeryHigh
+
+IF BuildingProdResource is Happy AND (Labor is LaborLow OR NeedLabor is High) THEN BuildResourceBuilding is High
+
+IF BuildingProdResource is Labor AND (Labor is LaborMedium OR NeedLabor is Medium) THEN BuildResourceBuilding is Medium
+
+IF BuildingProdResource is Labor AND (Labor is LaborHigh OR NeedLabor is Low) THEN BuildResourceBuilding is Low
+
+IF BuildingProdResource is Labor AND (Labor is LaborVeryHigh OR NeedLabor is VeryLow) THEN BuildResourceBuilding is VeryLow
+
 .
 
 .
@@ -1250,9 +1260,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDg2OTQzNiw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbNjkxMzY0MzEzLDk3MTk0MTkxNiwtMTIwMT
+AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
+LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
