@@ -211,6 +211,8 @@ NeedLogistics: 병참이 필요한 정도
 
 ## Sets
 
+### RemainGold
+
 RemainGoldVeryHigh: [500,1000,+infinity]
 
 RemainGoldHigh: [0, 250,1000,1500]
@@ -220,6 +222,8 @@ RemainGoldMedium: [-750,-500,250,750]
 RemainGoldLow: [-1500,-1000,-500,0]
 
 RemainGoldVeryLow: [-infinity,-1000,-500]
+
+### RemainLabor
 
 RemainLaborVeryHigh: [500,1000,+infinity]
 
@@ -231,19 +235,14 @@ RemainLaborLow: [15,50,50,100]
 
 RemainLaborVeryLow: [-infinity,25,50]
 
-
-FightingUnitNumHigh: [25,50,+infinity]
-
-FightingUnitNumMedium:[0,25,50,75]
-
-FightingUnitNumLow:[-infinity,0,25]
+### EnemDist
 
 EnemDistLow: [-infinity, 3,5]
 
 EnemDistHigh: [4,6,+infinity]
 
+### DeltaHappyGoal
 
----
 DeltaHappyGoalHigh: <0,0,200>
 
 DeltaHappyGoalLow: <-200,0,0>
@@ -379,6 +378,12 @@ CityMedium: [-20,-10,+10,+20]
 CityLow: [-infinity,-20,-10]
 
 ### FightingUnitNum
+
+FightingUnitNumHigh: [25,50,+infinity]
+
+FightingUnitNumMedium:[0,25,50,75]
+
+FightingUnitNumLow:[-infinity,0,25]
 
 
 # Per MoveTask Rules
@@ -1114,7 +1119,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjM0Njg0OCw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbLTE1NzUyODg4OSw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
