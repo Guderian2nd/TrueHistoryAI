@@ -579,11 +579,11 @@ DeployCitytoPioneer:
 
 ## Sets
 
-RsrcBuildingNumHigh: [)
+RsrcBuildingNumHigh: [40,80,+infinity)
 
-RsrcBuildingNumLow: 
+RsrcBuildingNumLow: [-infinity,20,60]
 
-SpotRsrcBuildingNearHigh: 
+SpotRsrcBuildingNearHigh: [
 
 SpotRsrcBuildingNearLow:
 
@@ -1082,7 +1082,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4NjE3ODQsLTc0MTc3NDE1LDU3ODYxNz
-g0LC03NDE3NzQxNSwtMTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTU1MDk0NjU1NCw1Nzg2MTc4NCw1Nzg2MT
+c4NCwtNzQxNzc0MTUsLTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 
 -->
