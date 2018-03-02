@@ -807,9 +807,11 @@ QuestReward is Goldbuff/Laborbuff/Happybuff/Techbuff THEN DoQuestTask is Medium
 
 IF BuildingProdResource is Gold AND (Gold is GoldVeryLow OR NeedGold is VeryHigh) THEN BuildResourceBuilding is VeryHigh
 
-IF BuildingProdResource is Gold AND Gold is GoldLow THEN BuildResourceBuilding is High
+IF BuildingProdResource is Gold AND (Gold is GoldLow OR NeedGold is Low) THEN BuildResourceBuilding is High
 
-IF BuildingProdResource is Gold AND Gold is GoldMedium THEN BuildResourceBuilding is Medium
+IF BuildingProdResource is Gold AND (Gold is GoldMedium OR NeedGold is Medium) THEN BuildResourceBuilding is Medium
+
+IF BuildingProdResource is Gold AND (Gold is GoldMedium OR NeedGold is Medium) THEN BuildResourceBuilding is Medium
 
 .
 
@@ -1220,7 +1222,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODk2MjM3NSw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbMTgxODEzNjE2MSw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
