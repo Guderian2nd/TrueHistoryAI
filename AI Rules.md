@@ -351,8 +351,15 @@ IF DeltaFightingUnitNum is DeltaUnitMedium THEN NeedFightingUnit is Medium
 
 IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is High
 
-## Variables
+IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
 
+IF EnemyFightingUnitNum is FightingUnitNumMedium THEN BuildMilitaryBuilding is Medium
+
+IF EnemyFightingUnitNum is FightingUnitNumLow THEN BuildMilitaryBuilding is Low
+
+
+## Variables
+### Input
 DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유닛 + 생산되고 있는 갯수와의 차이
 * (-infinity,+infinity)
 * Def. (My Fighting Unit Number + My Fighting Unit Being Produced Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
@@ -1105,7 +1112,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0NTAxNTk5LDk3MTk0MTkxNiwtMTIwMT
+eyJoaXN0b3J5IjpbMzA2MDU4OTI1LDk3MTk0MTkxNiwtMTIwMT
 AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
 LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
 UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
