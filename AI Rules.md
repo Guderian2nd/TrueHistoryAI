@@ -135,23 +135,6 @@ RemainingLabor: 턴당 노동력의 여유로운 정도
 * Def. 현재 남아있는 턴당 노동력(즉 사용되지 않고 있는)
 * RemainLaborSet
 
-NeedFightingUnit: 전투유닛이 필요한 정도
-* (-1,+1)
-* Def. [VeryLow, Low, Medium, Low, High]
-* ResultSet
-
-
-NeedCity: 도시가 필요한 정도
-* (-1,+1)
-* Def. [VeryLow, Low, Medium, Low, High]
-* ResultSet
-
-NeedPioneer: 개척자가 필요한 정도
-* (-1,+1)
-* Def. [VeryLow, Low, Medium, Low, High]
-* ResultSet
-
-
 **EnemFightingUnitNum: 적 전투유닛의 갯수**
 * [0, +infinity)
 * Def. 적 전투유닛의 갯수
@@ -192,17 +175,38 @@ Happy: 현재 행복도
 * [-100,+100]
 * Def. 현재 행복도
 
+### Output
+
+NeedFightingUnit: 전투유닛이 필요한 정도
+* (-1,+1)
+* Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
+
+
+NeedCity: 도시가 필요한 정도
+* (-1,+1)
+* Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
+
+NeedPioneer: 개척자가 필요한 정도
+* (-1,+1)
+* Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
+
 NeedGold: 금이 필요한 정도
 * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
+* ResultSets
 
 NeedLabor: 노동력이 필요한 정도
 * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
+* ResultSets
 
 NeedTech: 기술력이 필요한 정도
 * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
+* ResultSets
 
 TechLost: 기술력이 정복등으로 사라진량
 * [0,+infinity)
@@ -1090,7 +1094,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTI0OTM3Myw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbLTYwOTM2NTM0Nyw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
