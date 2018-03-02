@@ -4,26 +4,17 @@
 
 # Global Rules
 
+IF RemainingGold is RemainGoldVeryLow OR RemainingGold is RemainGoldLow THEN NeedFightingUnit is Low
 
-IF DeltaFightingUnitNum is DeltaUnitHigh THEN NeedFightingUnit is Low
+IF RemainingGold is RemainGoldMedium THEN NeedFightingUnit is Medium
 
-IF DeltaFightingUnitNum is DeltaUnitMedium THEN NeedFightingUnit is Medium
+IF RemainingGold is RemainGoldHigh OR RemainingGold is RemainGoldVeryHigh THEN NeedFightingUnit is High
 
-IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is High
+IF RemainingLabor is RemainLaborVeryLow OR RemainingLabor is RemainLaborLow THEN NeedFightingUnit is Low
 
-IF RemainingGold is RemainGoldLow THEN NeedFightingUnit is VeryLow
+IF RemainingLabor is RemainLaborMedium THEN NeedFightingUnit is Medium
 
-IF RemainingLabor is RemainLaborLow THEN NeedFightingUnit is VeryLow
-
-IF NeedFightingUnit is High THEN BuildFightingUnit is High
-
-IF NeedFightingUnit is Medium THEN BuildFightingUnit is Medium
-
-IF NeedFightingUnit is Low THEN BuildFightingUnit is Low
-
-IF NeedFightingUnit is VeryLow THEN BuildFightingUnit is VeryLow
-
----
+IF RemainingLabor is RemainLaborHigh OR RemainingLabor is RemainLaborVeryHigh THEN NeedFightingUnit is High
 
 IF DeltaCityNum is CityHigh THEN NeedCity is Low
 
@@ -35,103 +26,58 @@ IF NeedCity is Low THEN NeedPioneer is VeryLow
 
 IF NeedCity is High THEN NeedPioneer is VeryHigh
 
-IF RemainingGold is RemainGoldLow THEN NeedPioneer is VeryLow
+IF RemainingGold is RemainGoldVeryLow OR RemainingGold is RemainGoldLow THEN NeedPioneer is Low
 
-IF RemainingLabor is RemainLaborLow THEN NeedPioneer is VeryLow
+IF RemainingGold is RemainGoldMedium THEN NeedPioneer is Medium
 
-If NeedCity is High THEN BuildCityCenter is High
+IF RemainingGold is RemainGoldHigh OR RemainingGold is RemainGoldVeryHigh THEN NeedPioneer is High
 
-If NeedCity is Low THEN BuildCityCenter is Low
+IF RemainingLabor is RemainLaborVeryLow OR RemainingLabor is RemainLaborLow THEN NeedPioneer is Low
 
-If NeedPioneer is High THEN BuildPioneer is High
+IF RemainingLabor is RemainLaborMedium THEN NeedPioneer is Medium
 
-If NeedPioneer is Low THEN BuildPioneer is Low
+IF RemainingLabor is RemainLaborHigh OR RemainingLabor is RemainLaborVeryHigh THEN NeedPioneer is High
 
----
+IF AllMyUnitEnemDist is EnemDistLow THEN NeedMilitaryBuilding is High
 
+IF AllMyUnitEnemDist is EnemDistHigh THEN NeedMilitaryBuilding is Low
 
-IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
+IF RemainingGold is RemainGoldVeryLow OR RemainingGold is RemainGoldLow THEN NeedMilitaryBuilding is Low
 
-IF EnemyFightingUnitNum is FightingUnitNumMedium THEN BuildMilitaryBuilding is Medium
-
-IF EnemyFightingUnitNum is FightingUnitNumLow THEN BuildMilitaryBuilding is Low
-
-IF AllMyUnitEnemDist is EnemDistLow THEN BuildMilitaryBuilding is High
-
-IF AllMyUnitEnemDist is EnemDistHigh THEN BuildMilitaryBuilding is Low
-
-IF RemainingGold is RemainGoldLow THEN BuildMilitaryBuilding is VeryLow
-
-IF RemainingLabor is RemainLaborLow THEN BuildMilitaryBuilding is VeryLow
-
-
----
-
+IF RemainingGold is RemainGoldMedium THEN NeedMilitaryBuilding is Medium
+IF RemainingGold is RemainGoldHigh OR RemainingGold is RemainGoldVeryHigh THEN NeedMilitaryBuilding is High
+IF RemainingLabor is RemainLaborVeryLow OR RemainingLabor is RemainLaborLow THEN NeedMilitaryBuilding is Low
+IF RemainingLabor is RemainLaborMedium THEN NeedMilitaryBuilding is Medium
+IF RemainingLabor is RemainLaborHigh OR RemainingLabor is RemainLaborVeryHigh THEN NeedMilitaryBuilding is High
 IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoFull is VeryHigh
-
 IF DeltaHappyGoal is DeltaHappyGoalHigh THEN SetEconInvesttoDouble is VeryLow
-
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoDouble is VeryHigh
-
 IF DeltaHappyGoal is DeltaHappyGoalLow THEN SetEconInvesttoFull is VeryLow
-
----
-
-IF NeedLabor is High THEN HappinessGoal is HVeryHigh
-
-IF NeedGold is VeryHigh THEN HappinessGoal is HLow
-
-IF RemainingGold is VeryLow OR RemainingGold is Low THEN NeedGold is VeryHigh
-
+IF RemainingGold is RemainGoldVeryLow OR RemainingGold is RemainGoldLow THEN NeedGold is VeryHigh
 IF RemainingGold is RemainGoldVeryHigh OR RemainingGold is RemainGoldHigh THEN NeedGold is VeryLow
-
 IF RemainingGold is RemainGoldMedium THEN NeedGold is Medium
-
-IF RemainingLabor is VeryLow OR RemainingLabor is Low THEN NeedLabor is VeryHigh
-
+IF RemainingLabor is RemainLaborVeryLow OR RemainingLabor is RemainLaborLow THEN NeedLabor is VeryHigh
 IF RemainingLabor is RemainLaborVeryHigh OR RemainingLabor is RemainLaborHigh THEN NeedLabor is VeryLow
-
 IF RemainingLabor is RemainLaborMedium THEN NeedLabor is Medium
-
----
-
 IF TechLost is TechLostHigh THEN NeedTech is VeryHigh
-
 IF TechLost is TechLostMedium THEN NeedTech is High
-
 IF TechLost is TechLostLow THEN NeedTech is Medium
-
 IF Tech is TechHigh THEN NeedTech is Low
-
 IF Tech is TechNormal THEN NeedTech is Medium
-
 IF Tech is TechLow THEN NeedTech is High
-
 IF NeedGold is VeryHigh THEN NeedTech is VeryLow
-
 IF NeedTech is High THEN TechInvest is THigh
-
 IF NeedTech is Medium THEN TechInvest is TMedium
-
 IF NeedTech is Low THEN TechInvest is TLow
-
-
----
-
 IF DmgUnitNum is UnitNumHigh THEN NeedLogistics is High
-
 IF DmgUnitNum is UnitNumMedium THEN NeedLogistics is Medium
-
 IF DmgUnitNum is UnitNumLow THEN NeedLogistics is Low
-
 IF DmgUnitNum is UnitNumVeryLow THEN NeedLogistics is VeryLow
-
 IF RemainingLabor is RemainLaborHigh THEN NeedLogistics is Medium
-
 IF NeedLogistics is High THEN Logistics is LHigh
-
 IF NeedLogistics is Medium THEN Logistics is LMedium
-
+IF NeedLogistics is Low THEN Logistics is LLow
+IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
 ## Variables
 
@@ -1112,7 +1058,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTAzNTQ4MSw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbLTU0MDkwMDA1NCw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
