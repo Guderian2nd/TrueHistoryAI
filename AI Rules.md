@@ -661,7 +661,7 @@ IF NeedCity is Low THEN DeployCitytoPioneer is Medium
 CityatSpotRsrcBuildingNum: 해당 Deploy Task가 Deploy하려는 위치(도시)에 존재하는 동일 종류의 자원 건물의 갯수
 * [0,infinity)
 * Def. 해당 Deploy Task가 Deploy하려는 위치(도시)에 존재하는 동일 종류의 자원 건물의 갯수
-* RsrctBuildingNum
+* RsrcBuildingNum
 
 SpotRsrcBuildingNear : 해당 Deploy Task가 Deploy하려는 타일 주변에 존재하는 자원건물의 갯수
 * [0,infinity)
@@ -1275,9 +1275,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU3OTc3ODIsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTc5NjA0OTQwNiw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
