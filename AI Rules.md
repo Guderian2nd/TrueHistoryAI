@@ -211,14 +211,6 @@ NeedLogistics: 병참이 필요한 정도
 
 ## Sets
 
-DeltaUnitHigh: [0, 0,50,+infinity]
-
-DeltaUnitMedium: [-70, -50, 50, 70]
-
-DeltaUnitLow: [-infinity, -50, 0]
-
----
-
 RemainGoldVeryHigh: [500,1000,+infinity]
 
 RemainGoldHigh: [0, 250,1000,1500]
@@ -239,16 +231,7 @@ RemainLaborLow: [15,50,50,100]
 
 RemainLaborVeryLow: [-infinity,25,50]
 
----
 
-CityHigh: [+10,+20,+infinity]
-
-CityMedium: [-20,-10,+10,+20]
-
-CityLow: [-infinity,-20,-10]
-
-
----
 FightingUnitNumHigh: [25,50,+infinity]
 
 FightingUnitNumMedium:[0,25,50,75]
@@ -379,6 +362,17 @@ EnemFightingUnitNum: 적 전투유닛의 갯수
 
 ## Sets
 
+### DeltaUnit
+
+DeltaUnitHigh: [0, 0,50,+infinity]
+
+DeltaUnitMedium: [-70, -50, 50, 70]
+
+DeltaUnitLow: [-infinity, -50, 0]
+
+### CityNum
+
+### FightingUnitNum
 
 
 # Per MoveTask Rules
@@ -1114,9 +1108,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDg0NjkzLDk3MTk0MTkxNiwtMTIwMT
-AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
-LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
-UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
-MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTIxNDMyMDcyNzgsOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
