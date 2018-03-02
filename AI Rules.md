@@ -123,10 +123,12 @@ RemainingLabor: 턴당 노동력의 여유로운 정도
 AllMyUnitEnemDist: 얼마나 적 군대와 내 군대가 가까운지의 정도
  * [0, +infinity)
 * Def. 각 개별적 내 전투유닛&도시들과 가장 가까운 적 전투유닛과의 거리의 평균, 만약 도시와 유닛이 내가 없을경우 맵의 너비와 높이의 합.
+* EnemDist
 
 DeltaHappyGoal: 내 목표행복도(Happiness Goal)와 현재 행복도와의 차이 정도
 * [-200, +200]
 * Def. HappinessGoal(100) - Happy
+* DeltaHappy
 
 SetEconInvesttoFull: 민간계투자량을 100%로 하고싶은 정도
 * (-1,+1)
@@ -278,9 +280,8 @@ LaborHigh: [1000,2000,+infinity]
 LaborNormal: [250,500,1000,1500]
 
 LaborLow: [0,100,250,500]
+
 ### T
-
-
 
 THigh: [1,1.5,2,2]
 
@@ -288,7 +289,7 @@ TMedium: [0.5,0.75,1.25,1.5]
 
 TLow: [-infinity,0.5,1]
 
----
+### UnitNum
 
 UnitNumHigh: [0.5,0.75,1,1]
 
@@ -298,7 +299,7 @@ UnitNumLow: [0,0.1,0.2,0.25]
 
 UnitNumVeryLow: [-infinity, 0.1, 0.15]
 
----
+### L
 
 LHigh: [0.7, 0.9, infinity]
 
@@ -1108,9 +1109,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0MzI1MDkzLDk3MTk0MTkxNiwtMTIwMT
-AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
-LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
-UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
-MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE2MTgxNzQzMTIsOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
