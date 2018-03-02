@@ -683,22 +683,27 @@ DeploySpotEnemDist: 해당 Deploy Task가 Deploy하려는 타일로부터 제일
 DeployUnittoCity:
 * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
 
 DeployInteriorBuildingtoSpot:
 * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
 
 DeployTileResourceBuildingtoSpot:
 * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
 
 DeployMilitaryBuildingtoSpot: 
 * (-1,+1)
 * Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
 
 DeployCitytoPioneer:
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
+* ResultSet
 
 
 ## Sets
@@ -1270,9 +1275,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2OTIzNDUzLDk3MTk0MTkxNiwtMTIwMT
-AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
-LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
-UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
-MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbLTE5OTU3OTc3ODIsOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
