@@ -271,7 +271,7 @@ TechNormal: [5000,10000,20000,25000]
 
 TechLow: [-infinity,5000,10000]
 
-### La
+### Labor
 
 LaborHigh: [1000,2000,+infinity]
 
@@ -1107,7 +1107,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODA1MTQ3MCw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbMTkzODg0OTczMyw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
