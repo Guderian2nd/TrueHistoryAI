@@ -351,11 +351,11 @@ IF DeltaFightingUnitNum is DeltaUnitMedium THEN NeedFightingUnit is Medium
 
 IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is High
 
-IF EnemyFightingUnitNum is FightingUnitNumHigh THEN BuildMilitaryBuilding is High
+IF EnemyFightingUnitNum is FightingUnitNumHigh THEN NeedMilitaryBuilding is High
 
-IF EnemyFightingUnitNum is FightingUnitNumMedium THEN BuildMilitaryBuilding is Medium
+IF EnemyFightingUnitNum is FightingUnitNumMedium THEN NeedMilitaryBuilding is Medium
 
-IF EnemyFightingUnitNum is FightingUnitNumLow THEN BuildMilitaryBuilding is Low
+IF EnemyFightingUnitNum is FightingUnitNumLow THEN NeedMilitaryBuilding is Low
 
 
 ## Variables
@@ -1112,9 +1112,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2MDU4OTI1LDk3MTk0MTkxNiwtMTIwMT
-AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
-LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
-UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
-MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMTc3MjcyMjMsOTcxOTQxOTE2LC0xMjAxMD
+E5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYs
+LTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsNDUwNT
+M2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1LC0x
+MTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
