@@ -372,6 +372,8 @@ DeltaUnitLow: [-infinity, -50, 0]
 
 ### CityNum
 
+
+
 ### FightingUnitNum
 
 
@@ -1108,7 +1110,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDMyMDcyNzgsOTcxOTQxOTE2LC0xMj
+eyJoaXN0b3J5IjpbLTE2MDAzOTA4NTgsOTcxOTQxOTE2LC0xMj
 AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
 MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
 UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
