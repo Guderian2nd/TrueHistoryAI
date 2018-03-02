@@ -815,6 +815,18 @@ IF BuildingProdResource is Gold AND (Gold is GoldHigh OR NeedGold is Low) THEN B
 
 IF BuildingProdResource is Gold AND (Gold is GoldVeryHigh OR NeedGold is VeryLow) THEN BuildResourceBuilding is VeryLow
 
+IF BuildingProdResource is Gold AND (Gold is GoldVeryLow OR NeedGold is VeryHigh) THEN BuildResourceBuilding is VeryHigh
+
+
+
+IF BuildingProdResource is Tech AND (Tech is TechLow OR NeedTech is High) THEN BuildResourceBuilding is High
+
+IF BuildingProdResource is Tech AND (Gold is GoldMedium OR NeedGold is Medium) THEN BuildResourceBuilding is Medium
+
+IF BuildingProdResource is Gold AND (Gold is GoldHigh OR NeedGold is Low) THEN BuildResourceBuilding is Low
+
+IF BuildingProdResource is Gold AND (Gold is GoldVeryHigh OR NeedGold is VeryLow) THEN BuildResourceBuilding is VeryLow
+
 .
 
 .
@@ -1224,7 +1236,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU1Njk3NDAsOTcxOTQxOTE2LC0xMj
+eyJoaXN0b3J5IjpbLTE4NzU1MzM5NzEsOTcxOTQxOTE2LC0xMj
 AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
 MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
 UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
