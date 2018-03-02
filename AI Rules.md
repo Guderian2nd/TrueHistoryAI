@@ -583,6 +583,9 @@ RsrcBuildingNumHigh
 
 RsrcBuildingNumLow
 
+SpotRsrcBuildingNearHigh: 
+
+SpotRsrcBuildingNearLow:
 
 
 # Per UseSkillTask Rules
@@ -1079,6 +1082,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzU0NDA2NDksLTExNTMwMDgwMjYsMz
-AxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTYxMTM1Njc0OSwtMTE1MzAwODAyNiwzMD
+E0NDIyNjJdfQ==
 -->
