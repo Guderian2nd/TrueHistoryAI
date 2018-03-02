@@ -657,7 +657,7 @@ IF NeedCity is Medium THEN DeployCitytoPioneer is High
 IF NeedCity is Low THEN DeployCitytoPioneer is Medium
 
 ## Variables
-
+### Input
 CityatSpotRsrcBuildingNum: 해당 Deploy Task가 Deploy하려는 위치(도시)에 존재하는 동일 종류의 자원 건물의 갯수
 * [0,infinity)
 * Def. 해당 Deploy Task가 Deploy하려는 위치(도시)에 존재하는 동일 종류의 자원 건물의 갯수
@@ -669,6 +669,8 @@ SpotRsrcBuildingNear : 해당 Deploy Task가 Deploy하려는 타일 주변에 �
 SpotMyUnitDist: 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 아군 유닛까지의 거리
 * [0,infinity)
 * 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 아군 유닛까지의 거리
+
+### Output
 
 DeploySpotEnemDist: 해당 Deploy Task가 Deploy하려는 타일로부터 제일 가까운 적 유닛까지의 거리
 * [0,infinity)
@@ -693,6 +695,7 @@ DeployMilitaryBuildingtoSpot:
 DeployCitytoPioneer:
 * (-infinity,+infinity)
 * Def. [VeryLow, Low, Medium, Low, High]
+
 
 ## Sets
 
@@ -1263,7 +1266,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzYxMjYxNiw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbMTk3MjMyNjczMyw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
