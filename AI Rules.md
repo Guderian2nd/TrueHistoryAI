@@ -534,7 +534,7 @@ IF SpotRsrcBuildingNear is SpotRsrcBuildingNearLow THEN DeployTileResourceBuildi
 
 IF SpotMyUnitDist is MyUnitDistLow THEN DeployMilitaryBuildingtoSpot is High
 
-IF SpotEnemDist is DistEnemLow THEN DeployMilitaryBuildingtoSpot is Low
+IF DeploySpotEnemDist is DeployDistEnemLow THEN DeployMilitaryBuildingtoSpot is Low
 
 
 IF NeedCity is High THEN DeployCitytoPioneer is High
@@ -1086,7 +1086,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ4NzgzNzcsLTEwNDM2MDc4NzcsMT
-U1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUsLTExNTMwMDgw
-MjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMTY0NjcwNDM1NywtMTA0MzYwNzg3NywxNT
+UwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwtMTE1MzAwODAy
+NiwzMDE0NDIyNjJdfQ==
 -->
