@@ -579,7 +579,9 @@ DeployCitytoPioneer:
 
 ## Sets
 
+RsrcBuildingNumHigh
 
+RsrcBuildingNumLow
 
 
 
@@ -1077,6 +1079,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg5Mzk1NzksLTExNTMwMDgwMjYsMz
+eyJoaXN0b3J5IjpbLTE3NzU0NDA2NDksLTExNTMwMDgwMjYsMz
 AxNDQyMjYyXX0=
 -->
