@@ -544,16 +544,19 @@ DamageMedium: [-0.4,-0.2,0.2,0.4]
 
 DamageLow:  [-infinity, -0.6, -0.3]
 
-
+### Deal
 DealHigh: [0,1,+infinity]
 
 DealMedium: [-1,0,1]
 
 DealLow: [-infinity, -1,0]
+### DistEnem
 
-DistEnemHigh: <0,+infinity>
+DistEnemHigh: [0,0.5,+infinity]
 
-DistEnemLow: <-infinity,0>
+DistEnemLow: [-infinity,-0.5,0]
+
+### DistMyCity
 
 DistMyCityHigh: <0,+infinity>
 
@@ -1192,9 +1195,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTM1OTYzOCw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTE2Nzc0NDkxMDIsOTcxOTQxOTE2LC0xMj
+AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
+MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
+UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
+LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
