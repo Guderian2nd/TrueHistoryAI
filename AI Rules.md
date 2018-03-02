@@ -545,7 +545,7 @@ DamageMedium: [-0.4,-0.2,0.2,0.4]
 DamageLow:  [-infinity, -0.6, -0.3]
 
 
-DealHigh: [0.3,+infinity]
+DealHigh: [0,+infinity]
 
 DealMedium: [-0.4,0.2,0.2
 
@@ -1192,7 +1192,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjA3NTY5OSw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbLTQzODUyODcxOCw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
