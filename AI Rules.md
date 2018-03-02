@@ -311,21 +311,21 @@ LaborLow: [0,100,250,500]
 
 ---
 
-THigh: [1,1.5,2,2>
+THigh: [1,1.5,2,2]
 
 TMedium: [0.5,0.75,1.25,1.5]
 
-TLow: <0,0,0.5,1]
+TLow: [-infinity,0.5,1]
 
 ---
 
-UnitNumHigh: [0.5,0.75,1,1>
+UnitNumHigh: [0.5,0.75,1,1]
 
 UnitNumMedium: [0.2,0.4,0.6,0.8]
 
 UnitNumLow: [0,0.1,0.2,0.25]
 
-UnitNumVeryLow: <0>
+UnitNumVeryLow: [-infinity, 0.1, 0.15]
 
 ---
 
@@ -1114,9 +1114,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODgxNDM5MCw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbNDY2ODIwMDkwLDk3MTk0MTkxNiwtMTIwMT
+AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
+LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
