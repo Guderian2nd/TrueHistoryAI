@@ -609,6 +609,9 @@ SkillTarget: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 �
 * [0,1]
 * Def. [MyUnit, EnemyUnit]
 
+SkillTargetHP: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 HP가 풀피에서 남아있는 비율
+* [0,1]
+* Def. 
 
 
 
@@ -1070,6 +1073,6 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2MjkwMjA4LC0xMTUzMDA4MDI2LDMwMT
-Q0MjI2Ml19
+eyJoaXN0b3J5IjpbLTE1OTI3NjI4OTQsLTExNTMwMDgwMjYsMz
+AxNDQyMjYyXX0=
 -->
