@@ -610,7 +610,7 @@ IF SkillEffect is RestoreAP THEN UseSkill is MostHigh
 
 IF SkillEffect is RestoreHP AND SkillTargetHP is HPLow AND SkillTarget is Ally THEN UseSkill is VeryHigh
 
-IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh  ABD Sjuk\\\\THEN UseSkill is Medium
+IF SkillEffect is RestoreHP AND SkillTargetHP is HPHigh  ABTHEN UseSkill is Medium
 
 IF SkillEffect is RestoreHP AND SkillTargetSpotDamage is DeployDamageHigh THEN UseSkill is High
 
@@ -1115,7 +1115,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzczODU0ODcsMTY2NDY3NDQzNywtNT
+eyJoaXN0b3J5IjpbLTIwNzE4NTQ4NTQsMTY2NDY3NDQzNywtNT
 EwMzk1MDM0LDQ1MDUzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0
 LC03NDE3NzQxNSwtMTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
