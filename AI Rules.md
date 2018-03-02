@@ -161,7 +161,7 @@ BuildFightingUnit: 전투유닛을 실제로 생산할 정도
 
 DeltaCityNum: 적 도시 갯수와 내 잠재적 도시 갯수와의 차이
 * (-infinity, +infinity)
-* Def. (My City Number + My Pioneer Number + My Pioneer in Produc) - (1.5 × Enemy City Number)
+* Def. (My City Number + My Pioneer Number + My Pioneer in Production Number) - (1.5 × Enemy City Number)
 
 NeedCity: 도시가 필요한 정도
 * (-infinity,+infinity)
@@ -1115,9 +1115,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjE0NDk2NSw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbNTIxNzAzNzIwLDk3MTk0MTkxNiwtMTIwMT
+AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
+LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
