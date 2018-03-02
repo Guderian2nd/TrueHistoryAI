@@ -110,17 +110,7 @@ IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
 ### Input
 
-DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유닛 + 생산되고 있는 갯수와의 차이
-* (-infinity,+infinity)
-* Def. (My Fighting Unit Number + My Fighting Unit Being Produced Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
-* DeltaUnitSets
-
-DeltaCityNum: 적 도시 갯수와 내 잠재적 도시 갯수와의 차이
-* (-infinity, +infinity)
-* Def. (My City Number + My Pioneer Number + My ) - (1.5 × Enemy City Number)
-* CityNumSet
-
-RemainingGold: 턴당 금 생산량의 여유로운 정도
+RemaingGold: 턴당 금 생산량의 여유로운 정도
 * (-infinity, +infinity)
 * Def. 현재 남아있는 턴당 금(즉 사용되지 않고 있는)
 * RemainGoldSet
@@ -130,13 +120,7 @@ RemainingLabor: 턴당 노동력의 여유로운 정도
 * Def. 현재 남아있는 턴당 노동력(즉 사용되지 않고 있는)
 * RemainLaborSet
 
-**EnemFightingUnitNum: 적 전투유닛의 갯수**
-* [0, +infinity)
-* Def. 적 전투유닛의 갯수
-* FightingUnitNumSet
-
-
- AllMyUnitEnemDist: 얼마나 적 군대와 내 군대가 가까운지의 정도
+AllMyUnitEnemDist: 얼마나 적 군대와 내 군대가 가까운지의 정도
  * [0, +infinity)
 * Def. 각 개별적 내 전투유닛&도시들과 가장 가까운 적 전투유닛과의 거리의 평균, 만약 도시와 유닛이 내가 없을경우 맵의 너비와 높이의 합.
 
@@ -366,6 +350,22 @@ IF DeltaFightingUnitNum is DeltaUnitHigh THEN NeedFightingUnit is Low
 IF DeltaFightingUnitNum is DeltaUnitMedium THEN NeedFightingUnit is Medium
 
 IF DeltaFightingUnitNum is DeltaUnitLow THEN NeedFightingUnit is High
+
+## Variables
+
+DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유닛 + 생산되고 있는 갯수와의 차이
+* (-infinity,+infinity)
+* Def. (My Fighting Unit Number + My Fighting Unit Being Produced Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
+* DeltaUnitSets
+
+DeltaCityNum: 적 도시 갯수와 내 잠재적 도시 갯수와의 차이
+* (-infinity, +infinity)
+* Def. (My City Number + My Pioneer Number + My Pioneer Under Production Number) - (1.5 × Enemy City Number)
+* CityNumSet
+
+
+
+## Sets
 
 # Per MoveTask Rules
 
@@ -1100,9 +1100,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAxOTk4MzYsOTcxOTQxOTE2LC0xMj
-AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
-MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
-UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
-LC0xMTUzMDA4MDI2LDMwMTQ0MjI2Ml19
+eyJoaXN0b3J5IjpbMTI2NzcwMjExMCw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
