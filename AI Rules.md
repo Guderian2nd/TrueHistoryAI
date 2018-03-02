@@ -329,13 +329,13 @@ UnitNumVeryLow: [-infinity, 0.1, 0.15]
 
 ---
 
-LHigh: <1>
+LHigh: [0.7, 0.9, infinity]
 
 LMedium: [0.5,0.7,0.9]
 
 LLow: [0.4,0.5,0.6]
 
-LVeryLow: <0>
+LVeryLow: [-infinity, 0.4, 0.5]
 
 # Global Additional Rules(Suomi/Hwan)
 
@@ -1114,7 +1114,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2ODIwMDkwLDk3MTk0MTkxNiwtMTIwMT
+eyJoaXN0b3J5IjpbLTg3MDg0NjkzLDk3MTk0MTkxNiwtMTIwMT
 AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
 LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
 UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
