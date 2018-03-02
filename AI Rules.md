@@ -554,7 +554,7 @@ DealLow: [-infinity, -1,0]
 
 DistEnemHigh: [0,0.5,+infinity]
 
-DistEnemMedium: [-
+DistEnemMedium: [-0.5,0
 
 DistEnemLow: [-infinity,-0.5,0]
 
@@ -1199,7 +1199,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE2NDk1MTQsOTcxOTQxOTE2LC0xMj
+eyJoaXN0b3J5IjpbLTE0NTA2NTUyODEsOTcxOTQxOTE2LC0xMj
 AxMDE5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5
 MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsND
 UwNTM2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1
