@@ -389,7 +389,9 @@ IF MyCityNum is MyCityNumMedium THEN NeedCity is Low
 
 IF MyCityNum is MyCityNumLow THEN NeedCity is High
 
-### 
+## Variables
+
+##
 
 
 # Per MoveTask Rules
@@ -1125,7 +1127,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTcxNTM4OCw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbMTQ0NjU2MjE0Miw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
