@@ -772,7 +772,7 @@ SkillTargetSpotDeal: 해당 UseSkillTask의 주체가 사용하고자 하는 스
 
 UseSkill: 해당 Skill Task를 시행할 정도
 * (-1,+1)
-* Def. [VeryLow, Low, Medium, High, Ve
+* Def. [VeryLow, Low, Medium, High, VeryHigh]
 
 
 ## Sets
@@ -1289,9 +1289,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2MzE1ODgxLDk3MTk0MTkxNiwtMTIwMT
-AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
-LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
-UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
-MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
+eyJoaXN0b3J5IjpbMjAzMDEwNzM5NSw5NzE5NDE5MTYsLTEyMD
+EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
+NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
+A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
+LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
 -->
