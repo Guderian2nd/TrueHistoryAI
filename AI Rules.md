@@ -591,7 +591,7 @@ SpotRsrcBuildingNearHigh: [12,24,36,36>
 
 SpotRsrcBuildingNearLow: <0,0,12,24]
 
-MyUnitDistHigh: [6,
+MyUnitDistHigh: [6,12,+ㅑㅜ랴ㅜㅑ
 
 MyUnitDistLow: 
 
@@ -1094,7 +1094,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU4MzQwMzUsLTE5OTg5NTEwNjEsMT
-U1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUsLTExNTMwMDgw
-MjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTkxMjQ3MDY2OSwtMTk5ODk1MTA2MSwxNT
+UwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwtMTE1MzAwODAy
+NiwzMDE0NDIyNjJdfQ==
 -->
