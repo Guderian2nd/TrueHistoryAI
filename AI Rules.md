@@ -593,7 +593,7 @@ SpotRsrcBuildingNearLow: <0,0,12,24]
 
 MyUnitDistHigh: [6,12,+infinity]
 
-MyUnitDistLow: <0,0,
+MyUnitDistLow: <0,0,6,12[
 
 DeployDistEnemHigh:
 
@@ -1094,7 +1094,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTQ5MjUwMiwtMTk5ODk1MTA2MSwxNT
+eyJoaXN0b3J5IjpbLTE4MDAxNDAzNiwtMTk5ODk1MTA2MSwxNT
 UwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwtMTE1MzAwODAy
 NiwzMDE0NDIyNjJdfQ==
 -->
