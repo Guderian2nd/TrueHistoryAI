@@ -622,9 +622,9 @@ SkillEffect: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 �
 * [0, 1,2,3]
 * Def.  [DamageEnemy, RestoreAP, RestoreHP, Buff]
 
-SkillTarget: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상(대상이 있는 스킬이면)
+SkillTarget: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상이 적군인지 아군인지(대상이 있는 스킬이면)
 * [0,1]
-* Def. [MyUnit, EnemyUnit]
+* Def. [Ally, Enemy]
 
 SkillTargetHP: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 HP가 풀피에서 남아있는 비율
 * [0,1]
@@ -652,9 +652,9 @@ RestoreHP: <2>
 
 Buff: <3>
 
-MyUnit: <0>
+Ally: <0>
 
-EnemyUnit: <1>
+Enemy: <1>
 
 
 
@@ -1115,7 +1115,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4MzYzODg2LDE2NjQ2NzQ0MzcsLTUxMD
-M5NTAzNCw0NTA1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwt
-NzQxNzc0MTUsLTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTE2NjYyNTE4OTMsMTY2NDY3NDQzNywtNT
+EwMzk1MDM0LDQ1MDUzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0
+LC03NDE3NzQxNSwtMTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
