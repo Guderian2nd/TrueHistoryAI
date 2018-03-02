@@ -138,9 +138,9 @@ IF NeedLogistics is VeryLow THEN Logistics is LVeryLow
 
 ## Variables
 
-DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유닛 갯수와의 차이
+DeltaFightingUnitNum : 적의 유닛 갯수 & 도시 갯수 와 내 현재 유닛 + 생산되고 있는 갯수와의 차이
 * (-infinity,+infinity)
-* Def. (My Fighting Unit Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
+* Def. (My Fighting Unit Number + My Fighting Unit Being Produced Number) - (1.5 × Enemy Fighting Unit Number + Enemy City Number)
 
 
 RemainingGold: 턴당 금 생산량의 여유로운 정도
@@ -161,7 +161,7 @@ BuildFightingUnit: 전투유닛을 실제로 생산할 정도
 
 DeltaCityNum: 적 도시 갯수와 내 잠재적 도시 갯수와의 차이
 * (-infinity, +infinity)
-* Def. (My City Number + My Pioneer Number) - (1.5 × Enemy City Number)
+* Def. (My City Number + My Pioneer Number + My Pioneer in Produc) - (1.5 × Enemy City Number)
 
 NeedCity: 도시가 필요한 정도
 * (-infinity,+infinity)
@@ -1115,7 +1115,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDg1MzgyOSw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbLTY5NjE0NDk2NSw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
