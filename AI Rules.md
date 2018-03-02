@@ -363,6 +363,11 @@ DeltaCityNum: 적 도시 갯수와 내 잠재적 도시 갯수와의 차이
 * Def. (My City Number + My Pioneer Number + My Pioneer Under Production Number) - (1.5 × Enemy City Number)
 * CityNumSet
 
+**EnemFightingUnitNum: 적 전투유닛의 갯수**
+* [0, +infinity)
+* Def. 적 전투유닛의 갯수
+* FightingUnitNumSet
+
 
 
 ## Sets
@@ -1100,9 +1105,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzcwMjExMCw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbMzMxNjM2MTUsOTcxOTQxOTE2LC0xMjAxMD
+E5MTAzLDk3MTk0MTkxNiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYs
+LTEyMDEwMTkxMDMsOTcxOTQxOTE2LC01MTAzOTUwMzQsNDUwNT
+M2MDY4LDE1NTA5NDY1NTQsNTc4NjE3ODQsLTc0MTc3NDE1LC0x
+MTUzMDA4MDI2LDMwMTQ0MjI2Ml19
 -->
