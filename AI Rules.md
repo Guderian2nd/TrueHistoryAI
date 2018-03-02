@@ -786,7 +786,13 @@ Ally: <0>
 
 Enemy: <1>
 
+SpotDamageHigh: [0.5;0.8;+infinity]
 
+SpotDamageLow:
+
+SpotDealHigh:
+
+SpotDealLow:
 
 
 
@@ -1280,7 +1286,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjE5MjAyNyw5NzE5NDE5MTYsLTEyMD
+eyJoaXN0b3J5IjpbLTMyNDI3NjY0OSw5NzE5NDE5MTYsLTEyMD
 EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
 NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
 A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
