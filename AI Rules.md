@@ -630,7 +630,7 @@ SkillTargetHP: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의
 * [0,1]
 * Def. (해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 현재 HP)/(대상의 풀HP)
 
-SkillTargetSpotDamage: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 위치에서 받을수 있는 총 데미지량의 하
+SkillTargetSpotDamage: 해당 UseSkillTask의 주체가 사용하고자 하는 스킬의 대상의 위치에서 받을수 있는 총 데미지량의
 
 SkillTargetSpotDeal:
 
@@ -1094,7 +1094,7 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDEyODYzNSwxNzIzNzI1MDkxLDQ1MD
+eyJoaXN0b3J5IjpbMTkxNDczNjU3OSwxNzIzNzI1MDkxLDQ1MD
 UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
 MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
