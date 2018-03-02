@@ -813,7 +813,7 @@ IF BuildingProdResource is Gold AND (Gold is GoldMedium OR NeedGold is Medium) T
 
 IF BuildingProdResource is Gold AND (Gold is GoldHigh OR NeedGold is Low) THEN BuildResourceBuilding is Low
 
-IF BuildingProdResource is Gold AND (Gold is GoldVeryHigh OR NeedGold is Medium) THEN BuildResourceBuilding is VeryLow
+IF BuildingProdResource is Gold AND (Gold is GoldVeryHigh OR NeedGold is VeryL) THEN BuildResourceBuilding is VeryLow
 
 .
 
@@ -1224,9 +1224,9 @@ DoQuestTask is VeryLow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzM3MDY5OSw5NzE5NDE5MTYsLTEyMD
-EwMTkxMDMsOTcxOTQxOTE2LC0xMjAxMDE5MTAzLDk3MTk0MTkx
-NiwtMTIwMTAxOTEwMyw5NzE5NDE5MTYsLTUxMDM5NTAzNCw0NT
-A1MzYwNjgsMTU1MDk0NjU1NCw1Nzg2MTc4NCwtNzQxNzc0MTUs
-LTExNTMwMDgwMjYsMzAxNDQyMjYyXX0=
+eyJoaXN0b3J5IjpbLTk4ODg4MTE2LDk3MTk0MTkxNiwtMTIwMT
+AxOTEwMyw5NzE5NDE5MTYsLTEyMDEwMTkxMDMsOTcxOTQxOTE2
+LC0xMjAxMDE5MTAzLDk3MTk0MTkxNiwtNTEwMzk1MDM0LDQ1MD
+UzNjA2OCwxNTUwOTQ2NTU0LDU3ODYxNzg0LC03NDE3NzQxNSwt
+MTE1MzAwODAyNiwzMDE0NDIyNjJdfQ==
 -->
